@@ -1,0 +1,21 @@
+.textContainer {
+  max-width:65%;
+  margin:0 auto;
+  margin-top:15vh;
+  font-family: "lores-9-plus-wide", monospace;
+  font-size:1.2rem;
+  font-weight:400;
+  letter-spacing: 0.15rem;
+  line-height:1.6em;
+}
+
+.grayText {
+  color:#b0b0b0;
+  font-weight:700;
+}
+
+.grayTextUppercase {
+  color:#b0b0b0;
+  font-weight:700;
+  text-transform:uppercase;
+}
