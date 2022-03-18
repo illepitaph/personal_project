@@ -65,6 +65,15 @@ export default function Writing() {
           className={styles.pieceTitleText}>Tychtrip</span>" – <a target="_blank" href="https://theelephants.net/records/steve-barbaro">The Elephants</a> – ( .. the gamut .. everything .. nothing .. )
           </p>
           <p>
+          "<span className={styles.pieceTitleText}>The Terrace at Vernonnet (1939)</span>" + "<span
+          className={styles.pieceTitleText}>Der Weihnachtsmann (Santa Claus) (1922)</span>" + "<span
+          className={styles.pieceTitleText}>Cue</span>" + "<span
+          className={styles.pieceTitleText}>The Cadet & His Sister (1988)</span>" + "<span
+          className={styles.pieceTitleText}>A Container in Midair</span>" + "<span
+          className={styles.pieceTitleText}>Le Suicidé (1887)</span>" + "<span
+          className={styles.pieceTitleText}>Diptych</span>"– <a target="_blank" href="https://drive.google.com/file/d/1OT9heIbkQ6lbx7gpMWJaA-zNzcYuE1op/view">The Equalizer</a> – ( .. paintings .. other stuff .. paintings .. )
+          </p>
+          <p>
           “<span className={styles.pieceTitleText}>The Surface Appliance</span>” – <a target="_blank"
           href="http://thediagram.com/13_1/barbaro.html">DIAGRAM</a> – ( .. icecastles .. weaponry .. )
           </p>
@@ -83,8 +92,60 @@ export default function Writing() {
           <p>
           "<span className={styles.pieceTitleText}>Space + Gesture</span>" + "<span
           className={styles.pieceTitleText}>Portrait of Henri Rochefort (1881)</span>" – <a target="_blank" href="http://thediagram.com/9_6/barbaro.html">DIAGRAM</a> – ( .. rain .. globes .. cheeks .. )
+          </p><br/><br/>
+          <p>[<span className={styles.grayText}>criticism</span>]<br/><br/>
+            “<span className={styles.pieceTitleText}>Even Flesh Seems a Formality; or, Vi Khi Nao’s Organic Oscillations</span>” – <a target="_blank"
+            href="http://newnewsinews.com/evenflesh">new sinews</a> – ( .. eyes .. ears .. eye-ears .. ear-eyes .. )
           </p>
+          <p>
+          "<span className={styles.pieceTitleText}>Saluting a Hex of Gangrenous Sky; or, Brandon Shimoda’s Ritual Inversions</span>" – <a target="_blank"
+          href="https://newnewsinews.com/salutingahex">new sinews</a> – ( .. monuments .. rites .. forgettings .. )
+          </p>
+          <p>
+          "<span className={styles.pieceTitleText}>Poem-Coerced Novel, Novel-Brandishing Poem</span>" – <a target="_blank"
+          href="http://www.3ammagazine.com/3am/poem-coerced-novel-novel-brandishing-poem/">3:AM</a> – ( .. limos .. rats .. lightning .. )
+          </p><br/><br/>
+          <p>[<span className={styles.grayText}>photography</span>]<br/><br/>
 
+          "<span className={styles.pieceTitleText}>1 Via San Lorenzo</span>" + "<span
+          className={styles.pieceTitleText}>Puddle</span>" + "<span
+          className={styles.pieceTitleText}>Reflection</span>" – <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> – ( .. solidity .. anti-solidity .. )
+          </p><br/><br/><br/>
+          <p>––<span className={styles.grayTextUppercase}>in print</span>––</p><br/>
+          <p>[<span className={styles.grayText}>fiction</span>]<br/><br/>
+
+          "<span className={styles.pieceTitleText}>Plush Altar</span>" – <a target="_blank"
+          href="https://www.facebook.com/denverquarterlyjournal/photos/pcb.3254464931249118/3254464341249177/?theater&type=3">Denver Quarterly</a> – ( .. sleep .. the underworld .. sleep .. )
+           </p><br/><br/>
+           <p>[<span className={styles.grayText}>poetry</span>]<br/><br/>
+           "<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>" – <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> – ( .. it .. yes, it .. + so it-fully .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Consecration of a Hookup</span>" – <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> – ( .. distance .. proximity .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>The Body According to Neptune</span>" – <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> – ( .. kids .. hissing .. unfixity ..  )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>A Rather Contemporary Inquiry</span>" – <a target="_blank" href="http://salthilljournal.net/sh34/">Salt Hill</a> – ( .. antiquity .. the lyric .. today .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Quadratic</span>" + "<span
+           className={styles.pieceTitleText}>Concave Decades</span>" – <a target="_blank" href="https://yalereview.org/issues/january-2018">The Yale Review</a> – ( .. circles .. squares .. seams .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Deaf</span>" + "<span
+           className={styles.pieceTitleText}>The Dearth of Pyres</span>" – <a target="_blank" href="http://www.westernhumanitiesreview.com/summer14/">Western Humanities Review</a> – ( .. smoke .. smokiness .. what's smoky .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>" – <a target="_blank" href="https://www.thecommononline.org/issues/issue-14/">The Common</a> – ( .. self .. explanatory .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Tease of Unlikeness</span>" – <a target="_blank" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> – ( .. crackedness .. a face .. fakery .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>" – <a target="_blank" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> – ( .. more paintings .. more slippery .. )
+           </p>
       </div>
    </>
   )
