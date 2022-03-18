@@ -14,10 +14,10 @@ export default function Writing() {
           “<span className={styles.pieceTitleText}>Celestial Camo</span>” – <a target="_blank" href="https://socratesonthebeach.com/steve-barbaro">Socrates on The Beach</a> – ( .. in Sicily .. a tale of inebriated reckoning .. )
         </p>
         <p>
-        "<span className={styles.pieceTitleText}>A Genealogy of Instinct</span>" – <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-09-17-2013">Conjunctions</a> – ( .. also in Sicily .. porcupines .. ancestry .. the blurry migration of dreams .. )
+        "<span className={styles.pieceTitleText}>A Genealogy of Instinct</span>" – <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-09-17-2013">Conjunctions</a> – ( .. also in Sicily .. porcupines .. migration.. ancestry .. )
         </p>
         <p>
-        “<span className={styles.pieceTitleText}>Um…A Sensorium</span>” – <a target="_blank" href="http://www.3ammagazine.com/3am/um-a-sensorium/">3:AM</a> – ( .. in a room overlooking a street .. synaesthesia + biological odysseys .. )
+        “<span className={styles.pieceTitleText}>Um…A Sensorium</span>” – <a target="_blank" href="http://www.3ammagazine.com/3am/um-a-sensorium/">3:AM</a> – ( .. in a room overlooking a street .. synaesthesia .. biological odysseys .. )
         </p><br/><br/>
           <p>[<span className={styles.grayText}>poetry</span>]<br/><br/>
           "<span className={styles.pieceTitleText}>For Georges Braque</span>" – <a target="_blank" href="http://thediagram.com/16_1/barbaro.html">DIAGRAM</a> – ( .. utensils .. the body .. geometry .. )
@@ -118,7 +118,7 @@ export default function Writing() {
           href="https://www.facebook.com/denverquarterlyjournal/photos/pcb.3254464931249118/3254464341249177/?theater&type=3">Denver Quarterly</a> – ( .. sleep .. the underworld .. sleep .. )
            </p><br/><br/>
            <p>[<span className={styles.grayText}>poetry</span>]<br/><br/>
-           "<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>" – <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> – ( .. it .. yes, it .. + so it-fully .. )
+           "<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>" – <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> – ( .. it .. yes, IT .. + so it-fully .. )
            </p>
            <p>
            "<span className={styles.pieceTitleText}>Consecration of a Hookup</span>" – <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> – ( .. distance .. proximity .. )
@@ -145,6 +145,28 @@ export default function Writing() {
            </p>
            <p>
            "<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>" – <a target="_blank" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> – ( .. more paintings .. more slippery .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Space from Nothing</span>" + "<span
+           className={styles.pieceTitleText}>The Shut-In, Compromised</span>" + "<span
+           className={styles.pieceTitleText}>1348 A.D.</span>" – <a target="_blank" href="https://www.theliteraryreview.org/issue/invisible-cities/">The Literary Review</a> – ( .. building .. the buildings .. those dang buildings .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Two Graphical Impulses</span>" – <a target="_blank" href="https://www.14hills.net/19-2">Fourtenn Hills</a> – ( .. what .. Fancy ..  fancies ..)
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>The Stream as Pure Ornament</span>" – <a target="_blank" href="http://thejournalmag.org/archives/4149">The Journal</a> – ( .. but what .. just WHAT ..  to say ..)
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Divers</span>" + "<span
+           className={styles.pieceTitleText}>Picture Plane</span>" – <a target="_blank" href="http://www.caketrain.org/10/">Caketrain</a> – ( .. noise .. not empty .. )
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Distance + Concentration</span>" – <a target="_blank" href="http://www.amletters.org/Issues/issue22a.html">American Letters + Commentary</a> – ( .. more bodies .. more estrangement ..  more Sicily ..)
+           </p>
+           <p>
+           "<span className={styles.pieceTitleText}>Buildings in a Lagoon: Triptych</span>" + "<span
+           className={styles.pieceTitleText}>Aqua Alta: Triptych</span>" – <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> – ( .. vnezia .. you know, <i>Venice</i> .. sheesh .. )
            </p>
       </div>
    </>
