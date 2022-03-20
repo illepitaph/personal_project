@@ -1,6 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/Image'
-import Gette1 from '../public/images/Gette1.jpg'
+import StreetlightShadow from '../public/images/Tatemae6.jpg'
+import Clouds from '../public/images/7. Clouds.jpg'
+import Hmmmm from '../public/images/6. Hmmmm.jpg'
+import Pozzallo from '../public/images/1. Pozzallo.jpg'
+import Cracks from '../public/images/5. Cracks.jpg'
+import Doggie from '../public/images/Tatemae2.jpg'
+import Tipici from '../public/images/17. Tipici.jpg'
+import LiquorFruits from '../public/images/Tatemae23.jpg'
+import Altar from '../public/images/18. Altar.jpg'
+import Sprawl from '../public/images/18.5 Sprawl.jpg'
 import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
@@ -9,10 +18,28 @@ export default function Writing() {
   return (
       <>
       <Head/>
-      <div className={styles.imageBox}><Image src={Gette1} width={100} height={100}
-        layout={`fixed`} alt="British Army Officer spraying Paris Green into a stagnant pool in Syria in order to preclude Malaria, 1942"/></div>
-        <div className={styles.imageBoxTwo}><Image src={Gette1} width={100} height={100}
-          layout={`fixed`} alt="British Army Officer spraying Paris Green into a stagnant pool in Syria in order to preclude Malaria, 1942"/></div>
+      <div className={styles.imageBoxZero}><Image src={Clouds} width={250} height={150}
+        layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
+      <div className={styles.imageBoxOne}><Image src={StreetlightShadow} width={100} height={100}
+        layout={`fixed`} alt="Photograph of the Midday Shadow of a Streetlight"/></div>
+        <div className={styles.imageBoxTwo}><Image src={StreetlightShadow} width={100} height={100}
+          layout={`fixed`} alt="Photograph of the Midday Shadow of a Streetlight"/></div>
+          <div className={styles.imageBoxThree}><Image src={Pozzallo} width={350} height={300}
+            layout={`fixed`} alt="Photocollage titled 'Pozzallo'"/></div>
+            <div className={styles.imageBoxFour}><Image src={Cracks} width={100} height={120}
+              layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
+              <div className={styles.imageBoxFive}><Image src={Doggie} width={400} height={220}
+                layout={`fixed`} alt="Photograph of Man in front of a Truck with a Doggie in Back"/></div>
+                <div className={styles.imageBoxSix}><Image src={Tipici} width={120} height={120}
+                  layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                  <div className={styles.imageBoxSeven}><Image src={Tipici} width={120} height={120}
+                    layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                    <div className={styles.imageBoxEight}><Image src={LiquorFruits} width={420} height={220}
+                      layout={`fixed`} alt="Photograph of Store Selling Liquor and Fruits and a Line of Patrons"/></div>
+                      <div className={styles.imageBoxNine}><Image src={Sprawl} width={220} height={140}
+                        layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
+                        <div className={styles.imageBoxTen}><Image src={Sprawl} width={220} height={140}
+                          layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
       <div className={styles.textContainer}>
       <p>––<span className={styles.grayTextUppercase}>online</span>––</p>
       <br/>

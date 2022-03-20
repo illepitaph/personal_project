@@ -1,14 +1,74 @@
-.imageBox {
+.imageBoxZero {
   position:absolute;
-  top:5vh;
-  opacity:0.3;
+  top:0;
+  right:22vw;
+  opacity:0.6;
+}
+
+.imageBoxOne {
+  position:absolute;
+  top:2vh;
+  opacity:0.7;
 }
 
 .imageBoxTwo {
   position:absolute;
-  top:5vh;
   opacity:0.3;
   top:12vh;
+}
+
+.imageBoxThree {
+  position:absolute;
+  opacity:0.3;
+  top:33vh;
+}
+
+.imageBoxFour {
+  position:absolute;
+  opacity:0.5;
+  right:0;
+  top:24vh;
+}
+
+.imageBoxFive {
+  position:absolute;
+  opacity:0.5;
+  right:15vw;
+  top:59vh;
+}
+
+.imageBoxSix {
+  position:absolute;
+  opacity:0.5;
+  right:0;
+  top:100vh;
+}
+
+.imageBoxSeven {
+  position:absolute;
+  opacity:0.8;
+  right:0;
+  top:114vh;
+}
+
+.imageBoxEight {
+  position:absolute;
+  opacity:0.55;
+  top:144vh;
+}
+
+.imageBoxNine {
+  position:absolute;
+  opacity:0.5;
+  top:184vh;
+  right:0;
+}
+
+.imageBoxTen {
+  position:absolute;
+  opacity:0.3;
+  top:194vh;
+  right:0;
 }
 
 .textContainer {
