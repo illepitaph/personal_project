@@ -1,0 +1,47 @@
+.socialLinkFooter {
+  position:relative;
+  z-index:6;
+  height:18vh;
+  margin-top:22vh;
+  display:grid;
+  place-items:center;
+  font-size:1.7rem;
+
+}
+
+.socialLinkFooter > a {
+  color:gainsboro;
+  opacity: 1;
+  font-family:"lores-9-plus-wide", monospace;
+  font-weight:700;
+  text-decoration:none;
+  font-style:normal;
+  text-transform:uppercase;
+  letter-spacing:0.4em;
+  text-shadow:1px 1px black;
+}
+
+.socialLinkTag:visited {
+  text-decoration:none;
+}
+
+.reddishText {
+  color:#FF0000;
+}
+
+.socialLinkFooter > a:hover {
+  cursor:pointer;
+  font-size:1.9rem;
+  color:#c8c8c8;
+  text-shadow:2px 3px snow;
+  letter-spacing:0.25rem;
+}
+
+@media (max-width: 376px) and (orientation:portrait) {
+
+  .socialLinkFooter {
+    font-size:1.2rem;
+
+  }
+
+ }

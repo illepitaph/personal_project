@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
 
@@ -166,9 +166,11 @@ export default function Writing() {
            </p>
            <p>
            "<span className={styles.pieceTitleText}>Buildings in a Lagoon: Triptych</span>" + "<span
-           className={styles.pieceTitleText}>Aqua Alta: Triptych</span>" – <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> – ( .. vnezia .. you know, <i>Venice</i> .. sheesh .. )
+           className={styles.pieceTitleText}>Aqua Alta: Triptych</span>" – <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> – ( .. venezia .. you know, like, <i>Venice</i> .. sheesh .. )
            </p>
       </div>
+
+      <Footer/>
    </>
   )
 }
