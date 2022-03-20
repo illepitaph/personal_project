@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/Image'
+import Gette1 from '../public/images/Gette1.jpg'
 import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
@@ -7,6 +9,10 @@ export default function Writing() {
   return (
       <>
       <Head/>
+      <div className={styles.imageBox}><Image src={Gette1} width={100} height={100}
+        layout={`fixed`} alt="British Army Officer spraying Paris Green into a stagnant pool in Syria in order to preclude Malaria, 1942"/></div>
+        <div className={styles.imageBoxTwo}><Image src={Gette1} width={100} height={100}
+          layout={`fixed`} alt="British Army Officer spraying Paris Green into a stagnant pool in Syria in order to preclude Malaria, 1942"/></div>
       <div className={styles.textContainer}>
       <p>––<span className={styles.grayTextUppercase}>online</span>––</p>
       <br/>
@@ -121,7 +127,7 @@ export default function Writing() {
            "<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>" – <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> – ( .. it .. yes, IT .. + so it-fully .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Consecration of a Hookup</span>" – <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> – ( .. distance .. proximity .. )
+           "<span className={styles.pieceTitleText}>Consecration of a Hookup</span>" – <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> – ( .. RE: distance .. also RE: proximity .. )
            </p>
            <p>
            "<span className={styles.pieceTitleText}>The Body According to Neptune</span>" – <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> – ( .. kids .. hissing .. unfixity ..  )

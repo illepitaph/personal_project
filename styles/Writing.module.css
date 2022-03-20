@@ -1,3 +1,16 @@
+.imageBox {
+  position:absolute;
+  top:5vh;
+  opacity:0.3;
+}
+
+.imageBoxTwo {
+  position:absolute;
+  top:5vh;
+  opacity:0.3;
+  top:12vh;
+}
+
 .textContainer {
   max-width:65%;
   margin:0 auto;

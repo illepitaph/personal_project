@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/About.module.css'
+import Footer from '../components/footer.js'
 About.title = "about — Steve Barbaro"
 
 export default function About() {
