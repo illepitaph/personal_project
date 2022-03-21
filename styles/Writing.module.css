@@ -1,9 +1,29 @@
+.textContainer {
+  position:relative;
+  max-width:65%;
+  margin:0 auto;
+  margin-top:15vh;
+  font-family: "lores-9-plus-wide", monospace;
+  font-size:1.2rem;
+  font-weight:400;
+  letter-spacing: 0.15rem;
+  line-height:1.6em;
+}
+
 .imageBoxZero {
   position:absolute;
   top:0;
   right:22vw;
   opacity:0.6;
 }
+
+.imageBoxZeroPointFive {
+  position:absolute;
+  top:0;
+  right:17vw;
+  opacity:0.6;
+}
+
 
 .imageBoxOne {
   position:absolute;
@@ -19,8 +39,14 @@
 
 .imageBoxThree {
   position:absolute;
-  opacity:0.3;
+  opacity:0.6;
   top:33vh;
+}
+
+.imageBoxThreePointFive {
+  position:absolute;
+  opacity:0.3;
+  top:65vh;
 }
 
 .imageBoxFour {
@@ -30,10 +56,24 @@
   top:24vh;
 }
 
+.imageBoxFourPointFive {
+  position:absolute;
+  opacity:0.5;
+  right:0;
+  top:31vh;
+}
+
 .imageBoxFive {
   position:absolute;
   opacity:0.5;
   right:15vw;
+  top:59vh;
+}
+
+.imageBoxFivePointFive {
+  position:absolute;
+  opacity:0.5;
+  right:10vw;
   top:59vh;
 }
 
@@ -55,6 +95,12 @@
   position:absolute;
   opacity:0.55;
   top:144vh;
+}
+
+.imageBoxEightPointFive {
+  position:absolute;
+  opacity:0.25;
+  top:159vh;
 }
 
 .imageBoxNine {
@@ -92,6 +138,13 @@
   left:25vw;
 }
 
+.imageBoxThirteenPointFive {
+  position:absolute;
+  opacity:0.2;
+  top:254vh;
+  left:20vw;
+}
+
 .imageBoxFourteen {
   position:absolute;
   opacity:0.3;
@@ -99,66 +152,169 @@
   right:0;
 }
 
+.imageBoxFourteenPointFive {
+  position:absolute;
+  opacity:0.4;
+  top:289vh;
+  left:0;
+}
+
 .imageBoxFifteen {
   position:absolute;
   opacity:0.3;
-  top:339vh;
+  top:349vh;
   left:0;
 }
 
 .imageBoxSixteen {
   position:absolute;
   opacity:0.7;
-  top:354vh;
+  top:364vh;
   left:0;
 }
 
 .imageBoxSeventeen {
   position:absolute;
   opacity:0.75;
-  top:369vh;
+  top:379vh;
   left:0;
 }
 
 .imageBoxEighteen {
   position:absolute;
   opacity:0.75;
-  top:384vh;
+  top:394vh;
   left:0;
 }
 
 .imageBoxNineteen {
   position:absolute;
   opacity:0.75;
-  top:371vh;
+  top:381vh;
   left:20vw;
 }
 
 .imageBoxTwenty {
   position:absolute;
   opacity:0.45;
-  top:396vh;
+  top:406vh;
   left:16vw;
 }
 
 .imageBoxTwentyOne {
   position:absolute;
-  opacity:0.85;
-  top:423vh;
+  opacity:0.55;
+  top:433vh;
   left:12vw;
 }
 
-.textContainer {
-  position:relative;
-  max-width:65%;
-  margin:0 auto;
-  margin-top:15vh;
-  font-family: "lores-9-plus-wide", monospace;
-  font-size:1.2rem;
-  font-weight:400;
-  letter-spacing: 0.15rem;
-  line-height:1.6em;
+.imageBoxTwentyTwo {
+  position:absolute;
+  opacity:0.55;
+  top:453vh;
+  right:0;
 }
+
+.imageBoxTwentyThree {
+  position:absolute;
+  opacity:0.55;
+  top:463vh;
+  right:0;
+}
+
+.imageBoxTwentyFour {
+  position:absolute;
+  opacity:0.35;
+  top:473vh;
+  right:0;
+}
+
+.imageBoxTwentyFive {
+  position:absolute;
+  opacity:0.55;
+  top:483vh;
+  right:0;
+}
+
+.imageBoxTwentySix {
+  position:absolute;
+  opacity:0.45;
+  top:493vh;
+  right:0;
+}
+
+.imageBoxTwentySeven {
+  position:absolute;
+  opacity:0.45;
+  top:503vh;
+  right:0;
+}
+
+.imageBoxTwentyEight {
+  position:absolute;
+  opacity:0.75;
+  top:513vh;
+  right:0;
+}
+
+.imageBoxTwentyNine {
+  position:absolute;
+  opacity:0.45;
+  top:523vh;
+  right:0;
+}
+
+.imageBoxThirty {
+  position:absolute;
+  opacity:0.35;
+  top:523vh;
+  right:0;
+}
+
+.imageBoxThirtyOne {
+  position:absolute;
+  opacity:0.75;
+  top:533vh;
+  right:0;
+}
+
+.imageBoxThirtyTwo {
+  position:absolute;
+  opacity:0.75;
+  top:573vh;
+  left:2vw;
+}
+
+.imageBoxThirtyThree {
+  position:absolute;
+  opacity:0.75;
+  top:573vh;
+  left:12vw;
+}
+
+.imageBoxThirtyFour {
+  position:absolute;
+  opacity:0.75;
+  top:573vh;
+  left:22vw;
+}
+
+.imageBoxThirtyFive {
+  position:absolute;
+  opacity:0.75;
+  top:573vh;
+  left:32vw;
+}
+
+.imageBoxThirtySix {
+  position:absolute;
+  opacity:0.75;
+  top:573vh;
+  left:42vw;
+}
+
+
+
 
 .grayText {
   color:#b0b0b0;
@@ -183,4 +339,15 @@
     text-shadow:2px 3px black,
                 3px 5px #FF0000;
     z-index:99;
+}
+
+@media (max-width:998px) {
+
+  .textContainer {
+     max-width:90%;
+  }
+
+  .pieceTitleText {
+    font-size:1.2rem;
+  }
 }

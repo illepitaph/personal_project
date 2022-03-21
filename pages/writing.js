@@ -15,6 +15,9 @@ import Car from '../public/images/Tatemae8.jpg'
 import Pantelleria from '../public/images/10. Pantelleria.jpg'
 import Cat from '../public/images/Tatemae25.jpg'
 import Train from '../public/images/20.5 Train.jpg'
+import Tatemae21half from '../public/images/Tatemae21half.jpg'
+import HeraclesAndLeucothea from  '../public/images/10. Heracles & Leucothea.jpg'
+import Diptych from '../public/images/4. Diptych.jpg'
 import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
@@ -25,22 +28,32 @@ export default function Writing() {
       <Head/>
       <div className={styles.imageBoxZero}><Image src={Clouds} width={250} height={150}
         layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
+        <div className={styles.imageBoxZeroPointFive}><Image src={Clouds} width={250} height={150}
+          layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
       <div className={styles.imageBoxOne}><Image src={StreetlightShadow} width={100} height={100}
         layout={`fixed`} alt="Photograph of the Midday Shadow of a Streetlight"/></div>
         <div className={styles.imageBoxTwo}><Image src={StreetlightShadow} width={100} height={100}
           layout={`fixed`} alt="Photograph of the Midday Shadow of a Streetlight"/></div>
-          <div className={styles.imageBoxThree}><Image src={Pozzallo} width={350} height={300}
+          <div className={styles.imageBoxThree}><Image src={Pozzallo} width={230} height={300}
             layout={`fixed`} alt="Photocollage titled 'Pozzallo'"/></div>
+            <div className={styles.imageBoxThreePointFive}><Image src={Pozzallo} width={230} height={300}
+              layout={`fixed`} alt="Photocollage titled 'Pozzallo'"/></div>
             <div className={styles.imageBoxFour}><Image src={Cracks} width={100} height={120}
               layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
-              <div className={styles.imageBoxFive}><Image src={Doggie} width={400} height={320}
+              <div className={styles.imageBoxFourPointFive}><Image src={Cracks} width={100} height={120}
+                layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
+              <div className={styles.imageBoxFive}><Image src={Doggie} width={300} height={320}
                 layout={`fixed`} alt="Photograph of Man in front of a Truck with a Doggie in Back"/></div>
+                <div className={styles.imageBoxFivePointFive}><Image src={Doggie} width={300} height={320}
+                  layout={`fixed`} alt="Photograph of Man in front of a Truck with a Doggie in Back"/></div>
                 <div className={styles.imageBoxSix}><Image src={Tipici} width={120} height={120}
                   layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
                   <div className={styles.imageBoxSeven}><Image src={Tipici} width={120} height={120}
                     layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
-                    <div className={styles.imageBoxEight}><Image src={LiquorFruits} width={320} height={220}
+                    <div className={styles.imageBoxEight}><Image src={LiquorFruits} width={220} height={220}
                       layout={`fixed`} alt="Photograph of Store Selling Liquor and Fruits and a Line of Patrons"/></div>
+                      <div className={styles.imageBoxEightPointFive}><Image src={LiquorFruits} width={220} height={220}
+                        layout={`fixed`} alt="Photograph of Store Selling Liquor and Fruits and a Line of Patrons"/></div>
                       <div className={styles.imageBoxNine}><Image src={Sprawl} width={220} height={140}
                         layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
                         <div className={styles.imageBoxTen}><Image src={Sprawl} width={220} height={140}
@@ -49,10 +62,14 @@ export default function Writing() {
                             layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
                             <div className={styles.imageBoxTwelve}><Image src={Sprawl} width={220} height={140}
                               layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
-                              <div className={styles.imageBoxThirteen}><Image src={Altar} width={280} height={280}
+                              <div className={styles.imageBoxThirteen}><Image src={Altar} width={200} height={280}
                                 layout={`fixed`} alt="Photograph of A Random Roman Ledge with Two Empty Beer Bottles Atop"/></div>
-                                <div className={styles.imageBoxFourteen}><Image src={TerminiImerese} width={360} height={280}
+                                <div className={styles.imageBoxThirteenPointFive}><Image src={Altar} width={200} height={280}
                                   layout={`fixed`} alt="Photograph of A Random Roman Ledge with Two Empty Beer Bottles Atop"/></div>
+                                  <div className={styles.imageBoxFourteen}><Image src={TerminiImerese} width={230} height={280}
+                                    layout={`fixed`} alt="Photocollage titled 'Termini Imerese'"/></div>
+                                  <div className={styles.imageBoxFourteenPointFive}><Image src={TerminiImerese} width={230} height={280}
+                                    layout={`fixed`} alt="Photocollage titled 'Termini Imerese'"/></div>
                                   <div className={styles.imageBoxFifteen}><Image src={Cracks} width={100} height={120}
                                     layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch in Rome"/></div>
                                     <div className={styles.imageBoxSixteen}><Image src={Train} width={100} height={120}
@@ -61,12 +78,43 @@ export default function Writing() {
                                         layout={`fixed`} alt="Photograph of a Car with A Tarp atop Held Down with Bamboo"/></div>
                                         <div className={styles.imageBoxEighteen}><Image src={Pantelleria} width={100} height={120}
                                           layout={`fixed`} alt="Photocollage titled 'Pantelleria'"/></div>
-                                          <div className={styles.imageBoxNineteen}><Image src={Cat} width={310} height={300}
+                                          <div className={styles.imageBoxNineteen}><Image src={Cat} width={230} height={300}
                                             layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
-                                            <div className={styles.imageBoxTwenty}><Image src={Cat} width={310} height={300}
+                                            <div className={styles.imageBoxTwenty}><Image src={Cat} width={230} height={300}
                                               layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
-                                              <div className={styles.imageBoxTwentyOne}><Image src={Cat} width={310} height={300}
+                                              <div className={styles.imageBoxTwentyOne}><Image src={Cat} width={210} height={300}
                                                 layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
+                                                <div className={styles.imageBoxTwentyTwo}><Image src={Tatemae21half} width={100} height={120}
+                                                  layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                  <div className={styles.imageBoxTwentyThree}><Image src={Diptych} width={100} height={120}
+                                                    layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                    <div className={styles.imageBoxTwentyFour}><Image src={Tatemae21half} width={100} height={120}
+                                                      layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                      <div className={styles.imageBoxTwentyFive}><Image src={Diptych} width={100} height={120}
+                                                        layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                        <div className={styles.imageBoxTwentySix}><Image src={Tatemae21half} width={100} height={120}
+                                                          layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                          <div className={styles.imageBoxTwentySeven}><Image src={Diptych} width={100} height={120}
+                                                            layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                            <div className={styles.imageBoxTwentyEight}><Image src={Tatemae21half} width={100} height={120}
+                                                              layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                              <div className={styles.imageBoxTwentyNine}><Image src={Diptych} width={100} height={120}
+                                                                layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                                <div className={styles.imageBoxThirty}><Image src={Tatemae21half} width={100} height={120}
+                                                                  layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                                  <div className={styles.imageBoxThirtyOne}><Image src={Diptych} width={100} height={120}
+                                                                    layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                                    <div className={styles.imageBoxThirtyTwo}><Image src={HeraclesAndLeucothea} width={200} height={320}
+                                                                      layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                                                      <div className={styles.imageBoxThirtyThree}><Image src={HeraclesAndLeucothea} width={200} height={320}
+                                                                        layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                                                        <div className={styles.imageBoxThirtyFour}><Image src={HeraclesAndLeucothea} width={200} height={320}
+                                                                          layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                                                          <div className={styles.imageBoxThirtyFive}><Image src={HeraclesAndLeucothea} width={200} height={320}
+                                                                            layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                                                            <div className={styles.imageBoxThirtySix}><Image src={HeraclesAndLeucothea} width={200} height={320}
+                                                                              layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+
       <div className={styles.textContainer}>
       <p>––<span className={styles.grayTextUppercase}>online</span>––</p>
       <br/>
