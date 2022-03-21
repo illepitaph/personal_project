@@ -87,9 +87,9 @@
 
 .imageBoxThirteen {
   position:absolute;
-  opacity:0.3;
+  opacity:0.6;
   top:234vh;
-  left:5vw;
+  left:25vw;
 }
 
 .imageBoxFourteen {
@@ -104,6 +104,48 @@
   opacity:0.3;
   top:339vh;
   left:0;
+}
+
+.imageBoxSixteen {
+  position:absolute;
+  opacity:0.7;
+  top:354vh;
+  left:0;
+}
+
+.imageBoxSeventeen {
+  position:absolute;
+  opacity:0.75;
+  top:369vh;
+  left:0;
+}
+
+.imageBoxEighteen {
+  position:absolute;
+  opacity:0.75;
+  top:384vh;
+  left:0;
+}
+
+.imageBoxNineteen {
+  position:absolute;
+  opacity:0.75;
+  top:371vh;
+  left:20vw;
+}
+
+.imageBoxTwenty {
+  position:absolute;
+  opacity:0.45;
+  top:396vh;
+  left:16vw;
+}
+
+.imageBoxTwentyOne {
+  position:absolute;
+  opacity:0.85;
+  top:423vh;
+  left:12vw;
 }
 
 .textContainer {

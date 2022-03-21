@@ -11,6 +11,10 @@ import LiquorFruits from '../public/images/Tatemae23.jpg'
 import Altar from '../public/images/18. Altar.jpg'
 import Sprawl from '../public/images/18.5 Sprawl.jpg'
 import TerminiImerese from '../public/images/15. Termini Imerese.jpg'
+import Car from '../public/images/Tatemae8.jpg'
+import Pantelleria from '../public/images/10. Pantelleria.jpg'
+import Cat from '../public/images/Tatemae25.jpg'
+import Train from '../public/images/20.5 Train.jpg'
 import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
@@ -29,7 +33,7 @@ export default function Writing() {
             layout={`fixed`} alt="Photocollage titled 'Pozzallo'"/></div>
             <div className={styles.imageBoxFour}><Image src={Cracks} width={100} height={120}
               layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
-              <div className={styles.imageBoxFive}><Image src={Doggie} width={400} height={220}
+              <div className={styles.imageBoxFive}><Image src={Doggie} width={400} height={320}
                 layout={`fixed`} alt="Photograph of Man in front of a Truck with a Doggie in Back"/></div>
                 <div className={styles.imageBoxSix}><Image src={Tipici} width={120} height={120}
                   layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
@@ -45,12 +49,24 @@ export default function Writing() {
                             layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
                             <div className={styles.imageBoxTwelve}><Image src={Sprawl} width={220} height={140}
                               layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
-                              <div className={styles.imageBoxThirteen}><Image src={Altar} width={220} height={280}
-                                layout={`fixed`} alt="Photograph of A Randon City Ledge with Two Empty Beer Bottles Atop"/></div>
-                                <div className={styles.imageBoxFourteen}><Image src={TerminiImerese} width={420} height={280}
-                                  layout={`fixed`} alt="Photograph of A Randon City Ledge with Two Empty Beer Bottles Atop"/></div>
+                              <div className={styles.imageBoxThirteen}><Image src={Altar} width={280} height={280}
+                                layout={`fixed`} alt="Photograph of A Random Roman Ledge with Two Empty Beer Bottles Atop"/></div>
+                                <div className={styles.imageBoxFourteen}><Image src={TerminiImerese} width={360} height={280}
+                                  layout={`fixed`} alt="Photograph of A Random Roman Ledge with Two Empty Beer Bottles Atop"/></div>
                                   <div className={styles.imageBoxFifteen}><Image src={Cracks} width={100} height={120}
-                                    layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
+                                    layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch in Rome"/></div>
+                                    <div className={styles.imageBoxSixteen}><Image src={Train} width={100} height={120}
+                                      layout={`fixed`} alt="Photograph of Passengers Aboard a Train in Rome"/></div>
+                                      <div className={styles.imageBoxSeventeen}><Image src={Car} width={100} height={120}
+                                        layout={`fixed`} alt="Photograph of a Car with A Tarp atop Held Down with Bamboo"/></div>
+                                        <div className={styles.imageBoxEighteen}><Image src={Pantelleria} width={100} height={120}
+                                          layout={`fixed`} alt="Photocollage titled 'Pantelleria'"/></div>
+                                          <div className={styles.imageBoxNineteen}><Image src={Cat} width={310} height={300}
+                                            layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
+                                            <div className={styles.imageBoxTwenty}><Image src={Cat} width={310} height={300}
+                                              layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
+                                              <div className={styles.imageBoxTwentyOne}><Image src={Cat} width={310} height={300}
+                                                layout={`fixed`} alt="Photograph of a Cat Sleeping atop a Ledge"/></div>
       <div className={styles.textContainer}>
       <p>––<span className={styles.grayTextUppercase}>online</span>––</p>
       <br/>
