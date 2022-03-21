@@ -31,14 +31,18 @@ body {
 }
 
 a {
-  font-size:1.5rem;
+  font-size:1.6rem;
   color: #b0b0b0;
+  text-transform:lowercase;
+  text-decoration:underline;
   font-style:italic;
-  text-shadow:1px 1px white;
+  text-shadow:3px 4px 24px snow;
 }
 
 a:hover {
   color:#FF0000;
+  text-shadow:2px 3px black, 3px 4px white;
+  text-decoration:none;
 }
 
 * {
