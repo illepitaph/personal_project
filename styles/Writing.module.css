@@ -71,7 +71,43 @@
   right:0;
 }
 
+.imageBoxEleven {
+  position:absolute;
+  opacity:0.5;
+  top:204vh;
+  right:0;
+}
+
+.imageBoxTwelve {
+  position:absolute;
+  opacity:0.9;
+  top:214vh;
+  right:0;
+}
+
+.imageBoxThirteen {
+  position:absolute;
+  opacity:0.3;
+  top:234vh;
+  left:5vw;
+}
+
+.imageBoxFourteen {
+  position:absolute;
+  opacity:0.3;
+  top:284vh;
+  right:0;
+}
+
+.imageBoxFifteen {
+  position:absolute;
+  opacity:0.3;
+  top:339vh;
+  left:0;
+}
+
 .textContainer {
+  position:relative;
   max-width:65%;
   margin:0 auto;
   margin-top:15vh;
@@ -104,4 +140,5 @@
     text-transform:uppercase;
     text-shadow:2px 3px black,
                 3px 5px #FF0000;
+    z-index:99;
 }

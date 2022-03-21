@@ -10,6 +10,7 @@ import Tipici from '../public/images/17. Tipici.jpg'
 import LiquorFruits from '../public/images/Tatemae23.jpg'
 import Altar from '../public/images/18. Altar.jpg'
 import Sprawl from '../public/images/18.5 Sprawl.jpg'
+import TerminiImerese from '../public/images/15. Termini Imerese.jpg'
 import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
@@ -34,12 +35,22 @@ export default function Writing() {
                   layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
                   <div className={styles.imageBoxSeven}><Image src={Tipici} width={120} height={120}
                     layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
-                    <div className={styles.imageBoxEight}><Image src={LiquorFruits} width={420} height={220}
+                    <div className={styles.imageBoxEight}><Image src={LiquorFruits} width={320} height={220}
                       layout={`fixed`} alt="Photograph of Store Selling Liquor and Fruits and a Line of Patrons"/></div>
                       <div className={styles.imageBoxNine}><Image src={Sprawl} width={220} height={140}
                         layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
                         <div className={styles.imageBoxTen}><Image src={Sprawl} width={220} height={140}
                           layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
+                          <div className={styles.imageBoxEleven}><Image src={Sprawl} width={220} height={140}
+                            layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
+                            <div className={styles.imageBoxTwelve}><Image src={Sprawl} width={220} height={140}
+                              layout={`fixed`} alt="Photograph of A Remnant Room in Pompeii and Two Observers"/></div>
+                              <div className={styles.imageBoxThirteen}><Image src={Altar} width={220} height={280}
+                                layout={`fixed`} alt="Photograph of A Randon City Ledge with Two Empty Beer Bottles Atop"/></div>
+                                <div className={styles.imageBoxFourteen}><Image src={TerminiImerese} width={420} height={280}
+                                  layout={`fixed`} alt="Photograph of A Randon City Ledge with Two Empty Beer Bottles Atop"/></div>
+                                  <div className={styles.imageBoxFifteen}><Image src={Cracks} width={100} height={120}
+                                    layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
       <div className={styles.textContainer}>
       <p>––<span className={styles.grayTextUppercase}>online</span>––</p>
       <br/>
