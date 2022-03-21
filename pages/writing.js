@@ -116,7 +116,7 @@ export default function Writing() {
                                                                               layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
 
       <div className={styles.textContainer}>
-      <p>–––<span className={styles.grayTextUppercase}>online</span>–––</p>
+      <p><span className={styles.grayTextUppercase}>&#43;online&#43;</span></p>
       <br/>
         <p>[<span className={styles.grayText}>fiction</span>]<br/><br/>
           “<span className={styles.pieceTitleText}>Celestial Camo</span>” &#10132; <a target="_blank" href="https://socratesonthebeach.com/steve-barbaro">  Socrates on The Beach</a> &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
@@ -219,7 +219,7 @@ export default function Writing() {
           className={styles.pieceTitleText}>Puddle</span>" + "<span
           className={styles.pieceTitleText}>Reflection</span>" &#10132; <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> &#8678; ( .. solidity .. anti-solidity .. )
           </p><br/><br/><br/>
-          <p>––<span className={styles.grayTextUppercase}>in print</span>––</p><br/>
+          <p><span className={styles.grayTextUppercase}>&#43;in print&#43;</span></p><br/>
           <p>[<span className={styles.grayText}>fiction</span>]<br/><br/>
 
           "<span className={styles.pieceTitleText}>Plush Altar</span>" &#10132; <a target="_blank"
