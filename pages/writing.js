@@ -122,27 +122,27 @@ export default function Writing() {
           “<span className={styles.pieceTitleText}>Celestial Camo</span>” &#10132; <a target="_blank" href="https://socratesonthebeach.com/steve-barbaro">  Socrates on The Beach</a> &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
         </p>
         <p>
-        "<span className={styles.pieceTitleText}>A Genealogy of Instinct</span>" &#10132; <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-09-17-2013">Conjunctions</a> &#8678; ( .. also in Sicily .. porcupines .. migration.. ancestry .. )
+        “<span className={styles.pieceTitleText}>A Genealogy of Instinct</span>” &#10132; <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-09-17-2013">Conjunctions</a> &#8678; ( .. also in Sicily .. porcupines .. migration.. ancestry .. )
         </p>
         <p>
         “<span className={styles.pieceTitleText}>Um…A Sensorium</span>” &#10132; <a target="_blank" href="http://www.3ammagazine.com/3am/um-a-sensorium/">3:AM</a> &#8678; ( .. in a room overlooking a street .. synaesthesia .. biological odysseys .. )
         </p><br/><br/>
           <p>[<span className={styles.grayText}>poetry</span>]<br/><br/>
-          "<span className={styles.pieceTitleText}>For Georges Braque</span>" &#10132; <a target="_blank" href="http://thediagram.com/16_1/barbaro.html">DIAGRAM</a> &#8678; ( .. utensils .. the body .. geometry .. )
+          “<span className={styles.pieceTitleText}>For Georges Braque</span>” &#10132; <a target="_blank" href="http://thediagram.com/16_1/barbaro.html">DIAGRAM</a> &#8678; ( .. utensils .. the body .. geometry .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Quadratic</span>" &#10132; <a target="_blank" href="https://yalereview.org/article/quadratic">The Yale Review</a> &#8678; ( .. property .. suppression .. the otherworldly .. )
+          “<span className={styles.pieceTitleText}>Quadratic</span>” &#10132; <a target="_blank" href="https://yalereview.org/article/quadratic">The Yale Review</a> &#8678; ( .. property .. suppression .. the otherworldly .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Sorta</span>" + "<span
-          className={styles.pieceTitleText}>For a Friend</span>" + "<span
-          className={styles.pieceTitleText}>The Lighthouse Verdict</span>" &#10132; <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-07-17-2012">Conjunctions</a> &#8678; ( .. estrangement .. crowding .. )
+          “<span className={styles.pieceTitleText}>Sorta</span>” + “<span
+          className={styles.pieceTitleText}>For a Friend</span>” + “<span
+          className={styles.pieceTitleText}>The Lighthouse Verdict</span>” &#10132; <a target="_blank" href="http://www.conjunctions.com/online/article/steve-barbaro-07-17-2012">Conjunctions</a> &#8678; ( .. estrangement .. crowding .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>" &#10132; <a target="_blank" href="https://www.thecommononline.org/graffito-beholds-a-sculpted-doinysus-head">The Common</a> &#8678; ( .. self .. explanatory .. )
+          “<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>” &#10132; <a target="_blank" href="https://www.thecommononline.org/graffito-beholds-a-sculpted-doinysus-head">The Common</a> &#8678; ( .. self .. explanatory .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Wee</span>" &#10132; <a target="_blank" href="https://preludemag.com/posts/wee/">Prelude</a> &#8678; ( .. hmmmmmmmmm .. OK .. )
+          “<span className={styles.pieceTitleText}>Wee</span>” &#10132; <a target="_blank" href="https://preludemag.com/posts/wee/">Prelude</a> &#8678; ( .. hmmmmmmmmm .. OK .. )
           </p>
           <p>
           “<span className={styles.pieceTitleText}>The Bottle of Schnapps</span>” &#10132; <a target="_blank" href="https://www.therupturemag.com/rupture/the-bottle-of-schnapps">The Rupture</a> &#8678; ( .. memory .. aphrodisiacs .. forgetting .. )
@@ -151,35 +151,35 @@ export default function Writing() {
           “<span className={styles.pieceTitleText}>Ontbijtjes</span>” &#10132; <a target="_blank" href="https://www.natbrut.com/steve-barbaro">Nat. Brut</a> &#8678; ( .. coffee .. flooding .. dillydallyings .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>In The Omnibus (1891)</span>" &#10132; <a target="_blank" href="http://thecollagist.com/the-collagist/2018/1/20/in-the-omnibus-1891.html">The Collagist</a> &#8678; ( .. Mary .. Cassatt .. functionality .. )
+          “<span className={styles.pieceTitleText}>In The Omnibus (1891)</span>” &#10132; <a target="_blank" href="http://thecollagist.com/the-collagist/2018/1/20/in-the-omnibus-1891.html">The Collagist</a> &#8678; ( .. Mary .. Cassatt .. functionality .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Summons in the Form of an Evasion</span>" + "<span
-          className={styles.pieceTitleText}>37 Panoramic Views of Edo</span>" &#10132; <a target="_blank" href="https://interim.squarespace.com/barbaro">Interim</a> &#8678; ( .. volcanism .. flapping .. )
+          “<span className={styles.pieceTitleText}>Summons in the Form of an Evasion</span>” + “<span
+          className={styles.pieceTitleText}>37 Panoramic Views of Edo</span>” &#10132; <a target="_blank" href="https://interim.squarespace.com/barbaro">Interim</a> &#8678; ( .. volcanism .. flapping .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>The Pond</span>" + "<span
-          className={styles.pieceTitleText}>Articles of Capitulation</span>" &#10132; <a target="_blank" href="https://positjournal.com/2018/03/12/steve-barbaro/">Posit</a> &#8678; ( .. Cézanne .. fumaroles .. Caillebotte .. )
+          “<span className={styles.pieceTitleText}>The Pond</span>” + “<span
+          className={styles.pieceTitleText}>Articles of Capitulation</span>” &#10132; <a target="_blank" href="https://positjournal.com/2018/03/12/steve-barbaro/">Posit</a> &#8678; ( .. Cézanne .. fumaroles .. Caillebotte .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Of Property + Precipitation</span>" &#10132; <a target="_blank" href="https://preludemag.com/posts/of-property-precipitation/">Prelude</a> &#8678; ( .. intrusion .. skulls .. lackeys .. )
+          “<span className={styles.pieceTitleText}>Of Property + Precipitation</span>” &#10132; <a target="_blank" href="https://preludemag.com/posts/of-property-precipitation/">Prelude</a> &#8678; ( .. intrusion .. skulls .. lackeys .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Disk</span>" + "<span
-          className={styles.pieceTitleText}>Pare</span>" + "<span
-          className={styles.pieceTitleText}>What A Perky Little Edifice</span>" + "<span
-          className={styles.pieceTitleText}>Letter</span>" + "<span
-          className={styles.pieceTitleText}>Post-Archipelago</span>" + "<span
-          className={styles.pieceTitleText}>Tychtrip</span>" &#10132; <a target="_blank" href="https://theelephants.net/records/steve-barbaro">The Elephants</a> &#8678; ( .. the gamut .. everything .. nothing .. )
+          “<span className={styles.pieceTitleText}>Disk</span>” + “<span
+          className={styles.pieceTitleText}>Pare</span>” + “<span
+          className={styles.pieceTitleText}>What A Perky Little Edifice</span>” + “<span
+          className={styles.pieceTitleText}>Letter</span>” + “<span
+          className={styles.pieceTitleText}>Post-Archipelago</span>” + “<span
+          className={styles.pieceTitleText}>Tychtrip</span>” &#10132; <a target="_blank" href="https://theelephants.net/records/steve-barbaro">The Elephants</a> &#8678; ( .. the gamut .. everything .. nothing .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>The Terrace at Vernonnet (1939)</span>" + "<span
-          className={styles.pieceTitleText}>Der Weihnachtsmann (Santa Claus) (1922)</span>" + "<span
-          className={styles.pieceTitleText}>Cue</span>" + "<span
-          className={styles.pieceTitleText}>The Cadet & His Sister (1988)</span>" + "<span
-          className={styles.pieceTitleText}>A Container in Midair</span>" + "<span
-          className={styles.pieceTitleText}>Le Suicidé (1887)</span>" + "<span
-          className={styles.pieceTitleText}>Diptych</span>" &#10132; <a target="_blank" href="https://drive.google.com/file/d/1OT9heIbkQ6lbx7gpMWJaA-zNzcYuE1op/view">The Equalizer</a> &#8678; ( .. paintings .. other stuff .. paintings .. )
+          “<span className={styles.pieceTitleText}>The Terrace at Vernonnet (1939)</span>” + “<span
+          className={styles.pieceTitleText}>Der Weihnachtsmann (Santa Claus) (1922)</span>” + “<span
+          className={styles.pieceTitleText}>Cue</span>” + “<span
+          className={styles.pieceTitleText}>The Cadet & His Sister (1988)</span>” + “<span
+          className={styles.pieceTitleText}>A Container in Midair</span>” + “<span
+          className={styles.pieceTitleText}>Le Suicidé (1887)</span>” + “<span
+          className={styles.pieceTitleText}>Diptych</span>” &#10132; <a target="_blank" href="https://drive.google.com/file/d/1OT9heIbkQ6lbx7gpMWJaA-zNzcYuE1op/view">The Equalizer</a> &#8678; ( .. paintings .. other stuff .. paintings .. )
           </p>
           <p>
           “<span className={styles.pieceTitleText}>The Surface Appliance</span>” &#10132; <a target="_blank"
@@ -198,83 +198,83 @@ export default function Writing() {
           href="https://preludemag.com/posts/rued/">Prelude</a> &#8678; ( .. well .. ahem .. see .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Space + Gesture</span>" + "<span
-          className={styles.pieceTitleText}>Portrait of Henri Rochefort (1881)</span>" &#10132; <a target="_blank" href="http://thediagram.com/9_6/barbaro.html">DIAGRAM</a> &#8678; ( .. rain .. globes .. cheeks .. )
+          “<span className={styles.pieceTitleText}>Space + Gesture</span>” + “<span
+          className={styles.pieceTitleText}>Portrait of Henri Rochefort (1881)</span>” &#10132; <a target="_blank" href="http://thediagram.com/9_6/barbaro.html">DIAGRAM</a> &#8678; ( .. rain .. globes .. cheeks .. )
           </p><br/><br/>
           <p>[<span className={styles.grayText}>criticism</span>]<br/><br/>
             “<span className={styles.pieceTitleText}>Even Flesh Seems a Formality; or, Vi Khi Nao’s Organic Oscillations</span>” &#10132; <a target="_blank"
             href="http://newnewsinews.com/evenflesh">new sinews</a> &#8678; ( .. eyes .. ears .. eye-ears .. ear-eyes .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Saluting a Hex of Gangrenous Sky; or, Brandon Shimoda’s Ritual Inversions</span>" &#10132; <a target="_blank"
+          “<span className={styles.pieceTitleText}>Saluting a Hex of Gangrenous Sky; or, Brandon Shimoda’s Ritual Inversions</span>” &#10132; <a target="_blank"
           href="https://newnewsinews.com/salutingahex">new sinews</a> &#8678; ( .. monuments .. rites .. forgettings .. )
           </p>
           <p>
-          "<span className={styles.pieceTitleText}>Poem-Coerced Novel, Novel-Brandishing Poem</span>" &#10132; <a target="_blank"
+          “<span className={styles.pieceTitleText}>Poem-Coerced Novel, Novel-Brandishing Poem</span>” &#10132; <a target="_blank"
           href="http://www.3ammagazine.com/3am/poem-coerced-novel-novel-brandishing-poem/">3:AM</a> &#8678; ( .. limos .. rats .. lightning .. )
           </p><br/><br/>
           <p>[<span className={styles.grayText}>photography</span>]<br/><br/>
 
-          "<span className={styles.pieceTitleText}>1 Via San Lorenzo</span>" + "<span
-          className={styles.pieceTitleText}>Puddle</span>" + "<span
-          className={styles.pieceTitleText}>Reflection</span>" &#10132; <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> &#8678; ( .. solidity .. anti-solidity .. )
+          “<span className={styles.pieceTitleText}>1 Via San Lorenzo</span>” + “<span
+          className={styles.pieceTitleText}>Puddle</span>” + “<span
+          className={styles.pieceTitleText}>Reflection</span>” &#10132; <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> &#8678; ( .. solidity .. anti-solidity .. )
           </p><br/><br/><br/>
           <p><span className={styles.grayTextUppercase}>&#43;in print&#43;</span></p><br/>
           <p>[<span className={styles.grayText}>fiction</span>]<br/><br/>
 
-          "<span className={styles.pieceTitleText}>Plush Altar</span>" &#10132; <a target="_blank"
+          “<span className={styles.pieceTitleText}>Plush Altar</span>” &#10132; <a target="_blank"
           href="https://www.facebook.com/denverquarterlyjournal/photos/pcb.3254464931249118/3254464341249177/?theater&type=3">Denver Quarterly</a> &#8678; ( .. sleep .. the underworld .. sleep .. )
            </p><br/><br/>
            <p>[<span className={styles.grayText}>poetry</span>]<br/><br/>
-           "<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>" &#10132; <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> &#8678; ( .. it .. yes, IT .. + so it-fully .. )
+           “<span className={styles.pieceTitleText}>Guilt of The Graphomaniac</span>” &#10132; <a target="_blank" href="http://www.newamericanwriting.com/issue-34.html">New American Writing</a> &#8678; ( .. it .. yes, IT .. + so it-fully .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Consecration of a Hookup</span>" &#10132; <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> &#8678; ( .. RE: distance .. also RE: proximity .. )
+           “<span className={styles.pieceTitleText}>Consecration of a Hookup</span>” &#10132; <a target="_blank" href="http://www.hotelamerika.net/project/winter-2016-17-15/">Hotel Amerika</a> &#8678; ( .. RE: distance .. also RE: proximity .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>The Body According to Neptune</span>" &#10132; <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> &#8678; ( .. kids .. hissing .. unfixity ..  )
+           “<span className={styles.pieceTitleText}>The Body According to Neptune</span>” &#10132; <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> &#8678; ( .. kids .. hissing .. unfixity ..  )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>A Rather Contemporary Inquiry</span>" &#10132; <a target="_blank" href="http://salthilljournal.net/sh34/">Salt Hill</a> &#8678; ( .. antiquity .. the lyric .. today .. )
+           “<span className={styles.pieceTitleText}>A Rather Contemporary Inquiry</span>” &#10132; <a target="_blank" href="http://salthilljournal.net/sh34/">Salt Hill</a> &#8678; ( .. antiquity .. the lyric .. today .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Quadratic</span>" + "<span
-           className={styles.pieceTitleText}>Concave Decades</span>" &#10132; <a target="_blank" href="https://yalereview.org/issues/january-2018">The Yale Review</a> &#8678; ( .. circles .. squares .. seams .. )
+           “<span className={styles.pieceTitleText}>Quadratic</span>” + “<span
+           className={styles.pieceTitleText}>Concave Decades</span>” &#10132; <a target="_blank" href="https://yalereview.org/issues/january-2018">The Yale Review</a> &#8678; ( .. circles .. squares .. seams .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Deaf</span>" + "<span
-           className={styles.pieceTitleText}>The Dearth of Pyres</span>" &#10132; <a target="_blank" href="http://www.westernhumanitiesreview.com/summer14/">Western Humanities Review</a> &#8678; ( .. smoke .. smokiness .. what's smoky .. )
+           “<span className={styles.pieceTitleText}>Deaf</span>” + “<span
+           className={styles.pieceTitleText}>The Dearth of Pyres</span>” &#10132; <a target="_blank" href="http://www.westernhumanitiesreview.com/summer14/">Western Humanities Review</a> &#8678; ( .. smoke .. smokiness .. what's smoky .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>" &#10132; <a target="_blank" href="https://www.thecommononline.org/issues/issue-14/">The Common</a> &#8678; ( .. self .. explanatory .. )
+           “<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>” &#10132; <a target="_blank" href="https://www.thecommononline.org/issues/issue-14/">The Common</a> &#8678; ( .. self .. explanatory .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Tease of Unlikeness</span>" &#10132; <a target="_blank" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> &#8678; ( .. crackedness .. a face .. fakery .. )
+           “<span className={styles.pieceTitleText}>Tease of Unlikeness</span>” &#10132; <a target="_blank" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> &#8678; ( .. crackedness .. a face .. fakery .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>" &#10132; <a target="_blank" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> &#8678; ( .. more paintings .. more slippery .. )
+           “<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>” &#10132; <a target="_blank" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> &#8678; ( .. more paintings .. more slippery .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Space from Nothing</span>" + "<span
-           className={styles.pieceTitleText}>The Shut-In, Compromised</span>" + "<span
-           className={styles.pieceTitleText}>1348 A.D.</span>" &#10132; <a target="_blank" href="https://www.theliteraryreview.org/issue/invisible-cities/">The Literary Review</a> &#8678; ( .. building .. the buildings .. those dang buildings .. )
+           “<span className={styles.pieceTitleText}>Space from Nothing</span>” + “<span
+           className={styles.pieceTitleText}>The Shut-In, Compromised</span>” + “<span
+           className={styles.pieceTitleText}>1348 A.D.</span>” &#10132; <a target="_blank" href="https://www.theliteraryreview.org/issue/invisible-cities/">The Literary Review</a> &#8678; ( .. building .. the buildings .. those dang buildings .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Two Graphical Impulses</span>" &#10132; <a target="_blank" href="https://www.14hills.net/19-2">Fourteen Hills</a> &#8678; ( .. what .. i mean what Fancy .. Fancy, itself .. fancies ..)
+           “<span className={styles.pieceTitleText}>Two Graphical Impulses</span>” &#10132; <a target="_blank" href="https://www.14hills.net/19-2">Fourteen Hills</a> &#8678; ( .. what .. i mean what Fancy .. Fancy, itself .. fancies ..)
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>The Stream as Pure Ornament</span>" &#10132; <a target="_blank" href="http://thejournalmag.org/archives/4149">The Journal</a> &#8678; ( .. but what .. just WHAT ..  to say ..)
+           “<span className={styles.pieceTitleText}>The Stream as Pure Ornament</span>” &#10132; <a target="_blank" href="http://thejournalmag.org/archives/4149">The Journal</a> &#8678; ( .. but what .. just WHAT ..  to say ..)
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Divers</span>" + "<span
-           className={styles.pieceTitleText}>Picture Plane</span>" &#10132; <a target="_blank" href="http://www.caketrain.org/10/">Caketrain</a> &#8678; ( .. noise .. not empty .. )
+           “<span className={styles.pieceTitleText}>Divers</span>” + “<span
+           className={styles.pieceTitleText}>Picture Plane</span>” &#10132; <a target="_blank" href="http://www.caketrain.org/10/">Caketrain</a> &#8678; ( .. noise .. not empty .. )
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Distance + Concentration</span>" &#10132; <a target="_blank" href="http://www.amletters.org/Issues/issue22a.html">American Letters + Commentary</a> &#8678; ( .. more bodies .. more estrangement ..  more Sicily ..)
+           “<span className={styles.pieceTitleText}>Distance + Concentration</span>” &#10132; <a target="_blank" href="http://www.amletters.org/Issues/issue22a.html">American Letters + Commentary</a> &#8678; ( .. more bodies .. more estrangement ..  more Sicily ..)
            </p>
            <p>
-           "<span className={styles.pieceTitleText}>Buildings in a Lagoon: Triptych</span>" + "<span
-           className={styles.pieceTitleText}>Aqua Alta: Triptych</span>" &#10132; <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> &#8678; ( .. venezia .. you know, like, <i>Venice</i> .. sheesh .. )
+           “<span className={styles.pieceTitleText}>Buildings in a Lagoon: Triptych</span>” + “<span
+           className={styles.pieceTitleText}>Aqua Alta: Triptych</span>” &#10132; <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> &#8678; ( .. venezia .. you know, like, <i>Venice</i> .. sheesh .. )
            </p>
       </div>
 

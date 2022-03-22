@@ -335,7 +335,7 @@
     font-family: "lores-9-narrow", sans-serif;
     font-weight: 700;
     font-style: normal;
-    text-transform:lowercase;
+    text-transform:uppercase;
     text-shadow:2px 3px black,
                 3px 5px #FF0000;
     z-index:99;
