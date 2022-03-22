@@ -1,0 +1,54 @@
+.imageBoxZero {
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+
+.imageBoxOne {
+  position:absolute;
+  top:7vh;
+  left:-2.5vw;
+  opacity:0.3;
+}
+
+.imageBoxTwo {
+  position:absolute;
+  top:7vh;
+  left:2.5vw;
+  opacity:0.3;
+}
+
+.imageBoxThree {
+  position:absolute;
+  top:7vh;
+  left:7.5vw;
+  opacity:0.6;
+}
+
+.imageBoxFour {
+  position:absolute;
+  top:7vh;
+  left:12.5vw;
+  opacity:0.17;
+}
+
+.imageBoxFive {
+  position:absolute;
+  top:7vh;
+  left:17.5vw;
+  opacity:0.5;
+}
+
+.imageBoxSix {
+  position:absolute;
+  top:11vh;
+  left:22.5vw;
+  opacity:0.15;
+}
+
+.imageBoxSeven {
+  position:absolute;
+  top:7vh;
+  left:27.5vw;
+  opacity:0.65;
+}
