@@ -8,6 +8,7 @@
   font-weight:400;
   letter-spacing: 0.15rem;
   line-height:1.6em;
+  white-space:pre-line;
 }
 
 .imageBoxZero {
@@ -321,12 +322,26 @@
   font-weight:700;
 }
 
+.alternateSnowText {
+  color:snow;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
 .grayTextUppercase {
   font-size:2.9rem;
   color:#b0b0b0;
   font-weight:700;
   text-transform:uppercase;
   text-shadow: 2px 3px black, 3px 4px white;
+}
+
+.alternateUppercase {
+  font-size:2.9rem;
+  color:snow;
+  font-weight:700;
+  text-transform:uppercase;
+  text-shadow: 2px 3px black, 3px 4px #b0b0b0;
 }
 
 .pieceTitleText {
@@ -339,15 +354,12 @@
     text-shadow:2px 3px black,
                 3px 5px #FF0000;
     z-index:99;
+    white-space:pre-line;
 }
 
 @media (max-width:998px) {
 
   .textContainer {
      max-width:90%;
-  }
-
-  .pieceTitleText {
-    font-size:1.2rem;
   }
 }
