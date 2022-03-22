@@ -46,6 +46,27 @@
   opacity:0.15;
 }
 
+.imageBoxSixPointOne {
+  position:absolute;
+  top:22vh;
+  left:22.5vw;
+  opacity:0.15;
+}
+
+.imageBoxSixPointTwo {
+  position:absolute;
+  top:32vh;
+  left:22.5vw;
+  opacity:0.35;
+}
+
+.imageBoxSixPointThree {
+  position:absolute;
+  top:42vh;
+  left:22.5vw;
+  opacity:0.15;
+}
+
 .imageBoxSeven {
   position:absolute;
   top:7vh;

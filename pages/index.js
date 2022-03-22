@@ -8,6 +8,8 @@ import Levanzo from '../public/images/12. Levanzo.jpg'
 import Way from '../public/images/14. Way.jpg'
 import Tipici from '../public/images/17. Tipici.jpg'
 import PortoEmpedocle from '../public/images/11. Porto Empedocle.jpg'
+import Diptych from '../public/images/4. Diptych.jpg'
+import Inner from '../public/images/8. Inner.jpg'
 import styles from '../styles/Home.module.css'
 Home.title = "Steve Barbaro"
 
@@ -26,11 +28,17 @@ export default function Home() {
               <div className={styles.imageBoxFour}><Image src={Levanzo} width={100} height={120}
                 layout={`fixed`} alt="Photocollage titled 'Levanzo'"/></div>
                 <div className={styles.imageBoxFive}><Image src={Way} width={100} height={120}
-                  layout={`fixed`} alt="Photo of a Doorway Abetting a Fresco in Pompeii'"/></div>
+                  layout={`fixed`} alt="Photo of a Doorway Abetting a Fresco in Pompeii"/></div>
                   <div className={styles.imageBoxSix}><Image src={Tipici} width={100} height={120}
-                    layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree'"/></div>
-                    <div className={styles.imageBoxSeven}><Image src={PortoEmpedocle} width={100} height={120}
-                      layout={`fixed`} alt="Photocollage Titled 'Porto Empedocle''"/></div>
+                    layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                    <div className={styles.imageBoxSixPointOne}><Image src={Diptych} width={100} height={120}
+                      layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                      <div className={styles.imageBoxSixPointTwo}><Image src={Tipici} width={100} height={120}
+                        layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                        <div className={styles.imageBoxSixPointThree}><Image src={Inner} width={100} height={120}
+                          layout={`fixed`} alt="Photograph of an Erratically Lit Interior Bisected By Vertical Structural Bars"/></div>
+                          <div className={styles.imageBoxSeven}><Image src={PortoEmpedocle} width={100} height={120}
+                          layout={`fixed`} alt="Photocollage Titled 'Porto Empedocle'"/></div>
    </>
   )
 }
