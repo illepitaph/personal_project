@@ -48,6 +48,7 @@ a {
 }
 
 a:hover {
+  font-size:1.45rem;
   color:#00bfff;
   text-shadow:1px 1px black, 2px 3px white;
   text-transform:uppercase;
