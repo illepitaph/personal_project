@@ -48,15 +48,20 @@
   font-size:2rem;
   font-weight:700;
   letter-spacing:0.71em;
-  text-shadow: 2px 3px #b0b0b0, 3px 4px black;
+  text-shadow: 2px 3px #00bfff, 3px 4px black;
   text-transform:lowercase;
   z-index:99;
 }
 
 .alternateLettering {
   color:#00bfff;
-  opacity:0.9;
   text-shadow:2px 3px black, 3px 4px #b0b0b0;
+}
+
+.alternateLetteringTwo {
+  color:#faf8dc;
+  text-shadow:2px 3px black, 3px 4px #e4000f;
+  text-transform:uppercase;
 }
 
 .navButton {
