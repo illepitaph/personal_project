@@ -26,6 +26,7 @@ export default function Writing() {
   return (
       <>
       <Head/>
+      <div className={styles.container}>
       <div className={styles.imageBoxZero}><Image src={Clouds} width={250} height={150}
         layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
         <div className={styles.imageBoxZeroPointFive}><Image src={Clouds} width={250} height={150}
@@ -116,7 +117,7 @@ export default function Writing() {
                                                                               layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
 
       <div className={styles.textContainer}>
-      <p><span className={styles.grayTextUppercase}><span className={styles.alternateUppercase}>&#43;</span>o<span className={styles.alternateUppercase}>n</span>l<span className={styles.alternateUppercase}>i</span>n<span className={styles.alternateUppercase}>e</span>&#43;</span></p>
+      <p><span className={styles.grayTextUppercaseOne}><span className={styles.alternateUppercase}>&#43;</span>o<span className={styles.alternateUppercase}>n</span>l<span className={styles.alternateUppercase}>i</span>n<span className={styles.alternateUppercase}>e</span>&#43;</span></p>
       <br/>
         <p>[<span className={styles.grayText}><span className={styles.alternateSnowText}>f</span>i<span className={styles.alternateSnowText}>ct</span>io<span className={styles.alternateSnowText}>n</span></span>]<br/><br/>
           “<span className={styles.pieceTitleText}>Celestial Camo</span>” &#10132; <a target="_blank" href="https://socratesonthebeach.com/steve-barbaro">  Socrates on The Beach</a> &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
@@ -219,7 +220,7 @@ export default function Writing() {
           className={styles.pieceTitleText}>Puddle</span>” + “<span
           className={styles.pieceTitleText}>Reflection</span>” &#10132; <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> &#8678; ( .. solidity .. anti-solidity .. )
           </p><br/><br/><br/>
-          <p><span className={styles.grayTextUppercase}>&#43;<span className={styles.alternateUppercase}>i</span>n <span className={styles.alternateUppercase}>pr</span>i<span className={styles.alternateUppercase}>n</span>t<span className={styles.alternateUppercase}>&#43;</span></span></p><br/>
+          <p><span className={styles.grayTextUppercaseTwo}>&#43;<span className={styles.alternateUppercase}>i</span>n <span className={styles.alternateUppercase}>pr</span>i<span className={styles.alternateUppercase}>n</span>t<span className={styles.alternateUppercase}>&#43;</span></span></p><br/>
           <p>[<span className={styles.grayText}><span className={styles.alternateSnowText}>f</span>ic<span className={styles.alternateSnowText}>t</span>i<span className={styles.alternateSnowText}>o</span>n</span>]<br/><br/>
 
           “<span className={styles.pieceTitleText}>Plush Altar</span>” &#10132; <a target="_blank"
@@ -276,6 +277,7 @@ export default function Writing() {
            “<span className={styles.pieceTitleText}>Buildings in a Lagoon: Triptych</span>” + “<span
            className={styles.pieceTitleText}>Aqua Alta: Triptych</span>” &#10132; <a target="_blank" href="http://www.du.edu/denverquarterly/past/index.html">Denver Quarterly</a> &#8678; ( .. venezia .. you know, like, <i>Venice</i> .. sheesh .. )
            </p>
+      </div>
       </div>
 
       <Footer/>

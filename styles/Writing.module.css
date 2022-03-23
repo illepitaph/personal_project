@@ -1,3 +1,33 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.container {
+  animation: fadeIn ease-in 1.4s;
+}
+
+
 .textContainer {
   position:relative;
   max-width:65%;
@@ -328,12 +358,16 @@
   text-transform: uppercase;
 }
 
-.grayTextUppercase {
+.grayTextUppercaseOne, .grayTextUppercaseTwo {
   font-size:2.9rem;
   color:#b0b0b0;
   font-weight:700;
   text-transform:uppercase;
   text-shadow: 2px 3px black, 3px 4px white;
+}
+
+.grayTextUppercaseOne {
+  animation: fadeIn ease-in-out 2.4s;
 }
 
 .alternateUppercase {
