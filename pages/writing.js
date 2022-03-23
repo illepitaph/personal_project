@@ -117,7 +117,7 @@ export default function Writing() {
                                                                               layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
 
       <div className={styles.textContainer}>
-      <p><span className={styles.grayTextUppercaseOne}><span className={styles.alternateUppercase}>&#43;</span>o<span className={styles.alternateUppercase}>n</span>l<span className={styles.alternateUppercase}>i</span>n<span className={styles.alternateUppercase}>e</span>&#43;</span></p>
+      <p><span className={styles.grayTextUppercaseOne}><span className={styles.alternateUppercaseOne}>&#43;</span>o<span className={styles.alternateUppercaseOne}>n</span>l<span className={styles.alternateUppercaseOne}>i</span>n<span className={styles.alternateUppercaseOne}>e</span>&#43;</span></p>
       <br/>
         <p>[<span className={styles.grayText}><span className={styles.alternateSnowText}>f</span>i<span className={styles.alternateSnowText}>ct</span>io<span className={styles.alternateSnowText}>n</span></span>]<br/><br/>
           “<span className={styles.pieceTitleText}>Celestial Camo</span>” &#10132; <a target="_blank" href="https://socratesonthebeach.com/steve-barbaro">  Socrates on The Beach</a> &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
@@ -220,7 +220,7 @@ export default function Writing() {
           className={styles.pieceTitleText}>Puddle</span>” + “<span
           className={styles.pieceTitleText}>Reflection</span>” &#10132; <a target="_blank" href="http://www.fstopmagazine.com/pastissues/69/groupexhibition.html">F-Stop Magazine</a> &#8678; ( .. solidity .. anti-solidity .. )
           </p><br/><br/><br/>
-          <p><span className={styles.grayTextUppercaseTwo}>&#43;<span className={styles.alternateUppercase}>i</span>n <span className={styles.alternateUppercase}>pr</span>i<span className={styles.alternateUppercase}>n</span>t<span className={styles.alternateUppercase}>&#43;</span></span></p><br/>
+          <p><span className={styles.grayTextUppercaseTwo}>&#43;<span className={styles.alternateUppercaseTwo}>i</span>n <span className={styles.alternateUppercaseTwo}>pr</span>i<span className={styles.alternateUppercaseTwo}>n</span>t<span className={styles.alternateUppercaseTwo}>&#43;</span></span></p><br/>
           <p>[<span className={styles.grayText}><span className={styles.alternateSnowText}>f</span>ic<span className={styles.alternateSnowText}>t</span>i<span className={styles.alternateSnowText}>o</span>n</span>]<br/><br/>
 
           “<span className={styles.pieceTitleText}>Plush Altar</span>” &#10132; <a target="_blank"

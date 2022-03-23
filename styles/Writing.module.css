@@ -24,7 +24,7 @@
 }
 
 .container {
-  animation: fadeIn ease-in 1.4s;
+  animation: fadeIn ease-in 0.9s;
 }
 
 
@@ -367,15 +367,19 @@
 }
 
 .grayTextUppercaseOne {
-  animation: fadeIn ease-in-out 2.4s;
+  animation: fadeIn ease-in-out 1.6s;
 }
 
-.alternateUppercase {
+.alternateUppercaseOne, .alternateUppercaseTwo {
   font-size:2.9rem;
   color:snow;
   font-weight:700;
   text-transform:uppercase;
   text-shadow: 2px 3px black, 3px 4px #b0b0b0;
+}
+
+.alternateUppercaseOne {
+  animation: fadeIn ease-in-out 2.1s;
 }
 
 .pieceTitleText {
