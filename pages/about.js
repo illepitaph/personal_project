@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/About.module.css'
+import Link from 'next/Link'
+import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
+import styles from '../styles/About.module.css'
 About.title = "about — Steve Barbaro"
 
 export default function About() {
@@ -8,6 +10,7 @@ export default function About() {
       <>
       <Head/>
       <div className={styles.container}>
+      <Nav/>
       <div className={styles.textContainer}>
       <p>Steve Barbaro is a first-generation American of Sicilian descent. His writing appears in such
       venues as <i>The Yale Review</i> + <i>Socrates on The Beach</i> + <i>Web
