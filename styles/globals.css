@@ -50,6 +50,7 @@ a {
 a:hover {
   font-size:1.45rem;
   color:#00bfff;
+  font-weight:700;
   text-shadow:1px 1px black, 2px 3px white;
   text-transform:uppercase;
   text-decoration:none;

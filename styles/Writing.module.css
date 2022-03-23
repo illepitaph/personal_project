@@ -375,7 +375,7 @@
   color:snow;
   font-weight:700;
   text-transform:uppercase;
-  text-shadow: 2px 3px black, 3px 4px #FF0000;
+  text-shadow: 2px 3px black, 3px 4px #e4000f;
 }
 
 .alternateUppercaseOne {
@@ -390,7 +390,7 @@
     font-style: normal;
     text-transform:uppercase;
     text-shadow:2px 3px black,
-                3px 5px #FF0000;
+                3px 5px #e4000f;
     z-index:99;
     white-space:pre-line;
 }
