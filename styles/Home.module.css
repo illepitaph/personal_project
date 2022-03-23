@@ -1,40 +1,122 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.container {
+  animation: fadeIn ease-in-out 3.6s;
+}
+
 .imageBoxZero {
   position:relative;
   height:100vh;
   overflow:hidden;
 }
 
+.nav {
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:8vh 2vw;
+}
+
+.name {
+  display:inline;
+  color:black;
+  font-family: "lores-9-narrow", monospace;
+  font-size:2rem;
+  font-weight:700;
+  letter-spacing:0.71em;
+  text-shadow: 2px 3px #b0b0b0, 3px 4px black;
+  text-transform:lowercase;
+  z-index:99;
+}
+
+.alternateLettering {
+  color:#00bfff;
+  opacity:0.9;
+  text-shadow:2px 3px black, 3px 4px #b0b0b0;
+}
+
+.navButton {
+  margin-right:1.9vw;
+  font-family:"lores-9-minus-wide";
+  font-size:1.35rem;
+  font-weight:700;
+  display:inline;
+  border:none;
+  background:inherit;
+  color:#faf8dc;
+  box-shadow:4px 8px #00bfff;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-style:normal;
+  letter-spacing:0.15rem;
+  cursor:pointer;
+}
+
+.navButton:hover {
+   color:#faf8dc;
+   letter-spacing:0.3rem;
+   text-transform:lowercase;
+   font-style:normal;
+   padding:7px 0 0 10px;
+   text-shadow:none;
+   box-shadow:inset 4px 8px #00bfff;
+}
+
 .imageBoxOne {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:-2.5vw;
   opacity:0.3;
 }
 
 .imageBoxTwo {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:2.5vw;
   opacity:0.3;
 }
 
 .imageBoxThree {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:7.5vw;
   opacity:0.6;
 }
 
 .imageBoxFour {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:12.5vw;
   opacity:0.17;
 }
 
 .imageBoxFive {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:17.5vw;
   opacity:0.5;
 }
@@ -69,7 +151,7 @@
 
 .imageBoxSeven {
   position:absolute;
-  top:7vh;
+  top:3vh;
   left:27.5vw;
   opacity:0.65;
 }

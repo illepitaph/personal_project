@@ -9,7 +9,7 @@ export default function Nav() {
 className={styles.alternateLettering}>a</span>r<span className={styles.alternateLettering}>b</span>ar<span
 className={styles.alternateLettering}>o</span></div>
 <div className={styles.buttonBox}>
-<Link href="/" passHref><button className={styles.navButton}>home</button></Link>
+<Link href="/" passHref><button className={styles.navButton}>altar-home</button></Link>
 <Link href="/writing" passHref><button className={styles.navButton}>writing</button></Link>
 <a target="_blank" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
 </div>

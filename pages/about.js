@@ -10,7 +10,16 @@ export default function About() {
       <>
       <Head/>
       <div className={styles.container}>
-      <Nav/>
+      <div className={styles.nav}>
+      <div className={styles.name}>St<span className={styles.alternateLettering}>e</span>ve B<span
+      className={styles.alternateLettering}>a</span>r<span className={styles.alternateLettering}>b</span>ar<span
+      className={styles.alternateLettering}>o</span></div>
+      <div className={styles.buttonBox}>
+      <Link href="/" passHref><button className={styles.navButton}>altar (home)</button></Link>
+      <Link href="/writing" passHref><button className={styles.navButton}>writing</button></Link>
+      <a target="_blank" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
+      </div>
+      </div>
       <div className={styles.textContainer}>
       <p>Steve Barbaro is a first-generation American of Sicilian descent. His writing appears in such
       venues as <i>The Yale Review</i> + <i>Socrates on The Beach</i> + <i>Web

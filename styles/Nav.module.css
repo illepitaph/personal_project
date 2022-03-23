@@ -21,14 +21,14 @@
 }
 
 .navButton {
-  margin-right:0.9vw;
+  margin-right:1.9vw;
   font-family:"lores-9-minus-wide";
   font-size:1.2rem;
   display:inline;
   border:none;
   background:inherit;
   color:white;
-  text-shadow:1px 2px #d10000;
+  box-shadow:4px 8px #d10000;
   text-transform:uppercase;
   text-decoration:none;
   font-style:normal;
@@ -41,5 +41,7 @@
    letter-spacing:0.3rem;
    text-transform:lowercase;
    font-style:normal;
-   text-shadow:2px 3px black, 3px 4px #d10000;
+   padding:7px 0 0 10px;
+   text-shadow:none;
+   box-shadow:inset 4px 8px #d10000;;
 }

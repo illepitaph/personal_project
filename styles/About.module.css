@@ -27,10 +27,61 @@
   animation: fadeIn ease-in 0.9s;
 }
 
+.nav {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:8vh 2vw;
+}
+
+.name {
+  display:inline;
+  color:white;
+  font-family: "lores-9-narrow", monospace;
+  font-size:2rem;
+  font-weight:700;
+  letter-spacing:0.71em;
+  text-shadow:3px 4px 24px snow;
+  text-transform:lowercase;
+  animation: fadeIn ease-in 1.5s;
+}
+
+.alternateLettering {
+  color:#b0b0b0;
+  animation: fadeIn ease-in 1.9s;
+}
+
+.navButton {
+  margin-right:1.9vw;
+  font-family:"lores-9-minus-wide";
+  font-size:1.2rem;
+  display:inline;
+  border:none;
+  background:inherit;
+  color:white;
+  box-shadow:4px 8px #d10000;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-style:normal;
+  letter-spacing:0.15rem;
+  cursor:pointer;
+}
+
+.navButton:hover {
+   color:snow;
+   letter-spacing:0.3rem;
+   text-transform:lowercase;
+   font-style:normal;
+   padding:7px 0 0 10px;
+   text-shadow:none;
+   box-shadow:inset 4px 8px #d10000;;
+}
+
+
 .textContainer {
   max-width:75%;
   margin:0 auto;
-  margin-top:40vh;
+  margin-top:36vh;
   font-family: "lores-9-plus-wide", monospace;
   font-size:1.2rem;
   font-weight:400;

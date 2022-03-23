@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import Tatemae1 from '../public/images/Tatemae1.jpg'
 import Cracks from '../public/images/5. Cracks.jpg'
@@ -17,8 +18,18 @@ export default function Home() {
   return (
       <>
       <Head/>
+      <div className={styles.container}>
       <div className={styles.imageBoxZero}><Image src={Tatemae1} width={90} height={50}
-        layout={`fill`} alt="Upclose Photgraph of a Staircase-ledge above which Looms a Ridge of Mountains"/></div>
+        layout={`fill`} alt="Upclose Photgraph of a Staircase-ledge above which Looms a Ridge of Mountains"/>  <div className={styles.nav}>
+          <div className={styles.name}>S<span className={styles.alternateLettering}>te</span>ve B<span
+          className={styles.alternateLettering}>a</span>r<span className={styles.alternateLettering}>b</span>ar<span
+          className={styles.alternateLettering}>o</span></div>
+          <div className={styles.buttonBox}>
+          <Link href="/writing" passHref><button className={styles.navButton}>writing</button></Link>
+          <Link href="/about" passHref><button className={styles.navButton}>about</button></Link>
+          <a target="_blank" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
+          </div>
+          </div></div>
         <div className={styles.imageBoxOne}><Image src={Cracks} width={100} height={120}
           layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
           <div className={styles.imageBoxTwo}><Image src={Aqueduct} width={100} height={120}
@@ -39,6 +50,7 @@ export default function Home() {
                           layout={`fixed`} alt="Photograph of an Erratically Lit Interior Bisected By Vertical Structural Bars"/></div>
                           <div className={styles.imageBoxSeven}><Image src={PortoEmpedocle} width={100} height={120}
                           layout={`fixed`} alt="Photocollage Titled 'Porto Empedocle'"/></div>
+                          </div>
    </>
   )
 }

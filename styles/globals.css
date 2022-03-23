@@ -48,9 +48,10 @@ a {
 }
 
 a:hover {
-  color:#FF0000;
+  color:#00bfff;
   text-shadow:2px 3px black, 3px 4px white;
   text-decoration:none;
+  font-style:normal;
 }
 
 * {
