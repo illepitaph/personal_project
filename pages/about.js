@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/Link'
-import Footer from '../components/footer.js'
 import styles from '../styles/About.module.css'
 About.title = "about — Steve Barbaro"
 

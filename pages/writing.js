@@ -18,7 +18,6 @@ import Train from '../public/images/20.5 Train.jpg'
 import Tatemae21half from '../public/images/Tatemae21half.jpg'
 import HeraclesAndLeucothea from  '../public/images/10. Heracles & Leucothea.jpg'
 import Diptych from '../public/images/4. Diptych.jpg'
-import Footer from '../components/footer.js'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
 
@@ -279,8 +278,6 @@ export default function Writing() {
            </p>
       </div>
       </div>
-
-      <Footer/>
    </>
   )
 }
