@@ -73,7 +73,7 @@
   border:none;
   background:inherit;
   color:#faf8dc;
-  box-shadow:4px 8px #00bfff;
+  box-shadow:4px 8px #00bfff, 8px 12px black;
   text-transform:uppercase;
   text-decoration:none;
   font-style:normal;
@@ -82,13 +82,13 @@
 }
 
 .navButton:hover {
-   color:#faf8dc;
+   color:black;
+   text-shadow:2px 14px #b0b0b0;
    letter-spacing:0.3rem;
    text-transform:lowercase;
    font-style:normal;
    padding:7px 0 0 10px;
-   text-shadow:none;
-   box-shadow:inset 4px 8px #00bfff;
+   box-shadow:inset 4px 6px #00bfff, 4px 6px #faf8dc;
 }
 
 .imageBoxOne {
