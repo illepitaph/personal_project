@@ -9,8 +9,16 @@ import Levanzo from '../public/images/12. Levanzo.jpg'
 import Way from '../public/images/14. Way.jpg'
 import Tipici from '../public/images/17. Tipici.jpg'
 import PortoEmpedocle from '../public/images/11. Porto Empedocle.jpg'
+import HeraclesAndLeucothea from  '../public/images/10. Heracles & Leucothea.jpg'
 import Diptych from '../public/images/4. Diptych.jpg'
 import Inner from '../public/images/8. Inner.jpg'
+import Tatemae21half from '../public/images/Tatemae21half.jpg'
+import VesuviusTool from '../public/images/15. Vesuvius Tool.jpg'
+import Tatemae5 from '../public/images/Tatemae5.jpg'
+import PuntaBracetto from '../public/images/6. Punta Bracetto.jpg'
+import Hmmmm from '../public/images/6. Hmmmm.jpg'
+import Etruscan from '../public/images/22.5 Etruscan.jpg'
+import Tatemae21 from '../public/images/Tatemae21.jpg'
 import styles from '../styles/Home.module.css'
 Home.title = "Steve Barbaro"
 
@@ -42,14 +50,33 @@ export default function Home() {
                   layout={`fixed`} alt="Photo of a Doorway Abetting a Fresco in Pompeii"/></div>
                   <div className={styles.imageBoxSix}><Image src={Tipici} width={100} height={120}
                     layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                    <div className={styles.imageBoxSixPointZero}><Image src={HeraclesAndLeucothea} width={100} height={120}
+                      layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
                     <div className={styles.imageBoxSixPointOne}><Image src={Diptych} width={100} height={120}
                       layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
                       <div className={styles.imageBoxSixPointTwo}><Image src={Tipici} width={100} height={120}
                         layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
                         <div className={styles.imageBoxSixPointThree}><Image src={Inner} width={100} height={120}
                           layout={`fixed`} alt="Photograph of an Erratically Lit Interior Bisected By Vertical Structural Bars"/></div>
-                          <div className={styles.imageBoxSeven}><Image src={PortoEmpedocle} width={100} height={120}
-                          layout={`fixed`} alt="Photocollage Titled 'Porto Empedocle'"/></div>
+                          <div className={styles.imageBoxSixPointFour}><Image src={Tatemae21half} width={100} height={120}
+                            layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                            <div className={styles.imageBoxSixPointFive}><Image src={Diptych} width={100} height={120}
+                              layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                              <div className={styles.imageBoxSixPointSix}><Image src={Etruscan} width={100} height={120}
+                                layout={`fixed`} alt="Photograph of a sculpture of an Estrucan Face"/></div>
+                                  <div className={styles.imageBoxSixPointSeven}><Image src={HeraclesAndLeucothea} width={100} height={120}
+                                    layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                  <div className={styles.imageBoxSeven}><Image src={PortoEmpedocle} width={100} height={120}
+                                    layout={`fixed`} alt="Photocollage Titled 'Porto Empedocle'"/></div>
+                                    <div className={styles.imageBoxEight}><Image src={VesuviusTool} width={100} height={120}
+                                      layout={`fixed`} alt="Picture of a Worker at the Pompeii Archeological Park in Front of Vesuvius"/></div>
+                                      <div className={styles.imageBoxNine}><Image src={Tatemae5} width={100} height={120}
+                                        layout={`fixed`} alt="Picture of a Distinctive Building Behind AN Empty Public Railway Platform"/></div>
+                                        <div className={styles.imageBoxTen}><Image src={PuntaBracetto} width={100} height={120}
+                                          layout={`fixed`} alt="Photocollage titled 'Punta Bracetto'"/></div>
+                                            <div className={styles.imageBoxEleven}><Image src={Hmmmm} width={100} height={120}
+                                            layout={`fixed`} alt="Photo of an ancient Roman sarcophagus"/></div>
+
                           </div>
    </>
   )
