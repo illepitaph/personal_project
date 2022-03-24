@@ -39,6 +39,7 @@
   justify-content:space-between;
   align-items: center;
   margin:8vh 2vw;
+  z-index:99;
 }
 
 .name {
@@ -88,7 +89,8 @@
    text-transform:lowercase;
    font-style:normal;
    padding:7px 0 0 10px;
-   box-shadow:inset 4px 6px #00bfff, 4px 6px #faf8dc;
+   box-shadow:inset 4px 6px #00bfff, 4px 10px #faf8dc;
+   z-index:99;
 }
 
 .imageBoxOne {
@@ -192,34 +194,41 @@
 .imageBoxSeven {
   position:absolute;
   top:3vh;
-  left:27.5vw;
+  right:-2.5vw;
   opacity:0.65;
 }
 
 .imageBoxEight {
   position:absolute;
   top:3vh;
-  left:32.5vw;
+  right:4vw;
   opacity:0.45;
 }
 
 .imageBoxNine {
   position:absolute;
   top:3vh;
-  left:37.5vw;
+  right:10.5vw;
   opacity:0.25;
 }
 
 .imageBoxTen {
   position:absolute;
   top:3vh;
-  left:42.5vw;
+  right:17vw;
   opacity:0.45;
 }
 
 .imageBoxEleven {
   position:absolute;
   top:3vh;
-  left:47.5vw;
-  opacity:0.65;
+  right:20vw;
+  opacity:0.35;
+}
+
+
+@media (max-widht:998px) {
+  .imageBoxTwelve, .imageBoxThirteen, .imageBoxFourteen {
+    display:none;
+  }
 }

@@ -19,6 +19,8 @@ import PuntaBracetto from '../public/images/6. Punta Bracetto.jpg'
 import Hmmmm from '../public/images/6. Hmmmm.jpg'
 import Etruscan from '../public/images/22.5 Etruscan.jpg'
 import Tatemae21 from '../public/images/Tatemae21.jpg'
+import Siracusa from '../public/images/13. Siracusa.jpg'
+import Clouds from '../public/images/7. Clouds.jpg'
 import styles from '../styles/Home.module.css'
 Home.title = "Steve Barbaro"
 
@@ -74,8 +76,9 @@ export default function Home() {
                                         layout={`fixed`} alt="Picture of a Distinctive Building Behind AN Empty Public Railway Platform"/></div>
                                         <div className={styles.imageBoxTen}><Image src={PuntaBracetto} width={100} height={120}
                                           layout={`fixed`} alt="Photocollage titled 'Punta Bracetto'"/></div>
-                                            <div className={styles.imageBoxEleven}><Image src={Hmmmm} width={100} height={120}
-                                            layout={`fixed`} alt="Photo of an ancient Roman sarcophagus"/></div>
+                                              <div className={styles.imageBoxEleven}><Image src={Aqueduct} width={200} height={120}
+                                                layout={`fixed`} alt="Photograph of An Aqueduct in Sun"/></div>
+
 
                           </div>
    </>
