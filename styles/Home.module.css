@@ -194,7 +194,7 @@
 .imageBoxSeven {
   position:absolute;
   top:3vh;
-  right:-2.5vw;
+  right:0;
   opacity:0.65;
 }
 
@@ -226,9 +226,65 @@
   opacity:0.35;
 }
 
+.imageBoxElevenPointOne {
+  position:absolute;
+  top:-2vh;
+  right:31vw;
+  opacity:0.35;
+}
 
-@media (max-widht:998px) {
-  .imageBoxTwelve, .imageBoxThirteen, .imageBoxFourteen {
-    display:none;
-  }
+.imageBoxElevenPointTwo {
+  position:absolute;
+  top:12.5vh;
+  right:31vw;
+  opacity:0.35;
+}
+
+.imageBoxElevenPointThree {
+  position:absolute;
+  top:25vh;
+  right:31vw;
+  opacity:0.35;
+}
+
+.imageBoxElevenPointFour {
+  position:absolute;
+  top:35vh;
+  right:31vw;
+  opacity:0.35;
+}
+
+.imageBoxElevenPointFive {
+  position:absolute;
+  top:45vh;
+  right:31vw;
+  opacity:0.6;
+}
+
+.imageBoxElevenPointSix {
+  position:absolute;
+  top:55vh;
+  right:31vw;
+  opacity:0.45;
+}
+
+.imageBoxElevenPointSeven {
+  position:absolute;
+  top:65vh;
+  right:31vw;
+  opacity:0.55;
+}
+
+.imageBoxElevenPointEight {
+  position:absolute;
+  top:75vh;
+  right:31vw;
+  opacity:0.35;
+}
+
+.imageBoxElevenPointNine {
+  position:absolute;
+  top:84vh;
+  right:31vw;
+  opacity:0.35;
 }
