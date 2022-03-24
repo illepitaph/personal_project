@@ -19,9 +19,8 @@ import PuntaBracetto from '../public/images/6. Punta Bracetto.jpg'
 import Hmmmm from '../public/images/6. Hmmmm.jpg'
 import Etruscan from '../public/images/22.5 Etruscan.jpg'
 import Tatemae21 from '../public/images/Tatemae21.jpg'
-import Siracusa from '../public/images/13. Siracusa.jpg'
 import Clouds from '../public/images/7. Clouds.jpg'
-import Carini from '../public/images/9. Carini.jpg'
+import House from '../public/images/12. House.jpg'
 import styles from '../styles/Home.module.css'
 Home.title = "Steve Barbaro"
 
@@ -74,7 +73,7 @@ export default function Home() {
                                     <div className={styles.imageBoxEight}><Image src={VesuviusTool} width={100} height={120}
                                       layout={`fixed`} alt="Picture of a Worker at the Pompeii Archeological Park in Front of Vesuvius"/></div>
                                       <div className={styles.imageBoxNine}><Image src={Tatemae5} width={100} height={120}
-                                        layout={`fixed`} alt="Picture of a Distinctive Building Behind AN Empty Public Railway Platform"/></div>
+                                        layout={`fixed`} alt="Picture of a Distinctive Building Behind An Empty Public Railway Platform"/></div>
                                         <div className={styles.imageBoxTen}><Image src={PuntaBracetto} width={100} height={120}
                                           layout={`fixed`} alt="Photocollage titled 'Punta Bracetto'"/></div>
                                               <div className={styles.imageBoxEleven}><Image src={Aqueduct} width={200} height={120}
@@ -82,21 +81,21 @@ export default function Home() {
                                                 <div className={styles.imageBoxElevenPointOne}><Image src={Diptych} width={100} height={120}
                                                   layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
                                                   <div className={styles.imageBoxElevenPointTwo}><Image src={Way} width={100} height={120}
-                                                    layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
+                                                    layout={`fixed`} alt="Photo of a Doorway Abetting a Fresco in Pompeii"/></div>
                                                     <div className={styles.imageBoxElevenPointThree}><Image src={Etruscan} width={100} height={120}
                                                       layout={`fixed`} alt="Photograph of a sculpture of an Estrucan Face"/></div>
                                                       <div className={styles.imageBoxElevenPointFour}><Image src={Tipici} width={100} height={120}
-                                                        layout={`fixed`} alt="Photograph of a Ship-like Building in Tokyo with Passerby"/></div>
+                                                        layout={`fixed`} alt="Photograph of Remnant Romant Brickwall in front of a Cypress Tree"/></div>
                                                         <div className={styles.imageBoxElevenPointFive}><Image src={Tatemae9} width={100} height={120}
-                                                          layout={`fixed`} alt="Photograph of a Distorted Bench In Front of a Neoclassical Facade in Rome"/></div>
+                                                          layout={`fixed`} alt="Photograph of a Young Child in the Foreground of Thatched Houses Beneath Clouds"/></div>
                                                           <div className={styles.imageBoxElevenPointSix}><Image src={Cracks} width={100} height={120}
-                                                            layout={`fixed`} alt="Photograph of a sculpture of an Estrucan Face"/></div>
+                                                            layout={`fixed`} alt="Photograph of Cracks and Distortion atop a Neoclassical Arch"/></div>
                                                               <div className={styles.imageBoxElevenPointSeven}><Image src={Clouds} width={100} height={120}
-                                                                layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
-                                                                <div className={styles.imageBoxElevenPointEight}><Image src={Carini} width={100} height={120}
-                                                                  layout={`fixed`} alt="Photocollage titled 'Carini'"/></div>
-                                                                  <div className={styles.imageBoxElevenPointNine}><Image src={Siracusa} width={100} height={120}
-                                                                    layout={`fixed`} alt="Photocollage titled 'Siracusa'"/></div>
+                                                                layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
+                                                                <div className={styles.imageBoxElevenPointEight}><Image src={HeraclesAndLeucothea} width={100} height={120}
+                                                                  layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+                                                                  <div className={styles.imageBoxElevenPointNine}><Image src={House} width={100} height={120}
+                                                                    layout={`fixed`} alt="Photo of a House in Rome with a Picturesque Lone Car Parked in Front"/></div>
 
 
                           </div>

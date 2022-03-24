@@ -186,7 +186,7 @@
 
 .imageBoxSixPointSeven {
   position:absolute;
-  top:84vh;
+  top:83.5vh;
   left:22.5vw;
   opacity:0.53;
 }
@@ -216,7 +216,7 @@
   position:absolute;
   top:3vh;
   right:17vw;
-  opacity:0.45;
+  opacity:0.3;
 }
 
 .imageBoxEleven {
@@ -279,12 +279,12 @@
   position:absolute;
   top:75vh;
   right:31vw;
-  opacity:0.35;
+  opacity:0.75;
 }
 
 .imageBoxElevenPointNine {
   position:absolute;
-  top:84vh;
+  top:83.6vh;
   right:31vw;
-  opacity:0.35;
+  opacity:0.65;
 }
