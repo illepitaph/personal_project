@@ -27,12 +27,73 @@
   animation: fadeIn ease-in 0.9s;
 }
 
+.nav {
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:8vh 2vw;
+  z-index:99;
+}
+
+.name {
+  display:inline;
+  color:white;
+  font-family: "lores-9-narrow", monospace;
+  font-size:2rem;
+  font-weight:700;
+  letter-spacing:0.71em;
+  text-shadow: 2px 3px #00bfff, 3px 4px black;
+  text-transform:lowercase;
+  z-index:99;
+}
+
+.alternateLettering {
+  color:#00bfff;
+  text-shadow:2px 3px black, 3px 4px #b0b0b0;
+  text-transform:uppercase;
+}
+
+.alternateLetteringTwo {
+  color:#faf8dc;
+  text-shadow:2px 3px black, 3px 4px #e4000f;
+  text-transform:uppercase;
+}
+
+.navButton {
+  margin-right:1.9vw;
+  font-family:"lores-9-minus-wide";
+  font-size:1.35rem;
+  font-weight:700;
+  display:inline;
+  border:none;
+  background:inherit;
+  color:white;
+  box-shadow:4px 8px #00bfff, 8px 12px black;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-style:normal;
+  letter-spacing:0.15rem;
+  cursor:pointer;
+}
+
+.navButton:hover {
+   color:silver;
+   text-shadow:2px 16px lightgray;
+   letter-spacing:0.3rem;
+   text-transform:lowercase;
+   font-style:normal;
+   padding:7px 0 0 10px;
+   box-shadow:inset 4px 6px #00bfff, 4px 10px #faf8dc;
+   z-index:99;
+}
+
 
 .textContainer {
   position:relative;
   max-width:65%;
   margin:0 auto;
-  margin-top:15vh;
+  margin-top:25vh;
   font-family: "lores-9-plus-wide", monospace;
   font-size:1.2rem;
   font-weight:400;

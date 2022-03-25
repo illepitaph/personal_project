@@ -26,7 +26,7 @@ export default function About() {
       the founder + editor + programmer + designer of <a target="_blank" href="https://newnewsinews.com">new sinews</a></p><br/><br/><br/>
       ( ... all of the photographs on this website were taken by
       Steve ... + all of this website was likewise programmed + designed by Steve ... he lives in Chicago ... contact him <a
-      href="mailto:steve.barbaro@gmail.com" className={styles.email}>here</a> )
+      href="mailto:steve.barbaro@gmail.com" target="_blank" className={styles.email}>here</a> )
       </div>
       </div>
    </>

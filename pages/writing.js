@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/Link'
 import Image from 'next/Image'
 import StreetlightShadow from '../public/images/Tatemae6.jpg'
 import Clouds from '../public/images/7. Clouds.jpg'
@@ -24,6 +25,18 @@ export default function Writing() {
   return (
       <>
       <Head/>
+      <div className={styles.nav}>
+      <div className={styles.name}>St<span className={styles.alternateLettering}>e</span>v<span
+      className={styles.alternateLetteringTwo}>e</span> B<span
+      className={styles.alternateLettering}>a</span>r<span className={styles.alternateLetteringTwo}>b</span>ar<span
+      className={styles.alternateLettering}>o</span></div>
+      <div className={styles.buttonBox}>
+      <Link href="/" passHref><button className={styles.navButton}>altar (home)</button></Link>
+      <Link href="/about" passHref><button className={styles.navButton}>about</button></Link>
+      <a target="_blank" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
+      </div>
+      </div>
+
       <div className={styles.container}>
       <div className={styles.imageBoxZero}><Image src={Clouds} width={250} height={150}
         layout={`fixed`} alt="Photograph of Park with Two Faintly Walking Humans Under Puffy Clouds"/></div>
@@ -113,6 +126,9 @@ export default function Writing() {
                                                                             layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
                                                                             <div className={styles.imageBoxThirtySix}><Image src={HeraclesAndLeucothea} width={200} height={320}
                                                                               layout={`fixed`} alt="Photograph of Two Statues of Deities in Rome"/></div>
+
+
+
 
       <div className={styles.textContainer}>
       <p><span className={styles.grayTextUppercaseOne}><span className={styles.alternateUppercaseOne}>&#43;</span>o<span className={styles.alternateUppercaseOne}>n</span>l<span className={styles.alternateUppercaseOne}>i</span>n<span className={styles.alternateUppercaseOne}>e</span>&#43;</span></p>
