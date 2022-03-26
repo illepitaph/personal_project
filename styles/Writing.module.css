@@ -61,7 +61,7 @@
 }
 
 .navButton {
-  margin-right:1.9vw;
+  margin:1.9vw;
   font-family:"lores-9-minus-wide";
   font-size:1.35rem;
   font-weight:700;
@@ -69,7 +69,7 @@
   border:none;
   background:inherit;
   color:white;
-  box-shadow:4px 8px #00bfff, 8px 12px black;
+  box-shadow:4px 8px #00bfff, 8px 12px gainsboro;
   text-transform:uppercase;
   text-decoration:none;
   font-style:normal;
@@ -456,9 +456,326 @@
     white-space:pre-line;
 }
 
-@media (max-width:998px) {
+@media (width:1024px) and (height:1366px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+
+@media (max-width:999px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
 
   .textContainer {
      max-width:90%;
+  }
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:145vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:104vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:121vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:129vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:149vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:180vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:194vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:194vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:239vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:264vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:264vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:344vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:354vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:384vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:404vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:634vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:639vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:819vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:834vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:839vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:864vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:854vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:876vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:903vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:923vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:933vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:943vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:953vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:963vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:973vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:983vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:993vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:993vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:1003vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:1043vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:1043vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:1043vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:1043vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:1043vh;
+    left:42vw;
+  }
+
+}
+
+@media (max-width:916px) and (orientation:landscape) {
+
+  .navButton {
+    margin:0 40px 40px 0;
+  }
+
+
+}
+
+@media (max-width:429px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.8rem;
+  }
+
+  .navButton {
+    font-size:1.1rem;
+  }
+}
+
+@media (max-width:391px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:0.8rem;
+    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
   }
 }
