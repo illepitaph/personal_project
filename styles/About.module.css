@@ -92,3 +92,52 @@
   font-size:1.2rem;
   text-decoration: none;
 }
+
+@media (width:1024px) and (height:1366px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+
+@media (max-width:999px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+}
+
+@media (max-width:916px) and (orientation:landscape) {
+
+  .navButton {
+    margin:0 40px 40px 0;
+  }
+
+
+}
+
+@media (max-width:429px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.8rem;
+  }
+
+  .navButton {
+    font-size:1.1rem;
+  }
+}
+
+@media (max-width:391px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:0.8rem;
+  }
+}

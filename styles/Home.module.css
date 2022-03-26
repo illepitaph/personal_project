@@ -288,3 +288,85 @@
   right:31vw;
   opacity:0.55;
 }
+
+@media (width:1024px) and (height:1366px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+@media (max-width:999px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+}
+
+@media (max-width:916px) and (orientation:landscape) {
+
+  .navButton {
+    margin:0 40px 40px 0;
+  }
+
+  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
+    top:70.6vh;
+  }
+
+}
+
+@media (max-width:854px) and (orientation:landscape) {
+
+  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
+    top:68.6vh;
+  }
+
+
+}
+
+@media (max-width:801px) and (orientation:landscape) {
+
+  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
+    top:66.6vh;
+  }
+
+
+}
+
+@media (max-width:429px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.8rem;
+  }
+
+  .navButton {
+    font-size:1.1rem;
+  }
+
+  .imageBoxSixPointSix, .imageBoxElevenPointEight {
+    top:71.6vh;
+  }
+
+    .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+      top:86.6vh;
+    }
+}
+
+@media (max-width:391px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:0.8rem;
+    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:84vh;
+  }
+}
