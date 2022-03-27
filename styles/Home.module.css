@@ -291,6 +291,15 @@
   opacity:0.55;
 }
 
+@media (width:1368px) and (height:912px) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:87vh;
+  }
+
+
+}
+
 @media (width:1280px) and (height:800px) {
 
   .imageBoxSixPointSeven, .imageBoxElevenPointNine {
@@ -404,27 +413,27 @@
   }
 
   .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:40vh;
-  }
-
-  .imageBoxSixPointThree, .imageBoxElevenPointFour {
     top:50vh;
   }
 
+  .imageBoxSixPointThree, .imageBoxElevenPointFour {
+    top:58vh;
+  }
+
   .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:60vh;
+    top:66vh;
   }
 
   .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:70vh;
+    top:74vh;
   }
 
   .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:80vh;
+    top:82vh;
   }
 
   .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:89vh;
+    top:90vh;
   }
 
 }
@@ -475,27 +484,27 @@
   }
 
   .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:40vh;
+    top:55vh;
   }
 
   .imageBoxSixPointThree, .imageBoxElevenPointFour {
-    top:50vh;
+    top:63vh;
   }
 
   .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:60vh;
+    top:71vh;
   }
 
   .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:70vh;
+    top:79vh;
   }
 
   .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:80vh;
+    top:86vh;
   }
 
   .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:89vh;
+    top:93vh;
   }
 
 }
@@ -529,6 +538,10 @@
 }
 
 @media (max-width:429px) and (orientation:portrait) {
+
+  .nav {
+  justify-content: center;
+  }
 
   .name {
     font-size:1.8rem;
