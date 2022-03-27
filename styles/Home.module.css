@@ -24,7 +24,9 @@
 }
 
 .container {
+  position:relative;
   animation: fadeIn ease-in-out 3.6s;
+  overflow:hidden;
 }
 
 .imageBoxZero {
@@ -289,6 +291,33 @@
   opacity:0.55;
 }
 
+@media (width:1280px) and (height:800px) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:86vh;
+  }
+
+
+}
+
+@media (width:1194px) and (height:834px) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:86vh;
+  }
+
+
+}
+
+@media (width:1180px) and (height:820px) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:85vh;
+  }
+
+
+}
+
 @media (width:1024px) and (height:1366px) {
 
   .navButton {
@@ -306,31 +335,194 @@
 
 }
 
-@media (max-width:916px) and (orientation:landscape) {
+@media (max-width:927px) and (orientation:landscape) {
 
   .navButton {
     margin:0 40px 40px 0;
   }
 
   .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    top:70.6vh;
+    top:72vh;
   }
 
 }
+
+@media (width:912px) and (height:1368px) {
+
+  .imageBoxSixPointZero, .imageBoxElevenPointOne {
+    top:0;
+  }
+
+  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
+    top:10vh;
+  }
+
+  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
+    top:54vh;
+  }
+
+  .imageBoxSixPointThree, .imageBoxElevenPointFour {
+    top:62vh;
+  }
+
+  .imageBoxSixPointFour, .imageBoxElevenPointFive {
+    top:70vh;
+  }
+
+  .imageBoxSixPointFive, .imageBoxElevenPointSix {
+    top:78vh;
+  }
+
+  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
+    top:86vh;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:91vh;
+  }
+
+}
+
 
 @media (max-width:854px) and (orientation:landscape) {
 
   .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    top:68.6vh;
+    top:70vh;
   }
 
 
 }
 
-@media (max-width:801px) and (orientation:landscape) {
+@media (width:820px) and (height:1180px) {
 
-  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    top:66.6vh;
+  .imageBoxSixPointZero, .imageBoxElevenPointOne {
+    top:0;
+  }
+
+  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
+    top:10vh;
+  }
+
+  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
+    top:40vh;
+  }
+
+  .imageBoxSixPointThree, .imageBoxElevenPointFour {
+    top:50vh;
+  }
+
+  .imageBoxSixPointFour, .imageBoxElevenPointFive {
+    top:60vh;
+  }
+
+  .imageBoxSixPointFive, .imageBoxElevenPointSix {
+    top:70vh;
+  }
+
+  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
+    top:80vh;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:89vh;
+  }
+
+}
+@media (width:810px) and (height:1080px) {
+
+  .imageBoxSixPointZero, .imageBoxElevenPointOne {
+    top:0;
+  }
+
+  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
+    top:10vh;
+  }
+
+  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
+    top:40vh;
+  }
+
+  .imageBoxSixPointThree, .imageBoxElevenPointFour {
+    top:50vh;
+  }
+
+  .imageBoxSixPointFour, .imageBoxElevenPointFive {
+    top:60vh;
+  }
+
+  .imageBoxSixPointFive, .imageBoxElevenPointSix {
+    top:70vh;
+  }
+
+  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
+    top:80vh;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:89vh;
+  }
+
+}
+
+@media (width:800px) and (height:1280px) {
+
+  .imageBoxSixPointZero, .imageBoxElevenPointOne {
+    top:0;
+  }
+
+  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
+    top:10vh;
+  }
+
+  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
+    top:40vh;
+  }
+
+  .imageBoxSixPointThree, .imageBoxElevenPointFour {
+    top:50vh;
+  }
+
+  .imageBoxSixPointFour, .imageBoxElevenPointFive {
+    top:60vh;
+  }
+
+  .imageBoxSixPointFive, .imageBoxElevenPointSix {
+    top:70vh;
+  }
+
+  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
+    top:80vh;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:89vh;
+  }
+
+}
+
+@media (max-width:768px) and (orientation:portrait) {
+
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:88vh;
+  }
+
+
+}
+
+@media (width:720px) and (height:540px) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:77.5vh;
+  }
+
+
+}
+
+@media (max-width:667px) and (orientation:landscape) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
+    top:68vh;
   }
 
 
@@ -346,16 +538,35 @@
     font-size:1.1rem;
   }
 
+  .imageBoxOne, .imageBoxTwo, .imageBoxThree, .imageBoxFour, .imageBoxFive, .imageBoxSeven, .imageBoxEight, .imageBoxNine, .imageBoxTen, .imageBoxEleven {
+    top:9vh;
+  }
+
+  .imageBoxSixPointFive, .imageBoxElevenPointSeven {
+    top:61.6vh;
+  }
+
   .imageBoxSixPointSix, .imageBoxElevenPointEight {
-    top:71.6vh;
+    top:73.6vh;
   }
 
     .imageBoxSixPointSeven, .imageBoxElevenPointNine {
       top:86.6vh;
     }
+
+    .imageBoxSixPointZero, .imageBoxSixPointOne, .imageBoxSixPointTwo, .imageBoxSixPointThree, .imageBoxSixPointFour, .imageBoxSixPointFive,
+    .imageBoxSixPointSix,  .imageBoxSixPointSeven   {
+      left:13.5vw;
+    }
+
+    .imageBoxElevenPointOne, .imageBoxElevenPointTwo, .imageBoxElevenPointThree, .imageBoxElevenPointFour, .imageBoxElevenPointFive,
+    .imageBoxElevenPointSix,  .imageBoxElevenPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
+      right:13.5vw;
+    }
+
 }
 
-@media (max-width:391px) and (orientation:portrait) {
+@media (max-width:394px) and (orientation:portrait) {
 
   .name {
     font-size:1.5rem;
@@ -366,7 +577,40 @@
     box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
   }
 
+  .imageBoxSixPointOne, .imageBoxSixPointTwo, .imageBoxSixPointThree, .imageBoxSixPointFour, .imageBoxSixPointFive,
+  .imageBoxSixPointSix,  .imageBoxSixPointSeven   {
+    left:13.5vw;
+  }
+
+  .imageBoxElevenPointOne, .imageBoxElevenPointTwo, .imageBoxElevenPointThree, .imageBoxElevenPointFour, .imageBoxElevenPointFive,
+  .imageBoxElevenPointSix,  .imageBoxElevenPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
+    right:13.5vw;
+  }
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:86vh;
+  }
+}
+
+@media (max-width:376px) and (orientation:portrait) {
+
+  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
+    top:86vh;
+  }
+}
+
+
+
+@media (max-width:361px) and (orientation:portrait) {
+
   .imageBoxSixPointSeven, .imageBoxElevenPointNine {
     top:84vh;
+  }
+}
+
+@media (max-width:281px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.1rem;
   }
 }
