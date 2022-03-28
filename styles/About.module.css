@@ -93,7 +93,34 @@
   text-decoration: none;
 }
 
+@media (width:1080px) and (height:810px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
 @media (width:1024px) and (height:1366px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+@media (width:1024px) and (height:768px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+@media (width:1024px) and (height:600px) {
 
   .navButton {
     margin-bottom:40px;
