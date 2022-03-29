@@ -23,6 +23,11 @@ import Clouds from '../public/images/7. Clouds.jpg'
 import House from '../public/images/12. House.jpg'
 import styles from '../styles/Home.module.css'
 Home.title = "Steve Barbaro"
+Home.pieceName = "Steve Barbaro"
+Home.description = "homepage"
+Home.image = "https://www.stevebarbaro.com/images/Tatemae1.jpg"
+
+
 
 export default function Home() {
   return (

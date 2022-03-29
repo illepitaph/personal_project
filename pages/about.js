@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Link from 'next/Link'
 import styles from '../styles/About.module.css'
 About.title = "about — Steve Barbaro"
+About.pieceName = "about — Steve Barbaro"
+About.description = "about page"
+About.image = "https://www.stevebarbaro.com/images/Tatemae1.jpg"
+
 
 export default function About() {
   return (

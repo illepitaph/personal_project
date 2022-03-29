@@ -20,6 +20,9 @@ import HeraclesAndLeucothea from  '../public/images/10. Heracles & Leucothea.jpg
 import Diptych from '../public/images/4. Diptych.jpg'
 import styles from '../styles/Writing.module.css'
 Writing.title = "writing — Steve Barbaro"
+Writing.pieceName = "writing — Steve Barbaro"
+Writing.description = "collected writings_steve barbaro"
+Writing.image = "https://www.stevebarbaro.com/images/Tatemae1.jpg"
 
 export default function Writing() {
   return (
