@@ -42,7 +42,7 @@ export default function Home() {
           <div className={styles.buttonBox}>
           <Link href="/writing" passHref><button className={styles.navButton}>writing</button></Link>
           <Link href="/about" passHref><button className={styles.navButton}>about</button></Link>
-          <a target="_blank" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
+          <a target="_blank" rel="noreferrer" href="https://www.twitter.com/illepitaph" className={styles.navButton}>tweeter</a>
           </div>
           </div></div>
         <div className={styles.imageBoxOne}><Image src={Cracks} width={100} height={120}
