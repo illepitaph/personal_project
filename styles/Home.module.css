@@ -552,10 +552,6 @@
 
 @media (max-width:429px) and (orientation:portrait) {
 
-  .nav {
-  justify-content: center;
-  }
-
   .name {
     font-size:1.8rem;
     letter-spacing:0.3rem;
