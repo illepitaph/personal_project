@@ -212,7 +212,7 @@ export default function Writing() {
           href="http://www.versedaily.org/2013/spacefromnothing.shtml">Verse Daily</a> &#8678; (via <i>The Literary Review</i>) ( .. old tombs .. airplanes .. )
           </p>
           <p>
-          “<span className={styles.pieceTitleText}>Rue'd</span>” &#10132; <a target="_blank" rel="noreferrer"
+          “<span className={styles.pieceTitleText}>Rue&apos;d</span>” &#10132; <a target="_blank" rel="noreferrer"
           href="https://preludemag.com/posts/rued/">Prelude</a> &#8678; ( .. well .. ahem .. see .. )
           </p>
           <p>
@@ -261,13 +261,13 @@ export default function Writing() {
            </p>
            <p>
            “<span className={styles.pieceTitleText}>Deaf</span>” + “<span
-           className={styles.pieceTitleText}>The Dearth of Pyres</span>” &#10132; <a target="_blank" rel="noreferrer" href="http://www.westernhumanitiesreview.com/summer14/">Western Humanities Review</a> &#8678; ( .. smoke .. smokiness .. what's smoky .. )
+           className={styles.pieceTitleText}>The Dearth of Pyres</span>” &#10132; <a target="_blank" rel="noreferrer" href="http://www.westernhumanitiesreview.com/summer14/">Western Humanities Review</a> &#8678; ( .. smoke .. smokiness .. what&apos;s smoky .. )
            </p>
            <p>
            “<span className={styles.pieceTitleText}>Graffito Beholds a Sculpted Dionysus Head</span>” &#10132; <a target="_blank" rel="noreferrer" href="https://www.thecommononline.org/issues/issue-14/">The Common</a> &#8678; ( .. self .. explanatory .. )
            </p>
            <p>
-           “<span className={styles.pieceTitleText}>Tease of Unlikeness</span>” &#10132; <a target="_blank" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> &#8678; ( .. crackedness .. a face .. fakery .. )
+           “<span className={styles.pieceTitleText}>Tease of Unlikeness</span>” &#10132; <a target="_blank" rel="noreferrer" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> &#8678; ( .. crackedness .. a face .. fakery .. )
            </p>
            <p>
            “<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>” &#10132; <a target="_blank" rel="noreferrer" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> &#8678; ( .. more paintings .. more slippery .. )
