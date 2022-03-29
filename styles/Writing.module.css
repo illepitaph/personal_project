@@ -61,7 +61,7 @@
 }
 
 .navButton {
-  margin:1.9vw;
+  margin-right:1.9vw;
   font-family:"lores-9-minus-wide";
   font-size:1.35rem;
   font-weight:700;
@@ -456,7 +456,25 @@
     white-space:pre-line;
 }
 
+@media (width:1080px) and (height:810px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
 @media (width:1024px) and (height:1366px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+@media (width:1024px) and (height:768px) {
 
   .navButton {
     margin-bottom:40px;

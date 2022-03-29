@@ -336,6 +336,15 @@
 
 }
 
+@media (width:1024px) and (height:768px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
 @media (max-width:999px) {
 
   .navButton {
