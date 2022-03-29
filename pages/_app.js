@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
   <>
   <Head>
+  <html lang="en-US">
   <title>{Component.title}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta charSet="utf-8"/>
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }) {
   <meta name="twitter:image:src" content={Component.image} key="ogtitle"/>
   </Head>
   <Component {...pageProps} />
+  </html>
   </>
  );
 }
