@@ -25,7 +25,7 @@
 
 .container {
   position:relative;
-  animation: fadeIn ease-in-out 3.6s;
+  animation: fadeIn ease-in-out 2.6s;
   overflow:hidden;
 }
 
