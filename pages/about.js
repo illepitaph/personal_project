@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../styles/About.module.css'
 About.title = "about — Steve Barbaro"
 About.pieceName = "about — Steve Barbaro"
