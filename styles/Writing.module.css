@@ -494,28 +494,6 @@
      max-width:90%;
   }
 
-}
-
-@media (max-width:916px) and (orientation:landscape) {
-
-  .navButton {
-    margin:0 40px 40px 0;
-  }
-
-
-}
-
-@media (max-width:429px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.8rem;
-    letter-spacing:0.3rem;
-  }
-
-  .navButton {
-    font-size:1.1rem;
-  }
-
   .imageBoxThreePointFive {
     position:absolute;
     opacity:0.3;
@@ -786,6 +764,1402 @@
     left:42vw;
   }
 
+}
+
+@media (max-width:916px) and (orientation:landscape) {
+
+  .navButton {
+    margin:0 40px 40px 0;
+  }
+
+
+}
+
+@media (width:834px) and (height:1194px) {
+
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:105vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:74vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:81vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:89vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:109vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:140vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:154vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:154vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:199vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:304vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:314vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:344vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:364vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:394vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:399vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:379vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:414vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:436vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:463vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:483vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:493vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:503vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:513vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:523vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:533vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:543vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:563vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:42vw;
+  }
+
+}
+
+@media (width:820px) and (height:1180px) {
+
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:105vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:74vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:81vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:89vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:109vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:140vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:154vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:154vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:199vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:304vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:314vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:344vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:364vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:394vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:399vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:379vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:414vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:436vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:463vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:483vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:493vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:503vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:513vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:523vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:533vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:543vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:563vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:42vw;
+  }
+
+}
+
+@media (width:810px) and (height:1080px) {
+
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:105vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:74vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:81vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:89vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:109vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:140vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:154vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:154vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:199vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:304vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:314vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:344vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:364vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:394vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:399vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:379vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:414vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:436vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:463vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:483vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:493vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:503vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:513vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:523vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:533vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:543vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:563vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:42vw;
+  }
+
+}
+
+@media (width:800px) and (height:1280px) {
+
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:105vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:74vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:81vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:89vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:109vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:140vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:154vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:154vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:199vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:304vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:314vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:344vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:364vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:394vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:399vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:379vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:414vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:436vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:463vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:483vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:493vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:503vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:513vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:523vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:533vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:543vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:563vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:42vw;
+  }
+
+}
+
+@media (width:768px) and (height:1024px) {
+
+
+  .imageBoxThreePointFive {
+    position:absolute;
+    opacity:0.3;
+    top:105vh;
+  }
+
+  .imageBoxFour {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:74vh;
+  }
+
+  .imageBoxFourPointFive {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:81vh;
+  }
+
+  .imageBoxFive {
+    position:absolute;
+    opacity:0.5;
+    right:15vw;
+    top:89vh;
+  }
+
+  .imageBoxFivePointFive {
+    position:absolute;
+    opacity:0.5;
+    right:10vw;
+    top:109vh;
+  }
+
+  .imageBoxSix {
+    position:absolute;
+    opacity:0.5;
+    right:0;
+    top:140vh;
+  }
+
+  .imageBoxSeven {
+    position:absolute;
+    opacity:0.8;
+    right:0;
+    top:154vh;
+  }
+
+  .imageBoxEight {
+    position:absolute;
+    opacity:0.55;
+    top:154vh;
+  }
+
+  .imageBoxEightPointFive {
+    position:absolute;
+    opacity:0.25;
+    top:199vh;
+  }
+
+  .imageBoxNine {
+    position:absolute;
+    opacity:0.5;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxTen {
+    position:absolute;
+    opacity:0.3;
+    top:224vh;
+    right:0;
+  }
+
+  .imageBoxEleven {
+    position:absolute;
+    opacity:0.5;
+    top:304vh;
+    right:0;
+  }
+
+  .imageBoxTwelve {
+    position:absolute;
+    opacity:0.9;
+    top:314vh;
+    right:0;
+  }
+
+  .imageBoxThirteen {
+    position:absolute;
+    opacity:0.6;
+    top:344vh;
+    left:25vw;
+  }
+
+  .imageBoxThirteenPointFive {
+    position:absolute;
+    opacity:0.2;
+    top:364vh;
+    left:20vw;
+  }
+
+  .imageBoxFourteen {
+    position:absolute;
+    opacity:0.3;
+    top:394vh;
+    right:0;
+  }
+
+  .imageBoxFourteenPointFive {
+    position:absolute;
+    opacity:0.4;
+    top:399vh;
+    left:0;
+  }
+
+  .imageBoxFifteen {
+    position:absolute;
+    opacity:0.3;
+    top:379vh;
+    left:0;
+  }
+
+  .imageBoxSixteen {
+    position:absolute;
+    opacity:0.7;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxSeventeen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxEighteen {
+    position:absolute;
+    opacity:0.75;
+    top:394vh;
+    left:0;
+  }
+
+  .imageBoxNineteen {
+    position:absolute;
+    opacity:0.75;
+    top:414vh;
+    left:40vw;
+  }
+
+  .imageBoxTwenty {
+    position:absolute;
+    opacity:0.45;
+    top:436vh;
+    left:16vw;
+  }
+
+  .imageBoxTwentyOne {
+    position:absolute;
+    opacity:0.55;
+    top:463vh;
+    left:22vw;
+  }
+
+  .imageBoxTwentyTwo {
+    position:absolute;
+    opacity:0.55;
+    top:483vh;
+    right:0;
+  }
+
+  .imageBoxTwentyThree {
+    position:absolute;
+    opacity:0.55;
+    top:493vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFour {
+    position:absolute;
+    opacity:0.35;
+    top:503vh;
+    right:0;
+  }
+
+  .imageBoxTwentyFive {
+    position:absolute;
+    opacity:0.55;
+    top:513vh;
+    right:0;
+  }
+
+  .imageBoxTwentySix {
+    position:absolute;
+    opacity:0.45;
+    top:523vh;
+    right:0;
+  }
+
+  .imageBoxTwentySeven {
+    position:absolute;
+    opacity:0.45;
+    top:533vh;
+    right:0;
+  }
+
+  .imageBoxTwentyEight {
+    position:absolute;
+    opacity:0.75;
+    top:543vh;
+    right:0;
+  }
+
+  .imageBoxTwentyNine {
+    position:absolute;
+    opacity:0.45;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirty {
+    position:absolute;
+    opacity:0.35;
+    top:553vh;
+    right:0;
+  }
+
+  .imageBoxThirtyOne {
+    position:absolute;
+    opacity:0.75;
+    top:563vh;
+    right:0;
+  }
+
+  .imageBoxThirtyTwo {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:2vw;
+  }
+
+  .imageBoxThirtyThree {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:12vw;
+  }
+
+  .imageBoxThirtyFour {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:22vw;
+  }
+
+  .imageBoxThirtyFive {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:32vw;
+  }
+
+  .imageBoxThirtySix {
+    position:absolute;
+    opacity:0.75;
+    top:603vh;
+    left:42vw;
+  }
+
+}
+
+@media (max-width:429px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.8rem;
+    letter-spacing:0.3rem;
+  }
+
+  .navButton {
+    font-size:1.1rem;
+  }
 }
 
 @media (max-width:391px) and (orientation:portrait) {
