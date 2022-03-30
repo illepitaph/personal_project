@@ -345,11 +345,24 @@
 
 }
 
+@media (width:1024px) and (height:600px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
 @media (max-width:999px) {
 
   .container {
     animation: none;
 }
+
+  .name {
+    margin-left:7vw;
+  }
 
   .navButton {
     margin-bottom:40px;
@@ -555,10 +568,11 @@
   .name {
     font-size:1.8rem;
     letter-spacing:0.3rem;
+    margin-left:4vw;
   }
 
   .navButton {
-    font-size:1.1rem;
+    margin-left:10vw;
   }
 
   .imageBoxOne, .imageBoxTwo, .imageBoxThree, .imageBoxFour, .imageBoxFive, .imageBoxSeven, .imageBoxEight, .imageBoxNine, .imageBoxTen, .imageBoxEleven {
@@ -596,8 +610,7 @@
   }
 
   .navButton {
-    font-size:0.8rem;
-    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
+    font-size:1.2rem;
   }
 
   .imageBoxSixPointOne, .imageBoxSixPointTwo, .imageBoxSixPointThree, .imageBoxSixPointFour, .imageBoxSixPointFive,
@@ -635,5 +648,10 @@
 
   .name {
     font-size:1.1rem;
+  }
+
+  .navButton {
+  font-size:0.9rem;
+    box-shadow:2px 4px #00bfff, 4px 8px black;
   }
 }
