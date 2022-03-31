@@ -483,8 +483,22 @@
 
 }
 
+@media (width:1024px) and (height:600px) {
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+
+}
+
+
 
 @media (max-width:999px) {
+
+  .name {
+    margin-left:5vw;
+  }
 
   .navButton {
     margin-bottom:40px;
@@ -2150,15 +2164,24 @@
 
 }
 
+@media (max-width:721px) and (orientation:landscape) {
+
+  .name {
+    margin-right:16vw;
+  }
+
+}
+
 @media (max-width:429px) and (orientation:portrait) {
 
   .name {
     font-size:1.8rem;
     letter-spacing:0.3rem;
+    margin-left:4vw;
   }
 
   .navButton {
-    font-size:1.1rem;
+    margin-left:5vw;
   }
 }
 
@@ -2171,5 +2194,12 @@
   .navButton {
     font-size:0.8rem;
     box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
+  }
+}
+
+@media (max-width:321px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.1rem;
   }
 }
