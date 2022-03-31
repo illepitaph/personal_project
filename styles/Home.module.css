@@ -361,12 +361,13 @@
 }
 
   .name {
-    margin-left:7vw;
+    margin-left:5vw;
   }
 
   .navButton {
     margin-bottom:40px;
   }
+
 
 }
 
@@ -545,19 +546,23 @@
 
 }
 
-@media (width:720px) and (height:540px) {
+@media (max-width:721px) and (orientation:landscape) {
+
+  .name {
+    margin-right:16vw;
+  }
 
   .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:77.5vh;
+    top:68vh;
   }
 
 
 }
 
-@media (max-width:667px) and (orientation:landscape) {
+@media (width:720px) and (height:540px) {
 
   .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:68vh;
+    top:77.5vh;
   }
 
 
@@ -644,7 +649,7 @@
   }
 }
 
-@media (max-width:281px) and (orientation:portrait) {
+@media (max-width:321px) and (orientation:portrait) {
 
   .name {
     font-size:1.1rem;
