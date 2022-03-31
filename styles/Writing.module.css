@@ -490,10 +490,6 @@
     margin-bottom:40px;
   }
 
-  .navButton:hover {
-    display:none;
-  }
-
   .textContainer {
      max-width:90%;
   }

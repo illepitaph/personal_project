@@ -137,10 +137,6 @@
     margin-bottom:40px;
   }
 
-  .navButton:hover {
-    display:none;
-  }
-
 }
 
 @media (max-width:916px) and (orientation:landscape) {
