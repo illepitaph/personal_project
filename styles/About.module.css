@@ -96,6 +96,10 @@
 
 @media (width:1080px) and (height:810px) {
 
+  .name {
+    margin-left:7vw;
+  }
+
   .navButton {
     margin-bottom:40px;
   }
@@ -104,6 +108,10 @@
 }
 
 @media (width:1024px) and (height:1366px) {
+
+  .name {
+    margin-left:7vw;
+  }
 
   .navButton {
     margin-bottom:40px;
@@ -114,6 +122,11 @@
 
 @media (width:1024px) and (height:768px) {
 
+  .name {
+    margin-left:7vw;
+  }
+
+
   .navButton {
     margin-bottom:40px;
   }
@@ -122,6 +135,11 @@
 }
 
 @media (width:1024px) and (height:600px) {
+
+  .name {
+    margin-left:7vw;
+  }
+
 
   .navButton {
     margin-bottom:40px;
@@ -139,13 +157,31 @@
 
 }
 
-@media (max-width:916px) and (orientation:landscape) {
+@media (max-width:927px) and (orientation:landscape) {
+
+  .name {
+    margin-left:5vw;
+  }
+
 
   .navButton {
     margin:0 40px 40px 0;
   }
 
+}
 
+@media (max-width:769px) and (orientation:portrait) {
+
+  .name {
+    margin-left:6vw;
+  }
+}
+
+@media (max-width:721px) and (orientation:landscape) {
+
+  .name {
+    margin-right:16vw;
+  }
 }
 
 @media (max-width:429px) and (orientation:portrait) {
@@ -153,10 +189,11 @@
   .name {
     font-size:1.8rem;
     letter-spacing:0.3rem;
+    margin-left:4vw;
   }
 
   .navButton {
-    font-size:1.1rem;
+      margin-left:10vw;
   }
 }
 
@@ -169,4 +206,15 @@
   .navButton {
     font-size:0.8rem;
   }
+}
+
+@media (max-width:321px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.1rem;
+  }
+
+  .navButton {
+  font-size:0.9rem;
+ }
 }
