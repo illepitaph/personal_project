@@ -34,7 +34,7 @@ export default function Home() {
       <>
       <Head/>
       <div className={styles.container}>
-      <div className={styles.imageBoxZero}><Image src={Tatemae1} width={90} height={50}
+      <div className={styles.imageBoxZero}><Image src={Tatemae1}
         layout={`fill`} alt="Upclose Photgraph of a Staircase-ledge above which Looms a Ridge of Mountains"/>  <div className={styles.nav}>
           <div className={styles.name}>S<span className={styles.alternateLetteringTwo}>t</span><span className={styles.alternateLettering}>e</span>v<span className={styles.alternateLetteringTwo}>e</span> B<span
           className={styles.alternateLetteringTwo}>a</span>r<span className={styles.alternateLettering}>b</span>a<span className={styles.alternateLetteringTwo}>r</span><span
