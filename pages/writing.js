@@ -270,7 +270,7 @@ export default function Writing() {
            “<span className={styles.pieceTitleText}>Tease of Unlikeness</span>” &#10132; <a target="_blank" rel="noreferrer" href="http://www.amletters.org/Issues/issue24.html">American Letters + Commentary</a> &#8678; ( .. crackedness .. a face .. fakery .. )
            </p>
            <p>
-           “<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>” &#10132; <a target="_blank" rel="noreferrer" href="https://www.washingtonsquarereview.com/archives/5yv56ymr3lcq4jclt48nbfpkgbywq8">Washington Square</a> &#8678; ( .. more paintings .. more slippery .. )
+           “<span className={styles.pieceTitleText}>A Girl from Cannon Beach</span>” &#10132; <a target="_blank" rel="noreferrer" href="https://www.washingtonsquarereview.com/issue-28-fall-2011">Washington Square</a> &#8678; ( .. more paintings .. more slippery .. )
            </p>
            <p>
            “<span className={styles.pieceTitleText}>Space from Nothing</span>” + “<span
