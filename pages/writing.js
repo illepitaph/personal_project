@@ -462,7 +462,7 @@ export default function Writing() {
             </span>
           </p>
           <br />
-          <p>
+          <div>
             [
             <span className={styles.grayText}>
               <span className={styles.alternateSnowText}>f</span>i
@@ -470,7 +470,19 @@ export default function Writing() {
               <span className={styles.alternateSnowText}>n</span>
             </span>
             ]<br />
-            <br />“<span className={styles.pieceTitleText}>Celestial Camo</span>
+            <br /><p>
+            “<span className={styles.pieceTitleText}>How Yummy Is Purgatory</span>”
+            &#10132;{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.3ammagazine.com/3am/how-yummy-is-purgatory/"
+            >
+              3:AM
+            </a>{" "}
+            &#8678; ( .. the afterlife .. .. flipbooks .. .. property ..
+            leaving a nation permanently .. )
+          </p>“<span className={styles.pieceTitleText}>Celestial Camo</span>
             ” &#10132;{" "}
             <a
               target="_blank"
@@ -481,7 +493,7 @@ export default function Writing() {
               Socrates on The Beach
             </a>{" "}
             &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
-          </p>
+          </div>
           <p>
             “
             <span className={styles.pieceTitleText}>
@@ -573,6 +585,17 @@ export default function Writing() {
               The Common
             </a>{" "}
             &#8678; ( .. self .. explanatory .. )
+          </p>
+          <p>
+            “<span className={styles.pieceTitleText}>Excess Aspects of Irretrievable Triptychs</span>” &#10132;{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://quiparle.berkeley.edu/ki_1_barbaro"
+            >
+              Ki
+            </a>{" "}
+            &#8678; ( .. masterpieces .. floods .. the iffy ..)
           </p>
           <p>
             “<span className={styles.pieceTitleText}>Wee</span>” &#10132;{" "}
