@@ -2187,6 +2187,20 @@
     
     }
     }
+
+    @media (width:1194px) and (height:834px) {
+
+      .name {
+        font-size:1.7rem;
+      }
+
+      .navButton {
+        font-size:1rem;
+      
+      }
+    
+    
+    }
     
 
 @media (width:1180px) and (height:820px) {
