@@ -211,6 +211,13 @@
   }
 }
 
+@media (width: 820px) and (height: 1180px) {
+  .name {
+    margin-left: 6vw;
+  }
+}
+
+
 @media (width: 800px) and (height: 1280px) {
   .name {
     margin-left: 6vw;
