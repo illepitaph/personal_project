@@ -1,26 +1,46 @@
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
@@ -28,402 +48,398 @@
 }
 
 .nav {
-  position:relative;
-  display:flex;
-  justify-content:space-between;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin:8vh 2vw;
-  z-index:99;
+  margin: 8vh 2vw;
+  z-index: 99;
 }
 
 .name {
-  display:inline;
-  color:white;
+  display: inline;
+  color: white;
   font-family: "lores-9-narrow", monospace;
-  font-size:2rem;
-  font-weight:700;
-  letter-spacing:0.71em;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.71em;
   text-shadow: 2px 3px #00bfff, 3px 4px black;
-  text-transform:lowercase;
-  z-index:99;
+  text-transform: lowercase;
+  z-index: 99;
 }
 
 .alternateLettering {
-  color:#00bfff;
-  text-shadow:2px 3px black, 3px 4px #b0b0b0;
-  text-transform:uppercase;
-}
-
-.alternateLetteringTwo {
-  color:#faf8dc;
-  text-shadow:2px 3px black, 3px 4px #e4000f;
-  text-transform:uppercase;
-}
-
-.navButton {
-  margin-right:1.9vw;
-  font-family:"lores-9-minus-wide";
-  font-size:1.35rem;
-  font-weight:700;
-  display:inline;
-  border:none;
-  background:inherit;
-  color:white;
-  box-shadow:4px 8px #00bfff, 8px 12px gainsboro;
-  text-transform:uppercase;
-  text-decoration:none;
-  font-style:normal;
-  letter-spacing:0.15rem;
-  cursor:pointer;
-}
-
-.navButton:hover {
-   color:silver;
-   text-shadow:2px 16px lightgray;
-   letter-spacing:0.3rem;
-   text-transform:lowercase;
-   font-style:normal;
-   padding:7px 0 0 10px;
-   box-shadow:inset 4px 6px #00bfff, 4px 10px #faf8dc;
-   z-index:99;
-}
-
-
-.textContainer {
-  position:relative;
-  max-width:65%;
-  margin:0 auto;
-  margin-top:25vh;
-  font-family: "lores-9-plus-wide", monospace;
-  font-size:1.2rem;
-  font-weight:400;
-  letter-spacing: 0.15rem;
-  line-height:1.6em;
-  white-space:pre-line;
-}
-
-.imageBoxZero {
-  position:absolute;
-  top:0;
-  right:22vw;
-  opacity:0.6;
-}
-
-.imageBoxZeroPointFive {
-  position:absolute;
-  top:0;
-  right:17vw;
-  opacity:0.6;
-}
-
-
-.imageBoxOne {
-  position:absolute;
-  top:2vh;
-  opacity:0.7;
-}
-
-.imageBoxTwo {
-  position:absolute;
-  opacity:0.3;
-  top:12vh;
-}
-
-.imageBoxThree {
-  position:absolute;
-  opacity:0.6;
-  top:33vh;
-}
-
-.imageBoxThreePointFive {
-  position:absolute;
-  opacity:0.3;
-  top:65vh;
-}
-
-.imageBoxFour {
-  position:absolute;
-  opacity:0.5;
-  right:0;
-  top:24vh;
-}
-
-.imageBoxFourPointFive {
-  position:absolute;
-  opacity:0.5;
-  right:0;
-  top:31vh;
-}
-
-.imageBoxFive {
-  position:absolute;
-  opacity:0.5;
-  right:15vw;
-  top:59vh;
-}
-
-.imageBoxFivePointFive {
-  position:absolute;
-  opacity:0.5;
-  right:10vw;
-  top:59vh;
-}
-
-.imageBoxSix {
-  position:absolute;
-  opacity:0.5;
-  right:0;
-  top:100vh;
-}
-
-.imageBoxSeven {
-  position:absolute;
-  opacity:0.8;
-  right:0;
-  top:114vh;
-}
-
-.imageBoxEight {
-  position:absolute;
-  opacity:0.55;
-  top:144vh;
-}
-
-.imageBoxEightPointFive {
-  position:absolute;
-  opacity:0.25;
-  top:159vh;
-}
-
-.imageBoxNine {
-  position:absolute;
-  opacity:0.5;
-  top:184vh;
-  right:0;
-}
-
-.imageBoxTen {
-  position:absolute;
-  opacity:0.3;
-  top:194vh;
-  right:0;
-}
-
-.imageBoxEleven {
-  position:absolute;
-  opacity:0.5;
-  top:204vh;
-  right:0;
-}
-
-.imageBoxTwelve {
-  position:absolute;
-  opacity:0.9;
-  top:214vh;
-  right:0;
-}
-
-.imageBoxThirteen {
-  position:absolute;
-  opacity:0.6;
-  top:234vh;
-  left:25vw;
-}
-
-.imageBoxThirteenPointFive {
-  position:absolute;
-  opacity:0.2;
-  top:254vh;
-  left:20vw;
-}
-
-.imageBoxFourteen {
-  position:absolute;
-  opacity:0.3;
-  top:284vh;
-  right:0;
-}
-
-.imageBoxFourteenPointFive {
-  position:absolute;
-  opacity:0.4;
-  top:289vh;
-  left:0;
-}
-
-.imageBoxFifteen {
-  position:absolute;
-  opacity:0.3;
-  top:349vh;
-  left:0;
-}
-
-.imageBoxSixteen {
-  position:absolute;
-  opacity:0.7;
-  top:364vh;
-  left:0;
-}
-
-.imageBoxSeventeen {
-  position:absolute;
-  opacity:0.75;
-  top:379vh;
-  left:0;
-}
-
-.imageBoxEighteen {
-  position:absolute;
-  opacity:0.75;
-  top:394vh;
-  left:0;
-}
-
-.imageBoxNineteen {
-  position:absolute;
-  opacity:0.75;
-  top:381vh;
-  left:40vw;
-}
-
-.imageBoxTwenty {
-  position:absolute;
-  opacity:0.45;
-  top:406vh;
-  left:36vw;
-}
-
-.imageBoxTwentyOne {
-  position:absolute;
-  opacity:0.55;
-  top:433vh;
-  left:32vw;
-}
-
-.imageBoxTwentyTwo {
-  position:absolute;
-  opacity:0.55;
-  top:453vh;
-  right:0;
-}
-
-.imageBoxTwentyThree {
-  position:absolute;
-  opacity:0.55;
-  top:463vh;
-  right:0;
-}
-
-.imageBoxTwentyFour {
-  position:absolute;
-  opacity:0.35;
-  top:473vh;
-  right:0;
-}
-
-.imageBoxTwentyFive {
-  position:absolute;
-  opacity:0.55;
-  top:483vh;
-  right:0;
-}
-
-.imageBoxTwentySix {
-  position:absolute;
-  opacity:0.45;
-  top:493vh;
-  right:0;
-}
-
-.imageBoxTwentySeven {
-  position:absolute;
-  opacity:0.45;
-  top:503vh;
-  right:0;
-}
-
-.imageBoxTwentyEight {
-  position:absolute;
-  opacity:0.75;
-  top:513vh;
-  right:0;
-}
-
-.imageBoxTwentyNine {
-  position:absolute;
-  opacity:0.45;
-  top:523vh;
-  right:0;
-}
-
-.imageBoxThirty {
-  position:absolute;
-  opacity:0.35;
-  top:523vh;
-  right:0;
-}
-
-.imageBoxThirtyOne {
-  position:absolute;
-  opacity:0.75;
-  top:533vh;
-  right:0;
-}
-
-.imageBoxThirtyTwo {
-  position:absolute;
-  opacity:0.75;
-  top:573vh;
-  left:2vw;
-}
-
-.imageBoxThirtyThree {
-  position:absolute;
-  opacity:0.75;
-  top:573vh;
-  left:12vw;
-}
-
-.imageBoxThirtyFour {
-  position:absolute;
-  opacity:0.75;
-  top:573vh;
-  left:22vw;
-}
-
-.imageBoxThirtyFive {
-  position:absolute;
-  opacity:0.75;
-  top:573vh;
-  left:32vw;
-}
-
-.imageBoxThirtySix {
-  position:absolute;
-  opacity:0.75;
-  top:573vh;
-  left:42vw;
-}
-
-
-
-
-.grayText {
-  color:#b0b0b0;
-  font-weight:700;
-}
-
-.alternateSnowText {
-  color:snow;
-  font-weight:700;
+  color: #00bfff;
+  text-shadow: 2px 3px black, 3px 4px #b0b0b0;
   text-transform: uppercase;
 }
 
-.grayTextUppercaseOne, .grayTextUppercaseTwo {
-  font-size:2.9rem;
-  color:#b0b0b0;
-  font-weight:700;
-  text-transform:uppercase;
+.alternateLetteringTwo {
+  color: #faf8dc;
+  text-shadow: 2px 3px black, 3px 4px #e4000f;
+  text-transform: uppercase;
+}
+
+.navButton {
+  margin-right: 1.9vw;
+  font-family: "lores-9-minus-wide";
+  font-size: 1.35rem;
+  font-weight: 700;
+  display: inline;
+  border: none;
+  background: inherit;
+  color: white;
+  box-shadow: 4px 8px #00bfff, 8px 12px gainsboro;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  color: silver;
+  text-shadow: 2px 16px lightgray;
+  letter-spacing: 0.3rem;
+  text-transform: lowercase;
+  font-style: normal;
+  padding: 7px 0 0 10px;
+  box-shadow: inset 4px 6px #00bfff, 4px 10px #faf8dc;
+  z-index: 99;
+}
+
+.textContainer {
+  position: relative;
+  max-width: 65%;
+  margin: 0 auto;
+  margin-top: 25vh;
+  font-family: "lores-9-plus-wide", monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  line-height: 1.6em;
+  white-space: pre-line;
+}
+
+.imageBoxZero {
+  position: absolute;
+  top: 0;
+  right: 22vw;
+  opacity: 0.6;
+}
+
+.imageBoxZeroPointFive {
+  position: absolute;
+  top: 0;
+  right: 17vw;
+  opacity: 0.6;
+}
+
+.imageBoxOne {
+  position: absolute;
+  top: 2vh;
+  opacity: 0.7;
+}
+
+.imageBoxTwo {
+  position: absolute;
+  opacity: 0.3;
+  top: 12vh;
+}
+
+.imageBoxThree {
+  position: absolute;
+  opacity: 0.6;
+  top: 33vh;
+}
+
+.imageBoxThreePointFive {
+  position: absolute;
+  opacity: 0.3;
+  top: 65vh;
+}
+
+.imageBoxFour {
+  position: absolute;
+  opacity: 0.5;
+  right: 0;
+  top: 24vh;
+}
+
+.imageBoxFourPointFive {
+  position: absolute;
+  opacity: 0.5;
+  right: 0;
+  top: 31vh;
+}
+
+.imageBoxFive {
+  position: absolute;
+  opacity: 0.5;
+  right: 15vw;
+  top: 59vh;
+}
+
+.imageBoxFivePointFive {
+  position: absolute;
+  opacity: 0.5;
+  right: 10vw;
+  top: 59vh;
+}
+
+.imageBoxSix {
+  position: absolute;
+  opacity: 0.5;
+  right: 0;
+  top: 100vh;
+}
+
+.imageBoxSeven {
+  position: absolute;
+  opacity: 0.8;
+  right: 0;
+  top: 114vh;
+}
+
+.imageBoxEight {
+  position: absolute;
+  opacity: 0.55;
+  top: 144vh;
+}
+
+.imageBoxEightPointFive {
+  position: absolute;
+  opacity: 0.25;
+  top: 159vh;
+}
+
+.imageBoxNine {
+  position: absolute;
+  opacity: 0.5;
+  top: 184vh;
+  right: 0;
+}
+
+.imageBoxTen {
+  position: absolute;
+  opacity: 0.3;
+  top: 194vh;
+  right: 0;
+}
+
+.imageBoxEleven {
+  position: absolute;
+  opacity: 0.5;
+  top: 204vh;
+  right: 0;
+}
+
+.imageBoxTwelve {
+  position: absolute;
+  opacity: 0.9;
+  top: 214vh;
+  right: 0;
+}
+
+.imageBoxThirteen {
+  position: absolute;
+  opacity: 0.6;
+  top: 234vh;
+  left: 25vw;
+}
+
+.imageBoxThirteenPointFive {
+  position: absolute;
+  opacity: 0.2;
+  top: 254vh;
+  left: 20vw;
+}
+
+.imageBoxFourteen {
+  position: absolute;
+  opacity: 0.3;
+  top: 284vh;
+  right: 0;
+}
+
+.imageBoxFourteenPointFive {
+  position: absolute;
+  opacity: 0.4;
+  top: 289vh;
+  left: 0;
+}
+
+.imageBoxFifteen {
+  position: absolute;
+  opacity: 0.3;
+  top: 349vh;
+  left: 0;
+}
+
+.imageBoxSixteen {
+  position: absolute;
+  opacity: 0.7;
+  top: 364vh;
+  left: 0;
+}
+
+.imageBoxSeventeen {
+  position: absolute;
+  opacity: 0.75;
+  top: 379vh;
+  left: 0;
+}
+
+.imageBoxEighteen {
+  position: absolute;
+  opacity: 0.75;
+  top: 394vh;
+  left: 0;
+}
+
+.imageBoxNineteen {
+  position: absolute;
+  opacity: 0.75;
+  top: 381vh;
+  left: 40vw;
+}
+
+.imageBoxTwenty {
+  position: absolute;
+  opacity: 0.45;
+  top: 406vh;
+  left: 36vw;
+}
+
+.imageBoxTwentyOne {
+  position: absolute;
+  opacity: 0.55;
+  top: 433vh;
+  left: 32vw;
+}
+
+.imageBoxTwentyTwo {
+  position: absolute;
+  opacity: 0.55;
+  top: 453vh;
+  right: 0;
+}
+
+.imageBoxTwentyThree {
+  position: absolute;
+  opacity: 0.55;
+  top: 463vh;
+  right: 0;
+}
+
+.imageBoxTwentyFour {
+  position: absolute;
+  opacity: 0.35;
+  top: 473vh;
+  right: 0;
+}
+
+.imageBoxTwentyFive {
+  position: absolute;
+  opacity: 0.55;
+  top: 483vh;
+  right: 0;
+}
+
+.imageBoxTwentySix {
+  position: absolute;
+  opacity: 0.45;
+  top: 493vh;
+  right: 0;
+}
+
+.imageBoxTwentySeven {
+  position: absolute;
+  opacity: 0.45;
+  top: 503vh;
+  right: 0;
+}
+
+.imageBoxTwentyEight {
+  position: absolute;
+  opacity: 0.75;
+  top: 513vh;
+  right: 0;
+}
+
+.imageBoxTwentyNine {
+  position: absolute;
+  opacity: 0.45;
+  top: 523vh;
+  right: 0;
+}
+
+.imageBoxThirty {
+  position: absolute;
+  opacity: 0.35;
+  top: 523vh;
+  right: 0;
+}
+
+.imageBoxThirtyOne {
+  position: absolute;
+  opacity: 0.75;
+  top: 533vh;
+  right: 0;
+}
+
+.imageBoxThirtyTwo {
+  position: absolute;
+  opacity: 0.75;
+  top: 573vh;
+  left: 2vw;
+}
+
+.imageBoxThirtyThree {
+  position: absolute;
+  opacity: 0.75;
+  top: 573vh;
+  left: 12vw;
+}
+
+.imageBoxThirtyFour {
+  position: absolute;
+  opacity: 0.75;
+  top: 573vh;
+  left: 22vw;
+}
+
+.imageBoxThirtyFive {
+  position: absolute;
+  opacity: 0.75;
+  top: 573vh;
+  left: 32vw;
+}
+
+.imageBoxThirtySix {
+  position: absolute;
+  opacity: 0.75;
+  top: 573vh;
+  left: 42vw;
+}
+
+.grayText {
+  color: #b0b0b0;
+  font-weight: 700;
+}
+
+.alternateSnowText {
+  color: snow;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.grayTextUppercaseOne,
+.grayTextUppercaseTwo {
+  font-size: 2.9rem;
+  color: #b0b0b0;
+  font-weight: 700;
+  text-transform: uppercase;
   text-shadow: 2px 3px black, 3px 4px white;
 }
 
@@ -431,11 +447,12 @@
   animation: fadeIn ease-in-out 1.6s;
 }
 
-.alternateUppercaseOne, .alternateUppercaseTwo {
-  font-size:2.9rem;
-  color:snow;
-  font-weight:700;
-  text-transform:uppercase;
+.alternateUppercaseOne,
+.alternateUppercaseTwo {
+  font-size: 2.9rem;
+  color: snow;
+  font-weight: 700;
+  text-transform: uppercase;
   text-shadow: 2px 3px black, 3px 4px #e4000f;
 }
 
@@ -444,1831 +461,1781 @@
 }
 
 .pieceTitleText {
-    color:gainsboro;
-    font-size:1.5rem;
-    font-family: "lores-9-narrow", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform:uppercase;
-    text-shadow:2px 3px black,
-                3px 5px #e4000f;
-    z-index:99;
-    white-space:pre-line;
+  color: gainsboro;
+  font-size: 1.5rem;
+  font-family: "lores-9-narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-shadow: 2px 3px black, 3px 5px #e4000f;
+  z-index: 99;
+  white-space: pre-line;
 }
 
-@media (width:1080px) and (height:810px) {
-
+@media (width: 1080px) and (height: 810px) {
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
-
-
 }
 
-@media (width:1024px) and (height:1366px) {
-
+@media (width: 1024px) and (height: 1366px) {
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
-
-
 }
 
-@media (width:1024px) and (height:768px) {
-
+@media (width: 1024px) and (height: 768px) {
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
-
-
 }
 
-@media (width:1024px) and (height:600px) {
-
+@media (width: 1024px) and (height: 600px) {
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
-
-
 }
 
-
-
-@media (max-width:999px) {
-
+@media (max-width: 999px) {
   .name {
-    margin-left:5vw;
+    margin-left: 5vw;
   }
 
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
 
   .textContainer {
-     max-width:90%;
+    max-width: 90%;
   }
 
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:145vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 145vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:104vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 104vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:121vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 121vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:129vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 129vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:149vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 149vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:180vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 180vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:194vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 194vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:194vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 194vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:239vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 239vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:264vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 264vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:264vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 264vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:344vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 344vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:354vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 354vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:384vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 384vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:404vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 404vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:634vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 634vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:639vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 639vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:819vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 819vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:834vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 834vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:839vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 839vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:864vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 864vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:854vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 854vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:876vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 876vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:903vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 903vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:923vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 923vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:933vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 933vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:943vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 943vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:953vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 953vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:963vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 963vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:973vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 973vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:983vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 983vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:993vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 993vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:993vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 993vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:1003vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 1003vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:1043vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 1043vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:1043vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 1043vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:1043vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 1043vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:1043vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 1043vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:1043vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 1043vh;
+    left: 42vw;
   }
-
 }
 
-@media (max-width:916px) and (orientation:landscape) {
-
+@media (max-width: 916px) and (orientation: landscape) {
   .navButton {
-    margin:0 40px 40px 0;
+    margin: 0 40px 40px 0;
   }
-
-
 }
 
-@media (width:834px) and (height:1194px) {
-
-
+@media (width: 834px) and (height: 1194px) {
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:105vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 105vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:74vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 74vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:81vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 81vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:89vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 89vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:109vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 109vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:140vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 140vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:154vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 154vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:154vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 154vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:199vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 199vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:304vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 304vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:314vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 314vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:344vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 344vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:364vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 364vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:394vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 394vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:399vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 399vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:379vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 379vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:414vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 414vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:436vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 436vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:463vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 463vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:483vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 483vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:493vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 493vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:503vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 503vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:513vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 513vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:523vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 523vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:533vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 533vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:543vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 543vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:563vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 563vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 42vw;
   }
-
 }
 
-@media (width:820px) and (height:1180px) {
-
-
+@media (width: 820px) and (height: 1180px) {
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:105vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 105vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:74vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 74vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:81vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 81vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:89vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 89vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:109vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 109vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:140vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 140vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:154vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 154vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:154vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 154vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:199vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 199vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:304vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 304vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:314vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 314vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:344vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 344vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:364vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 364vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:394vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 394vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:399vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 399vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:379vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 379vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:414vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 414vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:436vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 436vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:463vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 463vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:483vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 483vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:493vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 493vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:503vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 503vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:513vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 513vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:523vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 523vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:533vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 533vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:543vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 543vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:563vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 563vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 42vw;
   }
-
 }
 
-@media (width:810px) and (height:1080px) {
-
-
+@media (width: 810px) and (height: 1080px) {
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:105vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 105vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:74vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 74vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:81vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 81vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:89vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 89vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:109vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 109vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:140vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 140vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:154vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 154vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:154vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 154vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:199vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 199vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:304vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 304vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:314vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 314vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:344vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 344vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:364vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 364vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:394vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 394vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:399vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 399vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:379vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 379vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:414vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 414vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:436vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 436vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:463vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 463vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:483vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 483vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:493vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 493vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:503vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 503vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:513vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 513vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:523vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 523vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:533vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 533vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:543vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 543vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:563vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 563vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 42vw;
   }
-
 }
 
-@media (width:800px) and (height:1280px) {
-
-
+@media (width: 800px) and (height: 1280px) {
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:105vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 105vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:74vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 74vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:81vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 81vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:89vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 89vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:109vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 109vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:140vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 140vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:154vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 154vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:154vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 154vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:199vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 199vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:304vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 304vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:314vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 314vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:344vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 344vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:364vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 364vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:394vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 394vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:399vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 399vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:379vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 379vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:414vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 414vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:436vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 436vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:463vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 463vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:483vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 483vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:493vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 493vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:503vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 503vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:513vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 513vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:523vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 523vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:533vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 533vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:543vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 543vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:563vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 563vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 42vw;
   }
-
 }
 
-@media (width:768px) and (height:1024px) {
-
-
+@media (width: 768px) and (height: 1024px) {
   .imageBoxThreePointFive {
-    position:absolute;
-    opacity:0.3;
-    top:105vh;
+    position: absolute;
+    opacity: 0.3;
+    top: 105vh;
   }
 
   .imageBoxFour {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:74vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 74vh;
   }
 
   .imageBoxFourPointFive {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:81vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 81vh;
   }
 
   .imageBoxFive {
-    position:absolute;
-    opacity:0.5;
-    right:15vw;
-    top:89vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 15vw;
+    top: 89vh;
   }
 
   .imageBoxFivePointFive {
-    position:absolute;
-    opacity:0.5;
-    right:10vw;
-    top:109vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 10vw;
+    top: 109vh;
   }
 
   .imageBoxSix {
-    position:absolute;
-    opacity:0.5;
-    right:0;
-    top:140vh;
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+    top: 140vh;
   }
 
   .imageBoxSeven {
-    position:absolute;
-    opacity:0.8;
-    right:0;
-    top:154vh;
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    top: 154vh;
   }
 
   .imageBoxEight {
-    position:absolute;
-    opacity:0.55;
-    top:154vh;
+    position: absolute;
+    opacity: 0.55;
+    top: 154vh;
   }
 
   .imageBoxEightPointFive {
-    position:absolute;
-    opacity:0.25;
-    top:199vh;
+    position: absolute;
+    opacity: 0.25;
+    top: 199vh;
   }
 
   .imageBoxNine {
-    position:absolute;
-    opacity:0.5;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxTen {
-    position:absolute;
-    opacity:0.3;
-    top:224vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 224vh;
+    right: 0;
   }
 
   .imageBoxEleven {
-    position:absolute;
-    opacity:0.5;
-    top:304vh;
-    right:0;
+    position: absolute;
+    opacity: 0.5;
+    top: 304vh;
+    right: 0;
   }
 
   .imageBoxTwelve {
-    position:absolute;
-    opacity:0.9;
-    top:314vh;
-    right:0;
+    position: absolute;
+    opacity: 0.9;
+    top: 314vh;
+    right: 0;
   }
 
   .imageBoxThirteen {
-    position:absolute;
-    opacity:0.6;
-    top:344vh;
-    left:25vw;
+    position: absolute;
+    opacity: 0.6;
+    top: 344vh;
+    left: 25vw;
   }
 
   .imageBoxThirteenPointFive {
-    position:absolute;
-    opacity:0.2;
-    top:364vh;
-    left:20vw;
+    position: absolute;
+    opacity: 0.2;
+    top: 364vh;
+    left: 20vw;
   }
 
   .imageBoxFourteen {
-    position:absolute;
-    opacity:0.3;
-    top:394vh;
-    right:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 394vh;
+    right: 0;
   }
 
   .imageBoxFourteenPointFive {
-    position:absolute;
-    opacity:0.4;
-    top:399vh;
-    left:0;
+    position: absolute;
+    opacity: 0.4;
+    top: 399vh;
+    left: 0;
   }
 
   .imageBoxFifteen {
-    position:absolute;
-    opacity:0.3;
-    top:379vh;
-    left:0;
+    position: absolute;
+    opacity: 0.3;
+    top: 379vh;
+    left: 0;
   }
 
   .imageBoxSixteen {
-    position:absolute;
-    opacity:0.7;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.7;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxSeventeen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxEighteen {
-    position:absolute;
-    opacity:0.75;
-    top:394vh;
-    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 394vh;
+    left: 0;
   }
 
   .imageBoxNineteen {
-    position:absolute;
-    opacity:0.75;
-    top:414vh;
-    left:40vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 414vh;
+    left: 40vw;
   }
 
   .imageBoxTwenty {
-    position:absolute;
-    opacity:0.45;
-    top:436vh;
-    left:16vw;
+    position: absolute;
+    opacity: 0.45;
+    top: 436vh;
+    left: 16vw;
   }
 
   .imageBoxTwentyOne {
-    position:absolute;
-    opacity:0.55;
-    top:463vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.55;
+    top: 463vh;
+    left: 22vw;
   }
 
   .imageBoxTwentyTwo {
-    position:absolute;
-    opacity:0.55;
-    top:483vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 483vh;
+    right: 0;
   }
 
   .imageBoxTwentyThree {
-    position:absolute;
-    opacity:0.55;
-    top:493vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 493vh;
+    right: 0;
   }
 
   .imageBoxTwentyFour {
-    position:absolute;
-    opacity:0.35;
-    top:503vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 503vh;
+    right: 0;
   }
 
   .imageBoxTwentyFive {
-    position:absolute;
-    opacity:0.55;
-    top:513vh;
-    right:0;
+    position: absolute;
+    opacity: 0.55;
+    top: 513vh;
+    right: 0;
   }
 
   .imageBoxTwentySix {
-    position:absolute;
-    opacity:0.45;
-    top:523vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 523vh;
+    right: 0;
   }
 
   .imageBoxTwentySeven {
-    position:absolute;
-    opacity:0.45;
-    top:533vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 533vh;
+    right: 0;
   }
 
   .imageBoxTwentyEight {
-    position:absolute;
-    opacity:0.75;
-    top:543vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 543vh;
+    right: 0;
   }
 
   .imageBoxTwentyNine {
-    position:absolute;
-    opacity:0.45;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.45;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirty {
-    position:absolute;
-    opacity:0.35;
-    top:553vh;
-    right:0;
+    position: absolute;
+    opacity: 0.35;
+    top: 553vh;
+    right: 0;
   }
 
   .imageBoxThirtyOne {
-    position:absolute;
-    opacity:0.75;
-    top:563vh;
-    right:0;
+    position: absolute;
+    opacity: 0.75;
+    top: 563vh;
+    right: 0;
   }
 
   .imageBoxThirtyTwo {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:2vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 2vw;
   }
 
   .imageBoxThirtyThree {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:12vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 12vw;
   }
 
   .imageBoxThirtyFour {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:22vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 22vw;
   }
 
   .imageBoxThirtyFive {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:32vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 32vw;
   }
 
   .imageBoxThirtySix {
-    position:absolute;
-    opacity:0.75;
-    top:603vh;
-    left:42vw;
+    position: absolute;
+    opacity: 0.75;
+    top: 603vh;
+    left: 42vw;
   }
-
 }
 
-@media (width:1368px) and (height:912px) {
-
+@media (width: 1368px) and (height: 912px) {
   .navButton {
-    font-size:1.2rem;
-  
+    font-size: 1.2rem;
   }
-  }
+}
 
-@media (width:1366px) and (height:1024px) {
-
+@media (width: 1366px) and (height: 1024px) {
   .navButton {
-    font-size:1.2rem;
-  
+    font-size: 1.2rem;
   }
-  }
-  
-  @media (width:1280px) and (height:800px) {
-
-    .navButton {
-      font-size:1rem;
-    
-    }
-    }
-
-    @media (width:1194px) and (height:834px) {
-
-      .name {
-        font-size:1.7rem;
-      }
-
-      .navButton {
-        font-size:1rem;
-      
-      }
-    
-    
-    }
-    
-
-@media (width:1180px) and (height:820px) {
-
-.navButton {
-  font-size:0.9rem;
-
-}
 }
 
-@media (max-width:721px) and (orientation:landscape) {
+@media (width: 1280px) and (height: 800px) {
+  .navButton {
+    font-size: 1rem;
+  }
+}
 
+@media (width: 1194px) and (height: 834px) {
   .name {
-    margin-right:16vw;
-  }
-
-}
-
-@media (max-width:429px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.8rem;
-    letter-spacing:0.3rem;
-    margin-left:4vw;
+    font-size: 1.7rem;
   }
 
   .navButton {
-    margin-left:1vw;
-    font-size:1rem;
-  }
-
-  .imageBoxNineteen {
-    left:29vw;
+    font-size: 1rem;
   }
 }
 
-@media (max-width:391px) and (orientation:portrait) {
+@media (width: 1180px) and (height: 820px) {
+  .navButton {
+    font-size: 0.9rem;
+  }
+}
 
+@media (max-width: 721px) and (orientation: landscape) {
   .name {
-    font-size:1.5rem;
+    margin-right: 16vw;
+  }
+}
+
+@media (max-width: 429px) and (orientation: portrait) {
+  .name {
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    margin-left: 4vw;
   }
 
   .navButton {
-    font-size:0.8rem;
-    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
-  }
-}
-
-@media (max-width:321px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.1rem;
+    margin-left: 1vw;
+    font-size: 1rem;
   }
 
   .imageBoxNineteen {
-    left:17vw;
+    left: 29vw;
+  }
+}
+
+@media (max-width: 391px) and (orientation: portrait) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .navButton {
+    font-size: 0.8rem;
+    box-shadow: 2px 4px #00bfff, 4px 6px gainsboro;
+  }
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .imageBoxNineteen {
+    left: 17vw;
   }
 
   .imageBoxFourteen {
-    left:7vw;
+    left: 7vw;
   }
 
-  .imageBoxThirtyFive, .imageBoxThirtySix {
-  left:17vw;
+  .imageBoxThirtyFive,
+  .imageBoxThirtySix {
+    left: 17vw;
   }
 
-  .grayTextUppercaseOne, .grayTextUppercaseTwo, .alternateUppercaseOne, .alternateUppercaseTwo {
-    font-size:2.2rem;
+  .grayTextUppercaseOne,
+  .grayTextUppercaseTwo,
+  .alternateUppercaseOne,
+  .alternateUppercaseTwo {
+    font-size: 2.2rem;
   }
-
 }

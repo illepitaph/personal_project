@@ -160,146 +160,109 @@
   margin-bottom: 22vh;
 }
 
-@media (width:1368px) and (height:912px) {
-
+@media (width: 1368px) and (height: 912px) {
   .navButton {
-    font-size:1.2rem;
-  
+    font-size: 1.2rem;
   }
-  }
-
-@media (width:1366px) and (height:1024px) {
-
-  .navButton {
-    font-size:1.2rem;
-  
-  }
-  }
-  
-  @media (width:1280px) and (height:800px) {
-
-    .navButton {
-      font-size:1rem;
-    
-    }
-    }
-
-    @media (width:1194px) and (height:834px) {
-
-      .name {
-        font-size:1.7rem;
-      }
-    
-    
-    }
-    
-
-@media (width:1180px) and (height:820px) {
-
-.navButton {
-  font-size:0.9rem;
-
-}
 }
 
-@media (width:1080px) and (height:810px) {
+@media (width: 1366px) and (height: 1024px) {
+  .navButton {
+    font-size: 1.2rem;
+  }
+}
 
+@media (width: 1280px) and (height: 800px) {
+  .navButton {
+    font-size: 1rem;
+  }
+}
+
+@media (width: 1194px) and (height: 834px) {
   .name {
-    font-size:1.7rem;
+    font-size: 1.7rem;
   }
-
-  .navButton {
-    font-size:1rem;
-  
-  }
-
 }
 
-
-
-@media (width:1024px) and (height:1366px) {
-
-  .name {
-    font-size:1.5rem;
-  }
-
+@media (width: 1180px) and (height: 820px) {
   .navButton {
-    font-size:1rem;
-  
+    font-size: 0.9rem;
   }
-
-
 }
 
-@media (width:1024px) and (height:768px) {
-
+@media (width: 1080px) and (height: 810px) {
   .name {
-    font-size:1.5rem;
+    font-size: 1.7rem;
   }
 
   .navButton {
-    font-size:1rem;
-  
+    font-size: 1rem;
   }
-
-
 }
 
-@media (width:1024px) and (height:600px) {
-
+@media (width: 1024px) and (height: 1366px) {
   .name {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
 
   .navButton {
-    font-size:1rem;
-  
+    font-size: 1rem;
   }
-
-
 }
 
-@media (max-width:999px) {
-
+@media (width: 1024px) and (height: 768px) {
   .name {
-    margin-left:5vw;
+    font-size: 1.5rem;
   }
 
   .navButton {
-    margin-bottom:40px;
+    font-size: 1rem;
+  }
+}
+
+@media (width: 1024px) and (height: 600px) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .navButton {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 999px) {
+  .name {
+    margin-left: 5vw;
+  }
+
+  .navButton {
+    margin-bottom: 40px;
   }
 
   .textContainer {
-     max-width:90%;
+    max-width: 90%;
   }
-
 }
 
-@media (max-width:916px) and (orientation:landscape) {
-
+@media (max-width: 916px) and (orientation: landscape) {
   .navButton {
-    margin:0 40px 40px 0;
+    margin: 0 40px 40px 0;
   }
 
   .pageTitle {
-    margin-bottom:26vh;
+    margin-bottom: 26vh;
   }
-
-
 }
 
-@media (width:768px) and (height:1024px) {
-
-.pageTitle {
-  font-size:1.3rem;
+@media (width: 768px) and (height: 1024px) {
+  .pageTitle {
+    font-size: 1.3rem;
+  }
 }
 
-}
-
-@media (max-width:721px) and (orientation:landscape) {
-
+@media (max-width: 721px) and (orientation: landscape) {
   .name {
-    margin-right:16vw;
+    margin-right: 16vw;
   }
 
   .entryCaption {
@@ -309,61 +272,51 @@
   .pageTitle {
     font-size: 1.04rem;
   }
-
-
 }
 
-@media (max-width:541px) and (orientation:portrait) {
-
+@media (max-width: 541px) and (orientation: portrait) {
   .pageTitle {
     font-size: 0.8rem;
   }
-
-
 }
 
-@media (max-width:429px) and (orientation:portrait) {
-
+@media (max-width: 429px) and (orientation: portrait) {
   .name {
-    font-size:1.8rem;
-    letter-spacing:0.3rem;
-    margin-left:4vw;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    margin-left: 4vw;
   }
 
   .navButton {
-    margin-left:1vw;
-    font-size:1rem;
+    margin-left: 1vw;
+    font-size: 1rem;
   }
 
   .entryContainer {
     margin-top: 2vh;
   }
 
+  .pageTitle {
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    margin-bottom: 3vh;
+  }
 
-.pageTitle {
-  font-size: 1rem;
-  letter-spacing: 0rem;
-  margin-bottom:3vh;
+  .entryCaption {
+    font-size: 0.7rem;
+    letter-spacing: 0;
+    text-align: center;
+  }
 }
 
-.entryCaption {
-  font-size: 0.7rem;
-  letter-spacing: 0;
-  text-align:center;
-}
-
-
-}
-
-@media (max-width:391px) and (orientation:portrait) {
-
+@media (max-width: 391px) and (orientation: portrait) {
   .name {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
 
   .navButton {
-    font-size:0.8rem;
-    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
+    font-size: 0.8rem;
+    box-shadow: 2px 4px #00bfff, 4px 6px gainsboro;
   }
 
   .pageTitle {
@@ -375,19 +328,19 @@
   }
 }
 
-@media (max-width:321px) and (orientation:portrait) {
-
+@media (max-width: 321px) and (orientation: portrait) {
   .name {
-    font-size:1.1rem;
+    font-size: 1.1rem;
   }
 
-  .grayTextUppercaseOne, .grayTextUppercaseTwo, .alternateUppercaseOne, .alternateUppercaseTwo {
-    font-size:2.2rem;
+  .grayTextUppercaseOne,
+  .grayTextUppercaseTwo,
+  .alternateUppercaseOne,
+  .alternateUppercaseTwo {
+    font-size: 2.2rem;
   }
 
   .pageTitle {
-    font-size:0.7rem;
+    font-size: 0.7rem;
   }
-
 }
-
