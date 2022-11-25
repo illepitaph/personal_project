@@ -211,6 +211,12 @@
   }
 }
 
+@media (width: 800px) and (height: 1280px) {
+  .name {
+    margin-left: 6vw;
+  }
+}
+
 @media (max-width: 769px) and (orientation: portrait) {
   .name {
     margin-left: 6vw;
