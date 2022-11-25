@@ -1,662 +1,764 @@
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
-  position:relative;
+  position: relative;
   animation: fadeIn ease-in-out 3.6s;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .imageBoxZero {
-  position:relative;
-  height:100vh;
-  overflow:hidden;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .nav {
-  position:relative;
-  display:flex;
-  justify-content:space-between;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin:8vh 2vw;
-  z-index:99;
+  margin: 8vh 2vw;
+  z-index: 99;
 }
 
 .name {
-  display:inline;
-  color:black;
+  display: inline;
+  color: black;
   font-family: "lores-9-narrow", monospace;
-  font-size:2rem;
-  font-weight:700;
-  letter-spacing:0.71em;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.71em;
   text-shadow: 2px 3px #00bfff, 3px 4px black;
-  text-transform:lowercase;
-  z-index:99;
+  text-transform: lowercase;
+  z-index: 99;
 }
 
 .alternateLettering {
-  color:#00bfff;
-  text-shadow:2px 3px black, 3px 4px #b0b0b0;
+  color: #00bfff;
+  text-shadow: 2px 3px black, 3px 4px #b0b0b0;
 }
 
 .alternateLetteringTwo {
-  color:#faf8dc;
-  text-shadow:2px 3px black, 3px 4px #e4000f;
-  text-transform:uppercase;
+  color: #faf8dc;
+  text-shadow: 2px 3px black, 3px 4px #e4000f;
+  text-transform: uppercase;
 }
 
 .navButton {
-  margin-right:1.9vw;
-  font-family:"lores-9-minus-wide";
-  font-size:1.35rem;
-  font-weight:700;
-  display:inline;
-  border:none;
-  background:inherit;
-  color:#faf8dc;
-  box-shadow:4px 8px #00bfff, 8px 12px black;
-  text-transform:uppercase;
-  text-decoration:none;
-  font-style:normal;
-  letter-spacing:0.15rem;
-  cursor:pointer;
+  margin-right: 1.9vw;
+  font-family: "lores-9-minus-wide";
+  font-size: 1.35rem;
+  font-weight: 700;
+  display: inline;
+  border: none;
+  background: inherit;
+  color: #faf8dc;
+  box-shadow: 4px 8px #00bfff, 8px 12px black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
 }
 
 .navButton:hover {
-   color:black;
-   text-shadow:2px 16px #b0b0b0;
-   letter-spacing:0.3rem;
-   text-transform:lowercase;
-   font-style:normal;
-   padding:7px 0 0 10px;
-   box-shadow:inset 4px 6px #00bfff, 4px 10px #faf8dc;
-   z-index:99;
+  color: black;
+  text-shadow: 2px 16px #b0b0b0;
+  letter-spacing: 0.3rem;
+  text-transform: lowercase;
+  font-style: normal;
+  padding: 7px 0 0 10px;
+  box-shadow: inset 4px 6px #00bfff, 4px 10px #faf8dc;
+  z-index: 99;
 }
 
 .imageBoxOne {
-  position:absolute;
-  top:3vh;
-  left:-2.5vw;
-  opacity:0.3;
+  position: absolute;
+  top: 3vh;
+  left: -2.5vw;
+  opacity: 0.3;
 }
 
 .imageBoxTwo {
-  position:absolute;
-  top:3vh;
-  left:2.5vw;
-  opacity:0.3;
+  position: absolute;
+  top: 3vh;
+  left: 2.5vw;
+  opacity: 0.3;
 }
 
 .imageBoxThree {
-  position:absolute;
-  top:3vh;
-  left:7.5vw;
-  opacity:0.6;
+  position: absolute;
+  top: 3vh;
+  left: 7.5vw;
+  opacity: 0.6;
 }
 
 .imageBoxFour {
-  position:absolute;
-  top:3vh;
-  left:12.5vw;
-  opacity:0.17;
+  position: absolute;
+  top: 3vh;
+  left: 12.5vw;
+  opacity: 0.17;
 }
 
 .imageBoxFive {
-  position:absolute;
-  top:3vh;
-  left:17.5vw;
-  opacity:0.5;
+  position: absolute;
+  top: 3vh;
+  left: 17.5vw;
+  opacity: 0.5;
 }
 
 .imageBoxSix {
-  position:absolute;
-  top:11vh;
-  left:22.5vw;
-  opacity:0.15;
+  position: absolute;
+  top: 11vh;
+  left: 22.5vw;
+  opacity: 0.15;
 }
 
 .imageBoxSixPointZero {
-  position:absolute;
-  top:-2vh;
-  left:22.5vw;
-  opacity:0.3;
+  position: absolute;
+  top: -2vh;
+  left: 22.5vw;
+  opacity: 0.3;
 }
 
 .imageBoxSixPointOne {
-  position:absolute;
-  top:22vh;
-  left:22.5vw;
-  opacity:0.15;
+  position: absolute;
+  top: 22vh;
+  left: 22.5vw;
+  opacity: 0.15;
 }
 
 .imageBoxSixPointTwo {
-  position:absolute;
-  top:32vh;
-  left:22.5vw;
-  opacity:0.35;
+  position: absolute;
+  top: 32vh;
+  left: 22.5vw;
+  opacity: 0.35;
 }
 
 .imageBoxSixPointThree {
-  position:absolute;
-  top:42vh;
-  left:22.5vw;
-  opacity:0.15;
+  position: absolute;
+  top: 42vh;
+  left: 22.5vw;
+  opacity: 0.15;
 }
 
 .imageBoxSixPointFour {
-  position:absolute;
-  top:52vh;
-  left:22.5vw;
-  opacity:0.45;
+  position: absolute;
+  top: 52vh;
+  left: 22.5vw;
+  opacity: 0.45;
 }
 
 .imageBoxSixPointFive {
-  position:absolute;
-  top:62vh;
-  left:22.5vw;
-  opacity:0.5;
+  position: absolute;
+  top: 62vh;
+  left: 22.5vw;
+  opacity: 0.5;
 }
 
 .imageBoxSixPointSix {
-  position:absolute;
-  top:72vh;
-  left:22.5vw;
-  opacity:0.63;
+  position: absolute;
+  top: 72vh;
+  left: 22.5vw;
+  opacity: 0.63;
 }
 
 .imageBoxSixPointSeven {
-  position:absolute;
-  top:83.5vh;
-  left:22.5vw;
-  opacity:0.53;
+  position: absolute;
+  top: 83.5vh;
+  left: 22.5vw;
+  opacity: 0.53;
 }
 
 .imageBoxSeven {
-  position:absolute;
-  top:3vh;
-  right:0;
-  opacity:0.65;
+  position: absolute;
+  top: 3vh;
+  right: 0;
+  opacity: 0.65;
 }
 
 .imageBoxEight {
-  position:absolute;
-  top:3vh;
-  right:4vw;
-  opacity:0.45;
+  position: absolute;
+  top: 3vh;
+  right: 4vw;
+  opacity: 0.45;
 }
 
 .imageBoxNine {
-  position:absolute;
-  top:3vh;
-  right:10.5vw;
-  opacity:0.25;
+  position: absolute;
+  top: 3vh;
+  right: 10.5vw;
+  opacity: 0.25;
 }
 
 .imageBoxTen {
-  position:absolute;
-  top:3vh;
-  right:17vw;
-  opacity:0.3;
+  position: absolute;
+  top: 3vh;
+  right: 17vw;
+  opacity: 0.3;
 }
 
 .imageBoxEleven {
-  position:absolute;
-  top:3vh;
-  right:20vw;
-  opacity:0.35;
+  position: absolute;
+  top: 3vh;
+  right: 20vw;
+  opacity: 0.35;
 }
 
 .imageBoxElevenPointOne {
-  position:absolute;
-  top:-2vh;
-  right:31vw;
-  opacity:0.35;
+  position: absolute;
+  top: -2vh;
+  right: 31vw;
+  opacity: 0.35;
 }
 
 .imageBoxElevenPointTwo {
-  position:absolute;
-  top:12.5vh;
-  right:31vw;
-  opacity:0.35;
+  position: absolute;
+  top: 12.5vh;
+  right: 31vw;
+  opacity: 0.35;
 }
 
 .imageBoxElevenPointThree {
-  position:absolute;
-  top:25vh;
-  right:31vw;
-  opacity:0.35;
+  position: absolute;
+  top: 25vh;
+  right: 31vw;
+  opacity: 0.35;
 }
 
 .imageBoxElevenPointFour {
-  position:absolute;
-  top:35vh;
-  right:31vw;
-  opacity:0.35;
+  position: absolute;
+  top: 35vh;
+  right: 31vw;
+  opacity: 0.35;
 }
 
 .imageBoxElevenPointFive {
-  position:absolute;
-  top:45vh;
-  right:31vw;
-  opacity:0.6;
+  position: absolute;
+  top: 45vh;
+  right: 31vw;
+  opacity: 0.6;
 }
 
 .imageBoxElevenPointSix {
-  position:absolute;
-  top:55vh;
-  right:31vw;
-  opacity:0.45;
+  position: absolute;
+  top: 55vh;
+  right: 31vw;
+  opacity: 0.45;
 }
 
 .imageBoxElevenPointSeven {
-  position:absolute;
-  top:65vh;
-  right:31vw;
-  opacity:0.55;
+  position: absolute;
+  top: 65vh;
+  right: 31vw;
+  opacity: 0.55;
 }
 
 .imageBoxElevenPointEight {
-  position:absolute;
-  top:75vh;
-  right:31vw;
-  opacity:0.75;
+  position: absolute;
+  top: 75vh;
+  right: 31vw;
+  opacity: 0.75;
 }
 
 .imageBoxElevenPointNine {
-  position:absolute;
-  top:83.6vh;
-  right:31vw;
-  opacity:0.55;
+  position: absolute;
+  top: 83.6vh;
+  right: 31vw;
+  opacity: 0.55;
 }
 
-@media (width:1368px) and (height:912px) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:87vh;
+@media (width: 1368px) and (height: 912px) {
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 87vh;
   }
-
-
 }
 
-@media (width:1280px) and (height:800px) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:86vh;
-  }
-
-
-}
-
-@media (width:1194px) and (height:834px) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:86vh;
-  }
-
-
-}
-
-@media (width:1180px) and (height:820px) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:85vh;
-  }
-
-
-}
-
-@media (width:1024px) and (height:1366px) {
-
+@media (width: 1280px) and (height: 800px) {
   .navButton {
-    margin-bottom:40px;
+    margin-left: 7vw;
   }
 
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
 
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86vh;
+  }
 }
 
-@media (width:1024px) and (height:768px) {
-
+@media (width: 1194px) and (height: 834px) {
   .navButton {
-    margin-bottom:40px;
+    margin-left: 7vw;
   }
 
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
 
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86vh;
+  }
 }
 
-@media (width:1024px) and (height:600px) {
-
+@media (width: 1180px) and (height: 820px) {
   .navButton {
-    margin-bottom:40px;
+    margin-left: 7vw;
   }
 
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
 
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 85vh;
+  }
 }
 
-@media (max-width:999px) {
+@media (width: 1080px) and (height: 810px) {
+  .navButton {
+    margin-left: 7vw;
+  }
 
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (width: 1024px) and (height: 768px) {
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (width: 1024px) and (height: 600px) {
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 999px) {
   .container {
     animation: none;
-}
+  }
 
   .name {
-    margin-left:5vw;
+    margin-left: 5vw;
   }
 
   .navButton {
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
-
-
 }
 
-@media (max-width:927px) and (orientation:landscape) {
-
+@media (max-width: 927px) and (orientation: landscape) {
   .navButton {
-    margin:0 40px 40px 0;
+    margin: 0 40px 40px 0;
   }
 
-  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    top:72vh;
+  .imageBoxSixPointSix,
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight,
+  .imageBoxElevenPointNine {
+    top: 72vh;
   }
-
 }
 
-@media (width:912px) and (height:1368px) {
-
-  .imageBoxSixPointZero, .imageBoxElevenPointOne {
-    top:0;
+@media (width: 912px) and (height: 1368px) {
+  .imageBoxSixPointZero,
+  .imageBoxElevenPointOne {
+    top: 0;
   }
 
-  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
-    top:10vh;
+  .imageBoxSixPointOne,
+  .imageBoxElevenPointTwo {
+    top: 10vh;
   }
 
-  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:54vh;
+  .imageBoxSixPointTwo,
+  .imageBoxElevenPointThree {
+    top: 54vh;
   }
 
-  .imageBoxSixPointThree, .imageBoxElevenPointFour {
-    top:62vh;
+  .imageBoxSixPointThree,
+  .imageBoxElevenPointFour {
+    top: 62vh;
   }
 
-  .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:70vh;
+  .imageBoxSixPointFour,
+  .imageBoxElevenPointFive {
+    top: 70vh;
   }
 
-  .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:78vh;
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSix {
+    top: 78vh;
   }
 
-  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:86vh;
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointSeven {
+    top: 86vh;
   }
 
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:91vh;
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 91vh;
   }
-
 }
 
-
-@media (max-width:854px) and (orientation:landscape) {
-
-  .imageBoxSixPointSix, .imageBoxSixPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    top:70vh;
+@media (max-width: 854px) and (orientation: landscape) {
+  .imageBoxSixPointSix,
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight,
+  .imageBoxElevenPointNine {
+    top: 70vh;
   }
-
-
 }
 
-@media (width:820px) and (height:1180px) {
-
-  .imageBoxSixPointZero, .imageBoxElevenPointOne {
-    top:0;
+@media (width: 820px) and (height: 1180px) {
+  .imageBoxSixPointZero,
+  .imageBoxElevenPointOne {
+    top: 0;
   }
 
-  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
-    top:10vh;
+  .imageBoxSixPointOne,
+  .imageBoxElevenPointTwo {
+    top: 10vh;
   }
 
-  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:50vh;
+  .imageBoxSixPointTwo,
+  .imageBoxElevenPointThree {
+    top: 50vh;
   }
 
-  .imageBoxSixPointThree, .imageBoxElevenPointFour {
-    top:58vh;
+  .imageBoxSixPointThree,
+  .imageBoxElevenPointFour {
+    top: 58vh;
   }
 
-  .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:66vh;
+  .imageBoxSixPointFour,
+  .imageBoxElevenPointFive {
+    top: 66vh;
   }
 
-  .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:74vh;
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSix {
+    top: 74vh;
   }
 
-  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:82vh;
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointSeven {
+    top: 82vh;
   }
 
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:90vh;
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 90vh;
   }
-
 }
-@media (width:810px) and (height:1080px) {
-
-  .imageBoxSixPointZero, .imageBoxElevenPointOne {
-    top:0;
+@media (width: 810px) and (height: 1080px) {
+  .imageBoxSixPointZero,
+  .imageBoxElevenPointOne {
+    top: 0;
   }
 
-  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
-    top:10vh;
+  .imageBoxSixPointOne,
+  .imageBoxElevenPointTwo {
+    top: 10vh;
   }
 
-  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:40vh;
+  .imageBoxSixPointTwo,
+  .imageBoxElevenPointThree {
+    top: 40vh;
   }
 
-  .imageBoxSixPointThree, .imageBoxElevenPointFour {
-    top:50vh;
+  .imageBoxSixPointThree,
+  .imageBoxElevenPointFour {
+    top: 50vh;
   }
 
-  .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:60vh;
+  .imageBoxSixPointFour,
+  .imageBoxElevenPointFive {
+    top: 60vh;
   }
 
-  .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:70vh;
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSix {
+    top: 70vh;
   }
 
-  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:80vh;
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointSeven {
+    top: 80vh;
   }
 
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:89vh;
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 89vh;
   }
-
-}
-
-@media (width:800px) and (height:1280px) {
-
-  .imageBoxSixPointZero, .imageBoxElevenPointOne {
-    top:0;
-  }
-
-  .imageBoxSixPointOne, .imageBoxElevenPointTwo {
-    top:10vh;
-  }
-
-  .imageBoxSixPointTwo, .imageBoxElevenPointThree {
-    top:55vh;
-  }
-
-  .imageBoxSixPointThree, .imageBoxElevenPointFour {
-    top:63vh;
-  }
-
-  .imageBoxSixPointFour, .imageBoxElevenPointFive {
-    top:71vh;
-  }
-
-  .imageBoxSixPointFive, .imageBoxElevenPointSix {
-    top:79vh;
-  }
-
-  .imageBoxSixPointSix, .imageBoxElevenPointSeven {
-    top:86vh;
-  }
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:93vh;
-  }
-
 }
 
-@media (max-width:768px) and (orientation:portrait) {
-
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:88vh;
+@media (width: 800px) and (height: 1280px) {
+  .imageBoxSixPointZero,
+  .imageBoxElevenPointOne {
+    top: 0;
   }
 
+  .imageBoxSixPointOne,
+  .imageBoxElevenPointTwo {
+    top: 10vh;
+  }
 
+  .imageBoxSixPointTwo,
+  .imageBoxElevenPointThree {
+    top: 55vh;
+  }
+
+  .imageBoxSixPointThree,
+  .imageBoxElevenPointFour {
+    top: 63vh;
+  }
+
+  .imageBoxSixPointFour,
+  .imageBoxElevenPointFive {
+    top: 71vh;
+  }
+
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSix {
+    top: 79vh;
+  }
+
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointSeven {
+    top: 86vh;
+  }
+
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 93vh;
+  }
 }
 
-@media (max-width:721px) and (orientation:landscape) {
+@media (max-width: 768px) and (orientation: portrait) {
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 88vh;
+  }
+}
 
+@media (max-width: 721px) and (orientation: landscape) {
   .name {
-    margin-right:16vw;
+    margin-right: 5vw;
   }
 
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:68vh;
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 68vh;
   }
-
-
 }
 
-@media (width:720px) and (height:540px) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointEight {
-    top:77.5vh;
+@media (width: 720px) and (height: 540px) {
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointEight {
+    top: 77.5vh;
   }
-
-
 }
 
-@media (max-width:429px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.8rem;
-    letter-spacing:0.3rem;
-    margin-left:4vw;
-  }
-
-  .navButton {
-    margin-left:10vw;
-  }
-
-  .imageBoxOne, .imageBoxTwo, .imageBoxThree, .imageBoxFour, .imageBoxFive, .imageBoxSeven, .imageBoxEight, .imageBoxNine, .imageBoxTen, .imageBoxEleven {
-    top:9vh;
-  }
-
-  .imageBoxSixPointFive, .imageBoxElevenPointSeven {
-    top:61.6vh;
-  }
-
-  .imageBoxSixPointSix, .imageBoxElevenPointEight {
-    top:73.6vh;
-  }
-
-    .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-      top:86.6vh;
-    }
-
-    .imageBoxSixPointZero, .imageBoxSixPointOne, .imageBoxSixPointTwo, .imageBoxSixPointThree, .imageBoxSixPointFour, .imageBoxSixPointFive,
-    .imageBoxSixPointSix,  .imageBoxSixPointSeven   {
-      left:13.5vw;
-    }
-
-    .imageBoxElevenPointOne, .imageBoxElevenPointTwo, .imageBoxElevenPointThree, .imageBoxElevenPointFour, .imageBoxElevenPointFive,
-    .imageBoxElevenPointSix,  .imageBoxElevenPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-      right:13.5vw;
-    }
-
-}
-
-@media (max-width:394px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.5rem;
+@media (max-width: 541px) and (orientation: portrait) {
+  .nav {
+    margin-left: 1vw;
   }
 
   .navButton {
-    font-size:1.2rem;
-  }
-
-  .imageBoxSixPointOne, .imageBoxSixPointTwo, .imageBoxSixPointThree, .imageBoxSixPointFour, .imageBoxSixPointFive,
-  .imageBoxSixPointSix,  .imageBoxSixPointSeven   {
-    left:13.5vw;
-  }
-
-  .imageBoxElevenPointOne, .imageBoxElevenPointTwo, .imageBoxElevenPointThree, .imageBoxElevenPointFour, .imageBoxElevenPointFive,
-  .imageBoxElevenPointSix,  .imageBoxElevenPointSeven, .imageBoxElevenPointEight, .imageBoxElevenPointNine {
-    right:13.5vw;
-  }
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:86vh;
+    font-size: 1rem;
   }
 }
 
-@media (max-width:376px) and (orientation:portrait) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:86vh;
-  }
-}
-
-
-
-@media (max-width:361px) and (orientation:portrait) {
-
-  .imageBoxSixPointSeven, .imageBoxElevenPointNine {
-    top:84vh;
-  }
-}
-
-@media (max-width:321px) and (orientation:portrait) {
-
+@media (max-width: 429px) and (orientation: portrait) {
   .name {
-    font-size:1.1rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    margin-left: 4vw;
   }
 
   .navButton {
-  font-size:0.9rem;
-    box-shadow:2px 4px #00bfff, 4px 8px black;
+    margin-left: 4vw;
+  }
+
+  .navButton:nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .imageBoxOne,
+  .imageBoxTwo,
+  .imageBoxThree,
+  .imageBoxFour,
+  .imageBoxFive,
+  .imageBoxSeven,
+  .imageBoxEight,
+  .imageBoxNine,
+  .imageBoxTen,
+  .imageBoxEleven {
+    top: 9vh;
+  }
+
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSeven {
+    top: 61.6vh;
+  }
+
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointEight {
+    top: 73.6vh;
+  }
+
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86.6vh;
+  }
+
+  .imageBoxSixPointZero,
+  .imageBoxSixPointOne,
+  .imageBoxSixPointTwo,
+  .imageBoxSixPointThree,
+  .imageBoxSixPointFour,
+  .imageBoxSixPointFive,
+  .imageBoxSixPointSix,
+  .imageBoxSixPointSeven {
+    left: 13.5vw;
+  }
+
+  .imageBoxElevenPointOne,
+  .imageBoxElevenPointTwo,
+  .imageBoxElevenPointThree,
+  .imageBoxElevenPointFour,
+  .imageBoxElevenPointFive,
+  .imageBoxElevenPointSix,
+  .imageBoxElevenPointSeven,
+  .imageBoxElevenPointEight,
+  .imageBoxElevenPointNine {
+    right: 13.5vw;
+  }
+}
+
+@media (max-width: 394px) and (orientation: portrait) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .navButton {
+    font-size: 1.2rem;
+    margin-left: 4vw;
+  }
+
+  .navButton:nth-child(2) {
+    font-size: 0.8rem;
+  }
+
+  .imageBoxSixPointOne,
+  .imageBoxSixPointTwo,
+  .imageBoxSixPointThree,
+  .imageBoxSixPointFour,
+  .imageBoxSixPointFive,
+  .imageBoxSixPointSix,
+  .imageBoxSixPointSeven {
+    left: 13.5vw;
+  }
+
+  .imageBoxElevenPointOne,
+  .imageBoxElevenPointTwo,
+  .imageBoxElevenPointThree,
+  .imageBoxElevenPointFour,
+  .imageBoxElevenPointFive,
+  .imageBoxElevenPointSix,
+  .imageBoxElevenPointSeven,
+  .imageBoxElevenPointEight,
+  .imageBoxElevenPointNine {
+    right: 13.5vw;
+  }
+
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86vh;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86vh;
+  }
+}
+
+@media (max-width: 361px) and (orientation: portrait) {
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 84vh;
+  }
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .navButton {
+    font-size: 0.9rem;
+    box-shadow: 2px 4px #00bfff, 4px 8px black;
   }
 }

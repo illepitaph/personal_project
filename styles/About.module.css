@@ -1,26 +1,46 @@
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
@@ -28,193 +48,234 @@
 }
 
 .nav {
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin:8vh 2vw;
+  margin: 8vh 2vw;
 }
 
 .name {
-  display:inline;
-  color:white;
+  display: inline;
+  color: white;
   font-family: "lores-9-narrow", monospace;
-  font-size:2rem;
-  font-weight:700;
-  letter-spacing:0.71em;
-  text-shadow:3px 4px 24px snow;
-  text-transform:lowercase;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.71em;
+  text-shadow: 3px 4px 24px snow;
+  text-transform: lowercase;
   animation: fadeIn ease-in 1.5s;
 }
 
 .alternateLettering {
-  color:#b0b0b0;
+  color: #b0b0b0;
   animation: fadeIn ease-in 1.9s;
 }
 
 .navButton {
-  margin-right:1.9vw;
-  font-family:"lores-9-minus-wide";
-  font-size:1.2rem;
-  display:inline;
-  border:none;
-  background:inherit;
-  color:white;
-  box-shadow:4px 8px #e4000f;
-  text-transform:uppercase;
-  text-decoration:none;
-  font-style:normal;
-  letter-spacing:0.15rem;
-  cursor:pointer;
+  margin-right: 1.9vw;
+  font-family: "lores-9-minus-wide";
+  font-size: 1.2rem;
+  display: inline;
+  border: none;
+  background: inherit;
+  color: white;
+  box-shadow: 4px 8px #e4000f;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
 }
 
 .navButton:hover {
-   color:snow;
-   letter-spacing:0.3rem;
-   text-transform:lowercase;
-   font-style:normal;
-   padding:7px 0 0 10px;
-   text-shadow:1px 2px #e4000f;
-   box-shadow:inset 4px 6px #e4000f;
+  color: snow;
+  letter-spacing: 0.3rem;
+  text-transform: lowercase;
+  font-style: normal;
+  padding: 7px 0 0 10px;
+  text-shadow: 1px 2px #e4000f;
+  box-shadow: inset 4px 6px #e4000f;
 }
-
 
 .textContainer {
-  max-width:75%;
-  margin:0 auto;
-  margin-top:23vh;
-  margin-bottom:10vh;
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 23vh;
+  margin-bottom: 10vh;
   font-family: "lores-9-plus-wide", monospace;
-  font-size:1.2rem;
-  font-weight:400;
+  font-size: 1.2rem;
+  font-weight: 400;
   letter-spacing: 0.15rem;
-  line-height:1.6em;
+  line-height: 1.6em;
 }
 .email {
-  font-size:1.2rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
-@media (width:1080px) and (height:810px) {
-
-  .name {
-    margin-left:7vw;
+@media (width: 1280px) and (height: 800px) {
+  .nav {
+    margin-left: 13vw;
   }
 
   .navButton {
-    margin-bottom:40px;
+    margin-left: 7vw;
   }
 
-
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
 }
 
-@media (width:1024px) and (height:1366px) {
-
-  .name {
-    margin-left:7vw;
+@media (width: 1194px) and (height: 834px) {
+  .nav {
+    margin-left: 13vw;
   }
 
   .navButton {
-    margin-bottom:40px;
+    margin-left: 5vw;
   }
 
-
-}
-
-@media (width:1024px) and (height:768px) {
-
-  .name {
-    margin-left:7vw;
-  }
-
-
-  .navButton {
-    margin-bottom:40px;
-  }
-
-
-}
-
-@media (width:1024px) and (height:600px) {
-
-  .name {
-    margin-left:7vw;
-  }
-
-
-  .navButton {
-    margin-bottom:40px;
-  }
-
-
-}
-
-
-@media (max-width:999px) {
-
-  .navButton {
-    margin-bottom:40px;
-  }
-
-}
-
-@media (max-width:927px) and (orientation:landscape) {
-
-  .name {
-    margin-left:5vw;
-  }
-
-
-  .navButton {
-    margin:0 40px 40px 0;
-  }
-
-}
-
-@media (max-width:769px) and (orientation:portrait) {
-
-  .name {
-    margin-left:6vw;
+  .buttonBox > button {
+    margin-top: 7vh;
   }
 }
 
-@media (max-width:721px) and (orientation:landscape) {
-
-  .name {
-    margin-right:16vw;
-  }
-}
-
-@media (max-width:429px) and (orientation:portrait) {
-
-  .name {
-    font-size:1.8rem;
-    letter-spacing:0.3rem;
-    margin-left:4vw;
+@media (width: 1180px) and (height: 820px) {
+  .nav {
+    margin-left: 13vw;
   }
 
   .navButton {
-      margin-left:10vw;
+    margin-left: 7vw;
+  }
+
+  .buttonBox > button {
+    margin-top: 7vh;
   }
 }
 
-@media (max-width:391px) and (orientation:portrait) {
-
+@media (width: 1080px) and (height: 810px) {
   .name {
-    font-size:1.5rem;
+    margin-left: 7vw;
   }
 
   .navButton {
-    font-size:0.8rem;
+    margin-bottom: 40px;
   }
 }
 
-@media (max-width:321px) and (orientation:portrait) {
-
+@media (width: 1024px) and (height: 1366px) {
   .name {
-    font-size:1.1rem;
+    margin-left: 7vw;
   }
 
   .navButton {
-  font-size:0.9rem;
- }
+    margin-bottom: 40px;
+  }
+}
+
+@media (width: 1024px) and (height: 768px) {
+  .name {
+    margin-left: 7vw;
+  }
+
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (width: 1024px) and (height: 600px) {
+  .name {
+    margin-left: 7vw;
+  }
+
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 999px) {
+  .navButton {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 927px) and (orientation: landscape) {
+  .name {
+    margin-left: 5vw;
+  }
+
+  .navButton {
+    margin: 0 40px 40px 0;
+  }
+}
+
+@media (max-width: 769px) and (orientation: portrait) {
+  .name {
+    margin-left: 6vw;
+  }
+}
+
+@media (max-width: 721px) and (orientation: landscape) {
+  .name {
+    margin-right: 6vw;
+  }
+}
+
+@media (max-width: 429px) and (orientation: portrait) {
+  .name {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin-left: 4vw;
+  }
+
+  .navButton {
+    margin-left: 6vw;
+  }
+
+  .navButton:nth-child(2) {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 415px) and (orientation: portrait) {
+  .name {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 394px) and (orientation: portrait) {
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .navButton {
+    font-size: 1.2rem;
+    margin-left: 4vw;
+  }
+
+  .navButton:nth-child(2) {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .navButton {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+  .name {
+    font-size: 0.9rem;
+  }
+
+  .navButton {
+    font-size: 0.7rem;
+  }
 }

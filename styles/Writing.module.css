@@ -2164,6 +2164,39 @@
 
 }
 
+@media (width:1368px) and (height:912px) {
+
+  .navButton {
+    font-size:1.2rem;
+  
+  }
+  }
+
+@media (width:1366px) and (height:1024px) {
+
+  .navButton {
+    font-size:1.2rem;
+  
+  }
+  }
+  
+  @media (width:1280px) and (height:800px) {
+
+    .navButton {
+      font-size:1rem;
+    
+    }
+    }
+    
+
+@media (width:1180px) and (height:820px) {
+
+.navButton {
+  font-size:0.9rem;
+
+}
+}
+
 @media (max-width:721px) and (orientation:landscape) {
 
   .name {
@@ -2181,7 +2214,8 @@
   }
 
   .navButton {
-    margin-left:5vw;
+    margin-left:1vw;
+    font-size:1rem;
   }
 
   .imageBoxNineteen {

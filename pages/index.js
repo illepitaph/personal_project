@@ -52,6 +52,9 @@ export default function Home() {
               <Link href="/writing" passHref>
                 <button className={styles.navButton}>writing</button>
               </Link>
+              <Link href="/portfolio" passHref>
+                <button className={styles.navButton}>webportfolio</button>
+              </Link>
               <Link href="/about" passHref>
                 <button className={styles.navButton}>about</button>
               </Link>

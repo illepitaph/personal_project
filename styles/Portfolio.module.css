@@ -1,0 +1,379 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: fadeIn ease-in 0.9s;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8vh 2vw;
+  z-index: 99;
+}
+
+.name {
+  display: inline;
+  color: #e8e8e8;
+  font-family: "lores-9-narrow", monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.71em;
+  text-shadow: 7px 3px 16px #ffffff;
+  text-transform: lowercase;
+}
+
+.alternateLettering {
+  color: snow;
+  text-shadow: 2px 3px black, 3px 4px #00bfff;
+}
+
+.alternateLetteringTwo {
+  color: #faf8dc;
+  text-shadow: 2px 3px black, 3px 4px 14px white;
+  text-transform: uppercase;
+}
+
+.navButton {
+  margin-right: 1.9vw;
+  font-family: "lores-9-minus-wide";
+  font-size: 1.35rem;
+  font-weight: 700;
+  display: inline;
+  border: none;
+  background: inherit;
+  color: #add8e6;
+  box-shadow: 4px 6px #aaf0d1, 7px 11px #add8e6;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  color: black;
+  text-shadow: 2px 16px lightgray;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-style: normal;
+  padding: 7px 0 0 10px;
+  box-shadow: inset 4px 6px #ffcccb, 4px 10px snow;
+}
+
+.entryContainer {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 25vh;
+  font-family: "lores-9-plus-wide", monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.35rem;
+  line-height: 2.6em;
+  white-space: pre-line;
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+}
+
+.headerText {
+  text-align: right;
+}
+
+.grayTextUppercaseOne {
+  font-size: 2.9rem;
+  color: lightgray;
+  font-weight: 700;
+  text-shadow: 2px 3px black, 3px 4px white;
+  animation: fadeIn ease-in-out 2.1s;
+}
+
+.alternateUppercaseOne {
+  font-size: 2.9rem;
+  color: snow;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 3px black, 3px 4px #00bfff;
+  animation: fadeIn ease-in-out 1.6s;
+}
+
+.imageBox {
+  margin: 0 3vw;
+  transition: opacity ease-in-out 0.7s;
+}
+
+.imageBox:hover {
+  opacity: 0.1;
+}
+
+.entryCaption {
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.entryContainer:last-of-type {
+  margin-bottom: 22vh;
+}
+
+@media (width:1368px) and (height:912px) {
+
+  .navButton {
+    font-size:1.2rem;
+  
+  }
+  }
+
+@media (width:1366px) and (height:1024px) {
+
+  .navButton {
+    font-size:1.2rem;
+  
+  }
+  }
+  
+  @media (width:1280px) and (height:800px) {
+
+    .navButton {
+      font-size:1rem;
+    
+    }
+    }
+
+    @media (width:1194px) and (height:834px) {
+
+      .name {
+        font-size:1.7rem;
+      }
+    
+    
+    }
+    
+
+@media (width:1180px) and (height:820px) {
+
+.navButton {
+  font-size:0.9rem;
+
+}
+}
+
+@media (width:1080px) and (height:810px) {
+
+  .name {
+    font-size:1.7rem;
+  }
+
+  .navButton {
+    font-size:1rem;
+  
+  }
+
+}
+
+
+
+@media (width:1024px) and (height:1366px) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:1rem;
+  
+  }
+
+
+}
+
+@media (width:1024px) and (height:768px) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:1rem;
+  
+  }
+
+
+}
+
+@media (max-width:999px) {
+
+  .name {
+    margin-left:5vw;
+  }
+
+  .navButton {
+    margin-bottom:40px;
+  }
+
+  .textContainer {
+     max-width:90%;
+  }
+
+}
+
+@media (max-width:916px) and (orientation:landscape) {
+
+  .navButton {
+    margin:0 40px 40px 0;
+  }
+
+  .pageTitle {
+    margin-bottom:26vh;
+  }
+
+
+}
+
+@media (width:768px) and (height:1024px) {
+
+.pageTitle {
+  font-size:1.3rem;
+}
+
+}
+
+@media (max-width:721px) and (orientation:landscape) {
+
+  .name {
+    margin-right:16vw;
+  }
+
+  .entryCaption {
+    font-size: 0.9rem;
+  }
+
+  .pageTitle {
+    font-size: 1.04rem;
+  }
+
+
+}
+
+@media (max-width:541px) and (orientation:portrait) {
+
+  .pageTitle {
+    font-size: 0.8rem;
+  }
+
+
+}
+
+@media (max-width:429px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.8rem;
+    letter-spacing:0.3rem;
+    margin-left:4vw;
+  }
+
+  .navButton {
+    margin-left:1vw;
+    font-size:1rem;
+  }
+
+  .entryContainer {
+    margin-top: 2vh;
+  }
+
+
+.pageTitle {
+  font-size: 1rem;
+  letter-spacing: 0rem;
+  margin-bottom:3vh;
+}
+
+.entryCaption {
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  text-align:center;
+}
+
+
+}
+
+@media (max-width:391px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.5rem;
+  }
+
+  .navButton {
+    font-size:0.8rem;
+    box-shadow:2px 4px #00bfff, 4px 6px gainsboro;
+  }
+
+  .pageTitle {
+    font-size: 0.9rem;
+  }
+
+  .entryCaption {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width:321px) and (orientation:portrait) {
+
+  .name {
+    font-size:1.1rem;
+  }
+
+  .grayTextUppercaseOne, .grayTextUppercaseTwo, .alternateUppercaseOne, .alternateUppercaseTwo {
+    font-size:2.2rem;
+  }
+
+  .pageTitle {
+    font-size:0.7rem;
+  }
+
+}
+

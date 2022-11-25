@@ -29,16 +29,12 @@ export default function Writing() {
     <>
       <Head />
       <div className={styles.nav}>
-        <div className={styles.name}>
-          St<span className={styles.alternateLettering}>e</span>v
-          <span className={styles.alternateLetteringTwo}>e</span> B
-          <span className={styles.alternateLettering}>a</span>r
-          <span className={styles.alternateLetteringTwo}>b</span>ar
-          <span className={styles.alternateLettering}>o</span>
-        </div>
         <div className={styles.buttonBox}>
           <Link href="/" passHref>
             <button className={styles.navButton}>altar (home)</button>
+          </Link>
+          <Link href="/portfolio" passHref>
+            <button className={styles.navButton}>webportfolio</button>
           </Link>
           <Link href="/about" passHref>
             <button className={styles.navButton}>about</button>
@@ -51,6 +47,13 @@ export default function Writing() {
           >
             tweeter
           </a>
+        </div>
+        <div className={styles.name}>
+          St<span className={styles.alternateLettering}>e</span>v
+          <span className={styles.alternateLetteringTwo}>e</span> B
+          <span className={styles.alternateLettering}>a</span>r
+          <span className={styles.alternateLetteringTwo}>b</span>ar
+          <span className={styles.alternateLettering}>o</span>
         </div>
       </div>
 
@@ -470,20 +473,25 @@ export default function Writing() {
               <span className={styles.alternateSnowText}>n</span>
             </span>
             ]<br />
-            <br /><p>
-            “<span className={styles.pieceTitleText}>How Yummy Is Purgatory</span>”
+            <br />
+            <p>
+              “
+              <span className={styles.pieceTitleText}>
+                How Yummy Is Purgatory
+              </span>
+              ” &#10132;{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.3ammagazine.com/3am/how-yummy-is-purgatory/"
+              >
+                3:AM
+              </a>{" "}
+              &#8678; ( .. the afterlife .. .. flipbooks .. .. property ..
+              leaving a nation permanently .. )
+            </p>
+            “<span className={styles.pieceTitleText}>Celestial Camo</span>”
             &#10132;{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.3ammagazine.com/3am/how-yummy-is-purgatory/"
-            >
-              3:AM
-            </a>{" "}
-            &#8678; ( .. the afterlife .. .. flipbooks .. .. property ..
-            leaving a nation permanently .. )
-          </p>“<span className={styles.pieceTitleText}>Celestial Camo</span>
-            ” &#10132;{" "}
             <a
               target="_blank"
               rel="noreferrer"
@@ -587,7 +595,11 @@ export default function Writing() {
             &#8678; ( .. self .. explanatory .. )
           </p>
           <p>
-            “<span className={styles.pieceTitleText}>Excess Aspects of Irretrievable Triptychs</span>” &#10132;{" "}
+            “
+            <span className={styles.pieceTitleText}>
+              Excess Aspects of Irretrievable Triptychs
+            </span>
+            ” &#10132;{" "}
             <a
               target="_blank"
               rel="noreferrer"

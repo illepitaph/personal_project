@@ -25,6 +25,9 @@ export default function About() {
             <Link href="/writing" passHref>
               <button className={styles.navButton}>writing</button>
             </Link>
+            <Link href="/portfolio" passHref>
+              <button className={styles.navButton}>webportfolio</button>
+            </Link>
             <a
               target="_blank"
               rel="noreferrer"
