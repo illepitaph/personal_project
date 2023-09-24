@@ -243,13 +243,13 @@
 
 @media (max-width: 429px) and (orientation: portrait) {
   .name {
-    font-size: 1.5rem;
-    letter-spacing: 0.3rem;
-    margin-left: 4vw;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-left: 3vw;
   }
 
   .navButton {
-    margin-left: 6vw;
+    margin-left: 5vw;
   }
 
   .navButton:nth-child(2) {
@@ -259,13 +259,13 @@
 
 @media (max-width: 415px) and (orientation: portrait) {
   .name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 394px) and (orientation: portrait) {
   .name {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .navButton {
@@ -280,11 +280,11 @@
 
 @media (max-width: 376px) and (orientation: portrait) {
   .name {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .navButton {
-    font-size: 0.82rem;
+    font-size: 0.75rem;
   }
 }
 
