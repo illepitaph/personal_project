@@ -269,8 +269,8 @@
   }
 
   .navButton {
-    font-size: 1.2rem;
-    margin-left: 4vw;
+    font-size: 1.1rem;
+    margin-left: 2vw;
   }
 
   .navButton:nth-child(2) {
@@ -284,7 +284,7 @@
   }
 
   .navButton {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
   }
 }
 
