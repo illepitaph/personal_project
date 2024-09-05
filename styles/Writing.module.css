@@ -2184,7 +2184,7 @@
   }
 }
 
-@media (max-width: 429px) and (orientation: portrait) {
+@media (max-width: 432px) and (orientation: portrait) {
   .name {
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
