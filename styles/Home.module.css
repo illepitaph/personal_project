@@ -356,6 +356,7 @@
 @media (width: 1194px) and (height: 834px) {
   .navButton {
     margin-left: 0;
+    font-size: 1.15rem;
   }
 
   .buttonBox > button {
@@ -370,6 +371,7 @@
 
 @media (width: 1180px) and (height: 820px) {
   .navButton {
+    font-size: 1.15rem;
     margin-left: 0;
   }
 
