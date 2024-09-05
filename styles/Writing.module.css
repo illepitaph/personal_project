@@ -2178,12 +2178,6 @@
   }
 }
 
-@media (max-width: 991.98px) {
-  .navButton:hover {
-    display:none;
-  }
-}
-
 @media (max-width: 721px) and (orientation: landscape) {
   .name {
     margin-right: 16vw;
