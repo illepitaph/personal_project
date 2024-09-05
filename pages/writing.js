@@ -47,6 +47,14 @@ export default function Writing() {
           >
             tweeter
           </a>
+          <br/>
+              <br/>
+              <Link href="/plane" passHref>
+                <button className={styles.navButton}>
+                <span className={styles.alignButton}>plane of consummate finitude
+                  </span>
+                </button>
+              </Link>
         </div>
         <div className={styles.name}>
           St<span className={styles.alternateLettering}>e</span>v
