@@ -104,7 +104,6 @@
   
   .navButton:hover {
     text-shadow: 2px 16px #b0b0b0;
-    letter-spacing: 0.1rem;
     text-transform: uppercase;
     font-style: normal;
     padding: 7px 0 0 10px;
