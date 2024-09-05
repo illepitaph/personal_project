@@ -325,7 +325,7 @@
 
 @media (width: 1280px) and (height: 853px) {
   .navButton {
-    margin-left: 7vw;
+    margin-left: 0;
   }
 
   .buttonBox > button {
@@ -340,7 +340,7 @@
 
 @media (width: 1280px) and (height: 800px) {
   .navButton {
-    margin-left: 7vw;
+    margin-left: 0;
   }
 
   .buttonBox > button {
@@ -355,7 +355,7 @@
 
 @media (width: 1194px) and (height: 834px) {
   .navButton {
-    margin-left: 7vw;
+    margin-left: 0;
   }
 
   .buttonBox > button {
@@ -370,7 +370,7 @@
 
 @media (width: 1180px) and (height: 820px) {
   .navButton {
-    margin-left: 7vw;
+    margin-left: 0;
   }
 
   .buttonBox > button {
