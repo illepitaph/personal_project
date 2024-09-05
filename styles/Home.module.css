@@ -115,6 +115,11 @@
   z-index: 99;
 }
 
+.alignButton {
+  display:inline-block;
+  margin-left:10vw;
+}
+
 .imageBoxOne {
   position: absolute;
   top: 3vh;
@@ -318,6 +323,21 @@
   }
 }
 
+@media (width: 1280px) and (height: 853px) {
+  .navButton {
+    margin-left: 7vw;
+  }
+
+  .buttonBox > button {
+    margin-top: 7vh;
+  }
+
+  .imageBoxSixPointSeven,
+  .imageBoxElevenPointNine {
+    top: 86vh;
+  }
+}
+
 @media (width: 1280px) and (height: 800px) {
   .navButton {
     margin-left: 7vw;
@@ -403,9 +423,12 @@
   .navButton {
     margin-bottom: 40px;
   }
+    .navButton:hover {
+      display:none;
+  }
 }
 
-@media (max-width: 927px) and (orientation: landscape) {
+@media (max-width: 933px) and (orientation: landscape) {
   .navButton {
     margin: 0 40px 40px 0;
   }
@@ -594,10 +617,50 @@
   }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (width: 768px) and (height: 320px) {
+
+  .navButton {
+    font-size:1rem;
+  }
+
+  .imageBoxSixPointZero,
+  .imageBoxElevenPointOne {
+    top: 0;
+  }
+
+  .imageBoxSixPointOne,
+  .imageBoxElevenPointTwo {
+    top: 10vh;
+  }
+
+  .imageBoxSixPointTwo,
+  .imageBoxElevenPointThree {
+    top: 55vh;
+  }
+
+  .imageBoxSixPointThree,
+  .imageBoxElevenPointFour {
+    top: 63vh;
+  }
+
+  .imageBoxSixPointFour,
+  .imageBoxElevenPointFive {
+    top: 71vh;
+  }
+
+  .imageBoxSixPointFive,
+  .imageBoxElevenPointSix {
+    top: 79vh;
+  }
+
+  .imageBoxSixPointSix,
+  .imageBoxElevenPointSeven {
+    top: 86vh;
+  }
+
   .imageBoxSixPointSeven,
   .imageBoxElevenPointEight {
-    top: 88vh;
+    top: 93vh;
   }
 }
 
@@ -605,6 +668,14 @@
   .name {
     margin-right: 5vw;
   }
+
+  .navButton {
+    font-size:1rem;
+  }
+
+  .alignButton {
+    font-size:0.95rem;
+     }
 
   .imageBoxSixPointSeven,
   .imageBoxElevenPointEight {
@@ -619,17 +690,21 @@
   }
 }
 
-@media (max-width: 541px) and (orientation: portrait) {
+@media (width: 540px) and (height: 720px)  {
   .nav {
     margin-left: 1vw;
   }
 
   .navButton {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
+
+  .alignButton {
+    font-size:0.6rem;
+     }
 }
 
-@media (max-width: 429px) and (orientation: portrait) {
+@media (max-width: 432px) and (orientation: portrait) {
   .name {
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
@@ -643,6 +718,11 @@
   .navButton:nth-child(2) {
     font-size: 1rem;
   }
+
+
+  .alignButton {
+    font-size:0.75rem;
+     }
 
   .imageBoxOne,
   .imageBoxTwo,
@@ -746,10 +826,15 @@
 }
 
 @media (max-width: 361px) and (orientation: portrait) {
+
   .imageBoxSixPointSeven,
   .imageBoxElevenPointNine {
     top: 84vh;
   }
+
+  .alignButton {
+    font-size:0.65rem;
+     }
 }
 
 @media (max-width: 321px) and (orientation: portrait) {
