@@ -83,7 +83,6 @@
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 0.15rem;
   cursor: pointer;
 }
 
@@ -198,6 +197,10 @@
 @media (max-width: 999px) {
   .navButton {
     margin-bottom: 40px;
+  }
+
+  .navButton:hover {
+    display:none;
   }
 }
 
