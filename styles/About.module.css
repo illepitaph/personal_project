@@ -88,7 +88,6 @@
 
 .navButton:hover {
   color: snow;
-  letter-spacing: 0.3rem;
   text-transform: lowercase;
   font-style: normal;
   padding: 7px 0 0 10px;
