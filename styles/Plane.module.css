@@ -99,7 +99,6 @@
     text-transform: lowercase;
     text-decoration: none;
     font-style: normal;
-    letter-spacing: 0.15rem;
     cursor: pointer;
   }
   
@@ -530,7 +529,6 @@
 
     .navButton {
       font-size:0.6rem;
-      letter-spacing:0.1rem;
       box-shadow: 1px 1px  #c0a5a5;
     }
 
