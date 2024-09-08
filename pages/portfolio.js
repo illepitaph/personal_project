@@ -33,6 +33,14 @@ export default function Portfolio() {
             >
               tweeter
             </a>
+            <br/>
+              <br/>
+              <Link href="/plane" passHref>
+                <button className={styles.navButton}>
+                <span className={styles.alignButton}>plane of consummate finitude
+                  </span>
+                </button>
+              </Link>
           </div>
           <div className={styles.name}>
             S<i>t</i>
