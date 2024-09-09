@@ -53,7 +53,7 @@ export default function About() {
             His fiction appears in such venues as <i>3:AM</i> +{" "}
             <i>Web Conjunctions</i> + <i>Socrates on The Beach</i> +{" "}
             <i>Denver Quarterly</i> + is also forthcoming in the{" "}
-            <i>CYBERNETICS, OR GHOSTS</i>? anthology published by Subtext
+            <i>CYBERNETICS</i>, <i>OR GHOSTS</i>? anthology published by Subtext
             Recordings. His poems can meantime be found in such publications as
             <i> The Yale Review</i> + <i>DIAGRAM</i> + <i>The Common</i> +{" "}
             <i>Prelude</i>. A former Poe-Faulkner Fellow at the University of
