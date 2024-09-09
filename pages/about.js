@@ -51,14 +51,13 @@ export default function About() {
           <p>
             Steve Barbaro is a first-generation American of Sicilian descent.
             His fiction appears in such venues as <i>3:AM</i> +{" "}
-            <i>Web Conjunctions</i> + <i>Socrates on The Beach</i> +{" "}
-            <i>Denver Quarterly</i> + is also forthcoming in the{" "}
-            <i>CYBERNETICS</i>, <i>OR GHOSTS</i>? anthology published by Subtext
-            Recordings. His poems can meantime be found in such publications as
-            <i> The Yale Review</i> + <i>DIAGRAM</i> + <i>The Common</i> +{" "}
-            <i>Prelude</i>. A former Poe-Faulkner Fellow at the University of
-            Virginia where he earned his MFA, Steve is also the founder + editor
-            + programmer + designer of{" "}
+            <i>Web Conjunctions</i> + <i>Socrates on The Beach</i> + is also
+            forthcoming in the <i>CYBERNETICS</i>, <i>OR GHOSTS</i>? anthology
+            published by Subtext Recordings. His poems can meantime be found in
+            such publications as<i> The Yale Review</i> + <i>DIAGRAM</i> +{" "}
+            <i>The Common</i> + <i>Denver Quarterly</i>. A former Poe-Faulkner Fellow at
+            the University of Virginia where he earned his MFA, Steve is also
+            the founder + editor + programmer + designer of{" "}
             <a target="_blank" rel="noreferrer" href="https://newnewsinews.com">
               new sinews
             </a>
