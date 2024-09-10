@@ -926,7 +926,19 @@ export default function Writing() {
               <span className={styles.alternateSnowText}>o</span>n
             </span>
             ]<br />
-            <br />“<span className={styles.pieceTitleText}>Plush Altar</span>”
+            <br />“<span className={styles.pieceTitleText}>Bedlam & Its Buffers</span>”
+            &#10132;{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://subtextrecordings.bandcamp.com/merch/cybernetics-or-ghosts"
+            >
+              <i>CYBERNETICS</i>, <i>OR GHOSTS</i>? anthology
+            </a>{" "}
+            &#8678; ( .. gutters .. commanders .. computers .. )
+          </p>
+          <p>
+            “<span className={styles.pieceTitleText}>Plush Altar</span>”
             &#10132;{" "}
             <a
               target="_blank"
