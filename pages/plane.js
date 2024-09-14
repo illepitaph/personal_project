@@ -14,7 +14,7 @@ import PresentTwo from "../public/images/PresentTwo.jpg";
 Plane.title = "steve barbaro — plane of consummate finitude";
 Plane.pieceName = "steve barbaro — plane of consummate finitude";
 Plane.description =
-  "steve barbaro — plane of consummate finitude — a collection of poems with deep photomontage backgrounds — new_sinews";
+  "steve barbaro — plane of consummate finitude — order now — a collection of poems with deep photomontage backgrounds — new_sinews";
 Plane.image = "https://www.newnewsinews.com/images/PlaneCover.jpg";
 
 export default function Plane() {
