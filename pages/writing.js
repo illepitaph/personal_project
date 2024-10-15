@@ -931,7 +931,7 @@ export default function Writing() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://subtextrecordings.bandcamp.com/merch/cybernetics-or-ghosts"
+              href="https://asterismbooks.com/product/cybernetics-or-ghosts-stories-from-myth-to-ai"
             >
               <i>CYBERNETICS</i>, <i>OR GHOSTS</i>? anthology
             </a>{" "}
