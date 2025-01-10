@@ -519,7 +519,7 @@ export default function Writing() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://www.conjunctions.com/online/article/steve-barbaro-09-17-2013"
+              href="https://conjunctions.com/articles/steve-barbaro-09-17-2013/"
             >
               Conjunctions
             </a>{" "}
@@ -581,7 +581,7 @@ export default function Writing() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://www.conjunctions.com/online/article/steve-barbaro-07-17-2012"
+              href="https://conjunctions.com/articles/steve-barbaro-07-17-2012/"
             >
               Conjunctions
             </a>{" "}
