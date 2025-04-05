@@ -603,21 +603,6 @@ export default function Writing() {
             &#8678; ( .. self .. explanatory .. )
           </p>
           <p>
-            “
-            <span className={styles.pieceTitleText}>
-              Excess Aspects of Irretrievable Triptychs
-            </span>
-            ” &#10132;{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://quiparle.berkeley.edu/ki_1_barbaro"
-            >
-              Ki
-            </a>{" "}
-            &#8678; ( .. masterpieces .. floods .. the iffy ..)
-          </p>
-          <p>
             “<span className={styles.pieceTitleText}>Wee</span>” &#10132;{" "}
             <a
               target="_blank"
