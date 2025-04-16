@@ -47,14 +47,15 @@ export default function Writing() {
           >
             tweeter
           </a>
-          <br/>
-              <br/>
-              <Link href="/plane" passHref>
-                <button className={styles.navButton}>
-                <span className={styles.alignButton}>plane of consummate finitude
-                  </span>
-                </button>
-              </Link>
+          <br />
+          <br />
+          <Link href="/plane" passHref>
+            <button className={styles.navButton}>
+              <span className={styles.alignButton}>
+                plane of consummate finitude
+              </span>
+            </button>
+          </Link>
         </div>
         <div className={styles.name}>
           St<span className={styles.alternateLettering}>e</span>v
@@ -603,6 +604,21 @@ export default function Writing() {
             &#8678; ( .. self .. explanatory .. )
           </p>
           <p>
+            “
+            <span className={styles.pieceTitleText}>
+              Excess Aspects of Irretrievable Triptychs
+            </span>
+            ” &#10132;{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://quiparle.org/ki_1_barbaro"
+            >
+              Ki
+            </a>{" "}
+            &#8678; ( .. masterpieces .. floods .. the iffy ..)
+          </p>
+          <p>
             “<span className={styles.pieceTitleText}>Wee</span>” &#10132;{" "}
             <a
               target="_blank"
@@ -911,7 +927,8 @@ export default function Writing() {
               <span className={styles.alternateSnowText}>o</span>n
             </span>
             ]<br />
-            <br />“<span className={styles.pieceTitleText}>Bedlam & Its Buffers</span>”
+            <br />“
+            <span className={styles.pieceTitleText}>Bedlam & Its Buffers</span>”
             &#10132;{" "}
             <a
               target="_blank"
