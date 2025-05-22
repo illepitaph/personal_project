@@ -511,6 +511,22 @@ export default function Writing() {
             </a>{" "}
             &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
           </div>
+                      <p>
+              “
+              <span className={styles.pieceTitleText}>
+                The Temperance of Heretics
+              </span>
+              ” &#10132;{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://yourimpossiblevoice.com/the-temperance-of-heretics/"
+              >
+                Your Impossible Voice
+              </a>{" "}
+              &#8678; ( .. islands .. .. blasphemy .. .. betrayal ..
+              impurity .. )
+            </p>
           <p>
             “
             <span className={styles.pieceTitleText}>
