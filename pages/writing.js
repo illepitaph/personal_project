@@ -682,7 +682,7 @@ export default function Writing() {
             >
               The Collagist
             </a>{" "}
-            &#8678; ( .. Mary .. Cassatt .. functionality .. )
+            &#8678; ( .. Mary .. Cassatt .. functionality .. ) ( .. the link&rsquo;s gone from the internet .. apparently .. )
           </p>
           <p>
             “
