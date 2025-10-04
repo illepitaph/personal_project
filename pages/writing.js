@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import StreetlightShadow from "../public/images/Tatemae6.jpg";
 import Clouds from "../public/images/7. Clouds.jpg";
 import Pozzallo from "../public/images/1. Pozzallo.jpg";

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../styles/Portfolio.module.css";
 import new_sinews_preview from "../public/images/new_sinews_preview.jpg";
 import dlr_preview from "../public/images/dlr_preview.jpg";
