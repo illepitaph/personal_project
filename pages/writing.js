@@ -734,24 +734,6 @@ export default function Writing() {
             &#8678; ( .. intrusion .. skulls .. lackeys .. )
           </p>
           <p>
-            “<span className={styles.pieceTitleText}>Disk</span>” + “
-            <span className={styles.pieceTitleText}>Pare</span>” + “
-            <span className={styles.pieceTitleText}>
-              What A Perky Little Edifice
-            </span>
-            ” + “<span className={styles.pieceTitleText}>Letter</span>” + “
-            <span className={styles.pieceTitleText}>Post-Archipelago</span>” + “
-            <span className={styles.pieceTitleText}>Tychtrip</span>” &#10132;{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://theelephants.net/records/steve-barbaro"
-            >
-              The Elephants
-            </a>{" "}
-            &#8678; ( .. the gamut .. everything .. nothing .. )
-          </p>
-          <p>
             “
             <span className={styles.pieceTitleText}>
               The Terrace at Vernonnet (1939)
