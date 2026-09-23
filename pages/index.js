@@ -64,13 +64,22 @@ export default function Home() {
                 href="https://www.twitter.com/illepitaph"
                 className={styles.navButton}
               >
-                tweeter
+                &#120143;
               </a>
-              <br/>
-              <br/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/illepitaph"
+                className={styles.navButton}
+              >
+                ig
+              </a>
+              <br />
+              <br />
               <Link href="/plane" passHref>
                 <button className={styles.navButton}>
-                <span className={styles.alignButton}>plane of consummate finitude
+                  <span className={styles.alignButton}>
+                    plane of consummate finitude
                   </span>
                 </button>
               </Link>

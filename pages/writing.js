@@ -45,7 +45,15 @@ export default function Writing() {
             href="https://www.twitter.com/illepitaph"
             className={styles.navButton}
           >
-            tweeter
+            &#120143;
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/illepitaph"
+            className={styles.navButton}
+          >
+            ig
           </a>
           <br />
           <br />
@@ -511,22 +519,21 @@ export default function Writing() {
             </a>{" "}
             &#8678; ( .. in Sicily .. a tale of inebriated reckoning .. )
           </div>
-                      <p>
-              “
-              <span className={styles.pieceTitleText}>
-                The Temperance of Heretics
-              </span>
-              ” &#10132;{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://yourimpossiblevoice.com/the-temperance-of-heretics/"
-              >
-                Your Impossible Voice
-              </a>{" "}
-              &#8678; ( .. islands .. .. blasphemy .. .. betrayal ..
-              impurity .. )
-            </p>
+          <p>
+            “
+            <span className={styles.pieceTitleText}>
+              The Temperance of Heretics
+            </span>
+            ” &#10132;{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://yourimpossiblevoice.com/the-temperance-of-heretics/"
+            >
+              Your Impossible Voice
+            </a>{" "}
+            &#8678; ( .. islands .. .. blasphemy .. .. betrayal .. impurity .. )
+          </p>
           <p>
             “
             <span className={styles.pieceTitleText}>
@@ -682,7 +689,8 @@ export default function Writing() {
             >
               The Collagist
             </a>{" "}
-            &#8678; ( .. Mary .. Cassatt .. functionality .. ) ( .. the link&rsquo;s gone from the internet .. apparently .. )
+            &#8678; ( .. Mary .. Cassatt .. functionality .. ) ( .. the
+            link&rsquo;s gone from the internet .. apparently .. )
           </p>
           <p>
             “

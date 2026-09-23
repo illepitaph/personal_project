@@ -25,14 +25,22 @@ export default function Portfolio() {
             <Link href="/about" passHref>
               <button className={styles.navButton}>about</button>
             </Link>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.twitter.com/illepitaph"
-              className={styles.navButton}
-            >
-              tweeter
-            </a>
+           <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.twitter.com/illepitaph"
+                className={styles.navButton}
+              >
+                &#120143;
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/illepitaph"
+                className={styles.navButton}
+              >
+                ig
+              </a>
             <br/>
               <br/>
               <Link href="/plane" passHref>
